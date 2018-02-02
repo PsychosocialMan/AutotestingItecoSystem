@@ -260,4 +260,5 @@ public class AddNewContractOfStorage extends InitialSteps {
         dlko.checCheckboxesNames(names);
     }
 
+
 }
