@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+    <test name="Test" verbose="2">
+        <classes>
+            <class name="stepDefinition.AuthentificationValidDataTestCase"/>
+            <class name="stepDefinition.AuthentificationInvalidDataTestCase"/>
+            <class name="stepDefinition.CheckAccountNumberBegins"/>
+            <class name="stepDefinition.AddNewActiveTypeCash"/>
+        </classes>
+    </test>
+</suite>
