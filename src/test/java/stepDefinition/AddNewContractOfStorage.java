@@ -251,6 +251,7 @@ public class AddNewContractOfStorage extends InitialSteps {
         HelpSteps.checkElement(name);
     }
 
+
     // Проверка наличия полей с типом "Checkbox"
     @Test(dependsOnMethods = "checkBank",
     dataProvider = "checkCheckboxesNames",
