@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="8" total="159" passed="151">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="110501" started-at="2018-02-05T09:35:57Z" finished-at="2018-02-05T09:37:48Z">
+  <suite name="Surefire suite" duration-ms="107035" started-at="2018-02-05T10:29:47Z" finished-at="2018-02-05T10:31:34Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="110501" started-at="2018-02-05T09:35:57Z" finished-at="2018-02-05T09:37:48Z">
+    <test name="Surefire test" duration-ms="107035" started-at="2018-02-05T10:29:47Z" finished-at="2018-02-05T10:31:34Z">
       <class name="stepDefinition.AddNewContractOfStorage">
-        <test-method status="PASS" signature="waitSecond()[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="waitSecond" is-config="true" duration-ms="3003" started-at="2018-02-05T12:36:52Z" finished-at="2018-02-05T12:36:55Z">
+        <test-method status="PASS" signature="waitSecond()[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="waitSecond" is-config="true" duration-ms="3017" started-at="2018-02-05T13:30:38Z" finished-at="2018-02-05T13:30:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitSecond -->
-        <test-method status="PASS" signature="checkPageName(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="checkPageName" duration-ms="99" started-at="2018-02-05T12:36:55Z" data-provider="checkPageName" finished-at="2018-02-05T12:36:55Z">
+        <test-method status="PASS" signature="checkPageName(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="checkPageName" duration-ms="63" started-at="2018-02-05T13:30:41Z" data-provider="checkPageName" finished-at="2018-02-05T13:30:41Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPageName -->
-        <test-method status="PASS" signature="userFillsValidLogin(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="userFillsValidLogin" duration-ms="84" started-at="2018-02-05T12:36:55Z" data-provider="userFillsValidLogin" depends-on-methods="helper.InitialSteps.checkPageName" finished-at="2018-02-05T12:36:55Z">
+        <test-method status="PASS" signature="userFillsValidLogin(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="userFillsValidLogin" duration-ms="129" started-at="2018-02-05T13:30:41Z" data-provider="userFillsValidLogin" depends-on-methods="helper.InitialSteps.checkPageName" finished-at="2018-02-05T13:30:41Z">
           <params>
             <param index="0">
               <value>
@@ -38,7 +38,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userFillsValidLogin -->
-        <test-method status="PASS" signature="userFillsValidPassword(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="userFillsValidPassword" duration-ms="134" started-at="2018-02-05T12:36:55Z" data-provider="userFillsValidPassword" depends-on-methods="stepDefinition.AddNewContractOfStorage.userFillsValidLogin" finished-at="2018-02-05T12:36:55Z">
+        <test-method status="PASS" signature="userFillsValidPassword(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="userFillsValidPassword" duration-ms="111" started-at="2018-02-05T13:30:41Z" data-provider="userFillsValidPassword" depends-on-methods="stepDefinition.AddNewContractOfStorage.userFillsValidLogin" finished-at="2018-02-05T13:30:41Z">
           <params>
             <param index="0">
               <value>
@@ -54,7 +54,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userFillsValidPassword -->
-        <test-method status="PASS" signature="userPushEnterButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="userPushEnterButton" duration-ms="2045" started-at="2018-02-05T12:36:55Z" data-provider="userPushEnterButton" depends-on-methods="stepDefinition.AddNewContractOfStorage.userFillsValidPassword" finished-at="2018-02-05T12:36:57Z">
+        <test-method status="PASS" signature="userPushEnterButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="userPushEnterButton" duration-ms="2034" started-at="2018-02-05T13:30:41Z" data-provider="userPushEnterButton" depends-on-methods="stepDefinition.AddNewContractOfStorage.userFillsValidPassword" finished-at="2018-02-05T13:30:44Z">
           <params>
             <param index="0">
               <value>
@@ -65,7 +65,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userPushEnterButton -->
-        <test-method status="PASS" signature="checkModalWindowName(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="checkModalWindowName" duration-ms="51" started-at="2018-02-05T12:36:57Z" data-provider="checkModalWindowName" depends-on-methods="stepDefinition.AddNewContractOfStorage.userPushEnterButton" finished-at="2018-02-05T12:36:57Z">
+        <test-method status="PASS" signature="checkModalWindowName(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="checkModalWindowName" duration-ms="62" started-at="2018-02-05T13:30:44Z" data-provider="checkModalWindowName" depends-on-methods="stepDefinition.AddNewContractOfStorage.userPushEnterButton" finished-at="2018-02-05T13:30:44Z">
           <params>
             <param index="0">
               <value>
@@ -76,7 +76,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkModalWindowName -->
-        <test-method status="PASS" signature="userChooseOrganization(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="userChooseOrganization" duration-ms="85" started-at="2018-02-05T12:36:57Z" data-provider="userChooseOrganization" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkModalWindowName" finished-at="2018-02-05T12:36:57Z">
+        <test-method status="PASS" signature="userChooseOrganization(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="userChooseOrganization" duration-ms="53" started-at="2018-02-05T13:30:44Z" data-provider="userChooseOrganization" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkModalWindowName" finished-at="2018-02-05T13:30:44Z">
           <params>
             <param index="0">
               <value>
@@ -87,7 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userChooseOrganization -->
-        <test-method status="PASS" signature="pushChooseButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushChooseButton" duration-ms="81" started-at="2018-02-05T12:36:57Z" data-provider="pushChooseButton" depends-on-methods="stepDefinition.AddNewContractOfStorage.userChooseOrganization" finished-at="2018-02-05T12:36:57Z">
+        <test-method status="PASS" signature="pushChooseButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushChooseButton" duration-ms="80" started-at="2018-02-05T13:30:44Z" data-provider="pushChooseButton" depends-on-methods="stepDefinition.AddNewContractOfStorage.userChooseOrganization" finished-at="2018-02-05T13:30:44Z">
           <params>
             <param index="0">
               <value>
@@ -98,7 +98,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushChooseButton -->
-        <test-method status="PASS" signature="checkLogoName(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="checkLogoName" duration-ms="109" started-at="2018-02-05T12:36:57Z" data-provider="checkLogoName" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushChooseButton" finished-at="2018-02-05T12:36:57Z">
+        <test-method status="PASS" signature="checkLogoName(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="checkLogoName" duration-ms="106" started-at="2018-02-05T13:30:44Z" data-provider="checkLogoName" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushChooseButton" finished-at="2018-02-05T13:30:44Z">
           <params>
             <param index="0">
               <value>
@@ -109,7 +109,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLogoName -->
-        <test-method status="PASS" signature="checkOrganizationName(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="checkOrganizationName" duration-ms="808" started-at="2018-02-05T12:36:57Z" data-provider="checkOrganizationName" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushChooseButton" finished-at="2018-02-05T12:36:58Z">
+        <test-method status="PASS" signature="checkOrganizationName(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="checkOrganizationName" duration-ms="802" started-at="2018-02-05T13:30:44Z" data-provider="checkOrganizationName" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushChooseButton" finished-at="2018-02-05T13:30:45Z">
           <params>
             <param index="0">
               <value>
@@ -120,7 +120,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkOrganizationName -->
-        <test-method status="PASS" signature="pushCollectionAndMaintenanceofData(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushCollectionAndMaintenanceofData" duration-ms="3095" started-at="2018-02-05T12:36:58Z" data-provider="pushCollectionAndMaintenanceofData" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkOrganizationName" finished-at="2018-02-05T12:37:01Z">
+        <test-method status="PASS" signature="pushCollectionAndMaintenanceofData(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushCollectionAndMaintenanceofData" duration-ms="3142" started-at="2018-02-05T13:30:45Z" data-provider="pushCollectionAndMaintenanceofData" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkOrganizationName" finished-at="2018-02-05T13:30:48Z">
           <params>
             <param index="0">
               <value>
@@ -131,7 +131,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushCollectionAndMaintenanceofData -->
-        <test-method status="PASS" signature="pushDocumentsDLKO(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushDocumentsDLKO" duration-ms="110" started-at="2018-02-05T12:37:01Z" data-provider="pushDocumentsDLKO" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushCollectionAndMaintenanceofData" finished-at="2018-02-05T12:37:01Z">
+        <test-method status="PASS" signature="pushDocumentsDLKO(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushDocumentsDLKO" duration-ms="88" started-at="2018-02-05T13:30:48Z" data-provider="pushDocumentsDLKO" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushCollectionAndMaintenanceofData" finished-at="2018-02-05T13:30:48Z">
           <params>
             <param index="0">
               <value>
@@ -142,7 +142,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushDocumentsDLKO -->
-        <test-method status="PASS" signature="checkDocumentsDLKO(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="checkDocumentsDLKO" duration-ms="1175" started-at="2018-02-05T12:37:01Z" data-provider="pushDocumentsDLKO" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushDocumentsDLKO" finished-at="2018-02-05T12:37:03Z">
+        <test-method status="PASS" signature="checkDocumentsDLKO(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="checkDocumentsDLKO" duration-ms="1068" started-at="2018-02-05T13:30:48Z" data-provider="pushDocumentsDLKO" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushDocumentsDLKO" finished-at="2018-02-05T13:30:49Z">
           <params>
             <param index="0">
               <value>
@@ -153,11 +153,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDocumentsDLKO -->
-        <test-method status="PASS" signature="pushSearchIcon()[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushSearchIcon" duration-ms="4098" started-at="2018-02-05T12:37:03Z" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkDocumentsDLKO" finished-at="2018-02-05T12:37:07Z">
+        <test-method status="PASS" signature="pushSearchIcon()[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushSearchIcon" duration-ms="4101" started-at="2018-02-05T13:30:49Z" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkDocumentsDLKO" finished-at="2018-02-05T13:30:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushSearchIcon -->
-        <test-method status="PASS" signature="checkSearchWindow(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="checkSearchWindow" duration-ms="94" started-at="2018-02-05T12:37:07Z" data-provider="checkSearchWindow" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushSearchIcon" finished-at="2018-02-05T12:37:07Z">
+        <test-method status="PASS" signature="checkSearchWindow(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="checkSearchWindow" duration-ms="112" started-at="2018-02-05T13:30:53Z" data-provider="checkSearchWindow" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushSearchIcon" finished-at="2018-02-05T13:30:53Z">
           <params>
             <param index="0">
               <value>
@@ -168,7 +168,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSearchWindow -->
-        <test-method status="PASS" signature="pushFirstSearchOptionForDLKO(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushFirstSearchOptionForDLKO" duration-ms="65" started-at="2018-02-05T12:37:07Z" data-provider="pushFirstSearchOptionForDLKO" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkSearchWindow" finished-at="2018-02-05T12:37:07Z">
+        <test-method status="PASS" signature="pushFirstSearchOptionForDLKO(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushFirstSearchOptionForDLKO" duration-ms="41" started-at="2018-02-05T13:30:53Z" data-provider="pushFirstSearchOptionForDLKO" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkSearchWindow" finished-at="2018-02-05T13:30:53Z">
           <params>
             <param index="0">
               <value>
@@ -179,7 +179,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushFirstSearchOptionForDLKO -->
-        <test-method status="PASS" signature="pushSecondSearchOptionForDLKO(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushSecondSearchOptionForDLKO" duration-ms="58" started-at="2018-02-05T12:37:07Z" data-provider="pushSecondSearchOptionForDLKO" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushFirstSearchOptionForDLKO" finished-at="2018-02-05T12:37:07Z">
+        <test-method status="PASS" signature="pushSecondSearchOptionForDLKO(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushSecondSearchOptionForDLKO" duration-ms="62" started-at="2018-02-05T13:30:53Z" data-provider="pushSecondSearchOptionForDLKO" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushFirstSearchOptionForDLKO" finished-at="2018-02-05T13:30:53Z">
           <params>
             <param index="0">
               <value>
@@ -190,7 +190,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushSecondSearchOptionForDLKO -->
-        <test-method status="PASS" signature="fillsSearchOptionForDLKO(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="fillsSearchOptionForDLKO" duration-ms="204" started-at="2018-02-05T12:37:07Z" data-provider="fillsSearchOptionToCheck" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushSecondSearchOptionForDLKO" finished-at="2018-02-05T12:37:07Z">
+        <test-method status="PASS" signature="fillsSearchOptionForDLKO(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="fillsSearchOptionForDLKO" duration-ms="207" started-at="2018-02-05T13:30:53Z" data-provider="fillsSearchOptionToCheck" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushSecondSearchOptionForDLKO" finished-at="2018-02-05T13:30:53Z">
           <params>
             <param index="0">
               <value>
@@ -201,7 +201,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillsSearchOptionForDLKO -->
-        <test-method status="PASS" signature="pushSearchButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushSearchButton" duration-ms="156" started-at="2018-02-05T12:37:07Z" data-provider="pushSearchButton" depends-on-methods="stepDefinition.AddNewContractOfStorage.fillsSearchOptionForDLKO, stepDefinition.AddNewContractOfStorage.pushSecondSearchOptionForDLKO, stepDefinition.AddNewContractOfStorage.pushFirstSearchOptionForDLKO" finished-at="2018-02-05T12:37:07Z">
+        <test-method status="PASS" signature="pushSearchButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushSearchButton" duration-ms="152" started-at="2018-02-05T13:30:53Z" data-provider="pushSearchButton" depends-on-methods="stepDefinition.AddNewContractOfStorage.fillsSearchOptionForDLKO, stepDefinition.AddNewContractOfStorage.pushSecondSearchOptionForDLKO, stepDefinition.AddNewContractOfStorage.pushFirstSearchOptionForDLKO" finished-at="2018-02-05T13:30:54Z">
           <params>
             <param index="0">
               <value>
@@ -212,7 +212,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushSearchButton -->
-        <test-method status="PASS" signature="checkPresenseOfElements(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="checkPresenseOfElements" duration-ms="1031" started-at="2018-02-05T12:37:07Z" data-provider="checkPresenseOfAsset" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushSearchButton" finished-at="2018-02-05T12:37:08Z">
+        <test-method status="PASS" signature="checkPresenseOfElements(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="checkPresenseOfElements" duration-ms="1056" started-at="2018-02-05T13:30:54Z" data-provider="checkPresenseOfAsset" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushSearchButton" finished-at="2018-02-05T13:30:55Z">
           <params>
             <param index="0">
               <value>
@@ -223,11 +223,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPresenseOfElements -->
-        <test-method status="PASS" signature="pushCheckBox()[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushCheckBox" duration-ms="90" started-at="2018-02-05T12:37:08Z" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkPresenseOfElements" finished-at="2018-02-05T12:37:08Z">
+        <test-method status="PASS" signature="pushCheckBox()[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushCheckBox" duration-ms="78" started-at="2018-02-05T13:30:55Z" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkPresenseOfElements" finished-at="2018-02-05T13:30:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushCheckBox -->
-        <test-method status="PASS" signature="pushStorageButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushStorageButton" duration-ms="90" started-at="2018-02-05T12:37:08Z" data-provider="pushStorageButton" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushCheckBox" finished-at="2018-02-05T12:37:08Z">
+        <test-method status="PASS" signature="pushStorageButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushStorageButton" duration-ms="86" started-at="2018-02-05T13:30:55Z" data-provider="pushStorageButton" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushCheckBox" finished-at="2018-02-05T13:30:55Z">
           <params>
             <param index="0">
               <value>
@@ -238,15 +238,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushStorageButton -->
-        <test-method status="PASS" signature="mouseOnCreateDocumentButton()[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="mouseOnCreateDocumentButton" duration-ms="65" started-at="2018-02-05T12:37:08Z" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushStorageButton" finished-at="2018-02-05T12:37:09Z">
+        <test-method status="PASS" signature="mouseOnCreateDocumentButton()[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="mouseOnCreateDocumentButton" duration-ms="83" started-at="2018-02-05T13:30:55Z" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushStorageButton" finished-at="2018-02-05T13:30:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mouseOnCreateDocumentButton -->
-        <test-method status="PASS" signature="pushDocumentWithBank()[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushDocumentWithBank" duration-ms="85" started-at="2018-02-05T12:37:09Z" depends-on-methods="stepDefinition.AddNewContractOfStorage.mouseOnCreateDocumentButton" finished-at="2018-02-05T12:37:09Z">
+        <test-method status="PASS" signature="pushDocumentWithBank()[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushDocumentWithBank" duration-ms="82" started-at="2018-02-05T13:30:55Z" depends-on-methods="stepDefinition.AddNewContractOfStorage.mouseOnCreateDocumentButton" finished-at="2018-02-05T13:30:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushDocumentWithBank -->
-        <test-method status="PASS" signature="checkCreatingStrorageDocumentName(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="checkCreatingStrorageDocumentName" duration-ms="1063" started-at="2018-02-05T12:37:09Z" data-provider="checkCreatingStrorageDocumentName" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushDocumentWithBank" finished-at="2018-02-05T12:37:10Z">
+        <test-method status="PASS" signature="checkCreatingStrorageDocumentName(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="checkCreatingStrorageDocumentName" duration-ms="1062" started-at="2018-02-05T13:30:55Z" data-provider="checkCreatingStrorageDocumentName" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushDocumentWithBank" finished-at="2018-02-05T13:30:56Z">
           <params>
             <param index="0">
               <value>
@@ -257,11 +257,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCreatingStrorageDocumentName -->
-        <test-method status="PASS" signature="checkFieldsDisabled()[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="checkFieldsDisabled" duration-ms="63" started-at="2018-02-05T12:37:10Z" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkCreatingStrorageDocumentName" finished-at="2018-02-05T12:37:10Z">
+        <test-method status="PASS" signature="checkFieldsDisabled()[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="checkFieldsDisabled" duration-ms="61" started-at="2018-02-05T13:30:56Z" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkCreatingStrorageDocumentName" finished-at="2018-02-05T13:30:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkFieldsDisabled -->
-        <test-method status="PASS" signature="checkFirstDisabled(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="checkFirstDisabled" duration-ms="1016" started-at="2018-02-05T12:37:10Z" data-provider="checkFirstDisabled" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkFieldsDisabled" finished-at="2018-02-05T12:37:11Z">
+        <test-method status="PASS" signature="checkFirstDisabled(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="checkFirstDisabled" duration-ms="1027" started-at="2018-02-05T13:30:56Z" data-provider="checkFirstDisabled" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkFieldsDisabled" finished-at="2018-02-05T13:30:57Z">
           <params>
             <param index="0">
               <value>
@@ -272,7 +272,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkFirstDisabled -->
-        <test-method status="PASS" signature="checkSecondDisabled(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="checkSecondDisabled" duration-ms="6" started-at="2018-02-05T12:37:11Z" data-provider="checkSecondDisabled" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkFirstDisabled" finished-at="2018-02-05T12:37:11Z">
+        <test-method status="PASS" signature="checkSecondDisabled(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="checkSecondDisabled" duration-ms="31" started-at="2018-02-05T13:30:57Z" data-provider="checkSecondDisabled" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkFirstDisabled" finished-at="2018-02-05T13:30:57Z">
           <params>
             <param index="0">
               <value>
@@ -283,18 +283,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSecondDisabled -->
-        <test-method status="PASS" signature="checkMainStorageDocumentFields([Ljava.lang.String;)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="checkMainStorageDocumentFields" duration-ms="610" started-at="2018-02-05T12:37:11Z" data-provider="checkMainStorageDocumentFields" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkSecondDisabled" finished-at="2018-02-05T12:37:11Z">
+        <test-method status="PASS" signature="checkMainStorageDocumentFields([Ljava.lang.String;)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="checkMainStorageDocumentFields" duration-ms="591" started-at="2018-02-05T13:30:57Z" data-provider="checkMainStorageDocumentFields" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkSecondDisabled" finished-at="2018-02-05T13:30:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@11a0c708]]>
+                <![CDATA[[Ljava.lang.String;@4cf1bd4a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMainStorageDocumentFields -->
-        <test-method status="PASS" signature="checkBank(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="checkBank" duration-ms="63" started-at="2018-02-05T12:37:11Z" data-provider="checkBank" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkMainStorageDocumentFields" finished-at="2018-02-05T12:37:11Z">
+        <test-method status="PASS" signature="checkBank(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="checkBank" duration-ms="63" started-at="2018-02-05T13:30:58Z" data-provider="checkBank" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkMainStorageDocumentFields" finished-at="2018-02-05T13:30:58Z">
           <params>
             <param index="0">
               <value>
@@ -305,18 +305,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkBank -->
-        <test-method status="PASS" signature="checkCheckboxesNames([Ljava.lang.String;)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="checkCheckboxesNames" duration-ms="163" started-at="2018-02-05T12:37:11Z" data-provider="checkCheckboxesNames" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkBank" finished-at="2018-02-05T12:37:12Z">
+        <test-method status="PASS" signature="checkCheckboxesNames([Ljava.lang.String;)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="checkCheckboxesNames" duration-ms="171" started-at="2018-02-05T13:30:58Z" data-provider="checkCheckboxesNames" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkBank" finished-at="2018-02-05T13:30:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@2eb91767]]>
+                <![CDATA[[Ljava.lang.String;@294ebdae]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCheckboxesNames -->
-        <test-method status="PASS" signature="pushBankName(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushBankName" duration-ms="130" started-at="2018-02-05T12:37:12Z" data-provider="pushBankName" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkCheckboxesNames" finished-at="2018-02-05T12:37:12Z">
+        <test-method status="PASS" signature="pushBankName(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushBankName" duration-ms="111" started-at="2018-02-05T13:30:58Z" data-provider="pushBankName" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkCheckboxesNames" finished-at="2018-02-05T13:30:58Z">
           <params>
             <param index="0">
               <value>
@@ -332,7 +332,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushBankName -->
-        <test-method status="PASS" signature="pushDocumentNumberName(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushDocumentNumberName" duration-ms="207" started-at="2018-02-05T12:37:12Z" data-provider="pushDocumentNumberName" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushBankName" finished-at="2018-02-05T12:37:12Z">
+        <test-method status="PASS" signature="pushDocumentNumberName(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushDocumentNumberName" duration-ms="221" started-at="2018-02-05T13:30:58Z" data-provider="pushDocumentNumberName" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushBankName" finished-at="2018-02-05T13:30:58Z">
           <params>
             <param index="0">
               <value>
@@ -348,7 +348,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushDocumentNumberName -->
-        <test-method status="PASS" signature="pushDocumentDateName(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushDocumentDateName" duration-ms="344" started-at="2018-02-05T12:37:12Z" data-provider="pushDocumentDateName" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushDocumentNumberName" finished-at="2018-02-05T12:37:12Z">
+        <test-method status="PASS" signature="pushDocumentDateName(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushDocumentDateName" duration-ms="340" started-at="2018-02-05T13:30:58Z" data-provider="pushDocumentDateName" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushDocumentNumberName" finished-at="2018-02-05T13:30:59Z">
           <params>
             <param index="0">
               <value>
@@ -364,7 +364,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushDocumentDateName -->
-        <test-method status="PASS" signature="pushDocumentTimeName(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushDocumentTimeName" duration-ms="288" started-at="2018-02-05T12:37:12Z" data-provider="pushDocumentTimeName" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushDocumentDateName" finished-at="2018-02-05T12:37:13Z">
+        <test-method status="PASS" signature="pushDocumentTimeName(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushDocumentTimeName" duration-ms="279" started-at="2018-02-05T13:30:59Z" data-provider="pushDocumentTimeName" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushDocumentDateName" finished-at="2018-02-05T13:30:59Z">
           <params>
             <param index="0">
               <value>
@@ -380,7 +380,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushDocumentTimeName -->
-        <test-method status="PASS" signature="pushTerminateDateName(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushTerminateDateName" duration-ms="309" started-at="2018-02-05T12:37:13Z" data-provider="pushTerminateDateName" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushDocumentTimeName" finished-at="2018-02-05T12:37:13Z">
+        <test-method status="PASS" signature="pushTerminateDateName(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushTerminateDateName" duration-ms="344" started-at="2018-02-05T13:30:59Z" data-provider="pushTerminateDateName" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushDocumentTimeName" finished-at="2018-02-05T13:30:59Z">
           <params>
             <param index="0">
               <value>
@@ -396,7 +396,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushTerminateDateName -->
-        <test-method status="PASS" signature="pushCommentName(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushCommentName" duration-ms="166" started-at="2018-02-05T12:37:13Z" data-provider="pushCommentName" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushTerminateDateName" finished-at="2018-02-05T12:37:13Z">
+        <test-method status="PASS" signature="pushCommentName(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushCommentName" duration-ms="161" started-at="2018-02-05T13:30:59Z" data-provider="pushCommentName" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushTerminateDateName" finished-at="2018-02-05T13:30:59Z">
           <params>
             <param index="0">
               <value>
@@ -412,11 +412,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushCommentName -->
-        <test-method status="PASS" signature="pushCheckboxes()[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushCheckboxes" duration-ms="231" started-at="2018-02-05T12:37:13Z" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushCommentName" finished-at="2018-02-05T12:37:13Z">
+        <test-method status="PASS" signature="pushCheckboxes()[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushCheckboxes" duration-ms="243" started-at="2018-02-05T13:30:59Z" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushCommentName" finished-at="2018-02-05T13:31:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushCheckboxes -->
-        <test-method status="PASS" signature="pushChooseAdress(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushChooseAdress" duration-ms="90" started-at="2018-02-05T12:37:13Z" data-provider="pushChooseAdress" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushCheckboxes" finished-at="2018-02-05T12:37:13Z">
+        <test-method status="PASS" signature="pushChooseAdress(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushChooseAdress" duration-ms="77" started-at="2018-02-05T13:31:00Z" data-provider="pushChooseAdress" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushCheckboxes" finished-at="2018-02-05T13:31:00Z">
           <params>
             <param index="0">
               <value>
@@ -427,7 +427,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushChooseAdress -->
-        <test-method status="PASS" signature="checkAddressForm(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="checkAddressForm" duration-ms="644" started-at="2018-02-05T12:37:13Z" data-provider="checkAddressForm" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushChooseAdress" finished-at="2018-02-05T12:37:14Z">
+        <test-method status="PASS" signature="checkAddressForm(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="checkAddressForm" duration-ms="636" started-at="2018-02-05T13:31:00Z" data-provider="checkAddressForm" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushChooseAdress" finished-at="2018-02-05T13:31:00Z">
           <params>
             <param index="0">
               <value>
@@ -438,7 +438,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAddressForm -->
-        <test-method status="PASS" signature="pushState(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushState" duration-ms="66" started-at="2018-02-05T12:37:14Z" data-provider="pushState" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkAddressForm" finished-at="2018-02-05T12:37:14Z">
+        <test-method status="PASS" signature="pushState(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushState" duration-ms="48" started-at="2018-02-05T13:31:00Z" data-provider="pushState" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkAddressForm" finished-at="2018-02-05T13:31:00Z">
           <params>
             <param index="0">
               <value>
@@ -449,7 +449,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushState -->
-        <test-method status="PASS" signature="fillRegion(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="fillRegion" duration-ms="305" started-at="2018-02-05T12:37:14Z" data-provider="fillRegion" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushState" finished-at="2018-02-05T12:37:14Z">
+        <test-method status="PASS" signature="fillRegion(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="fillRegion" duration-ms="268" started-at="2018-02-05T13:31:00Z" data-provider="fillRegion" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushState" finished-at="2018-02-05T13:31:01Z">
           <params>
             <param index="0">
               <value>
@@ -465,7 +465,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillRegion -->
-        <test-method status="PASS" signature="fillCity(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="fillCity" duration-ms="254" started-at="2018-02-05T12:37:14Z" data-provider="fillCity" depends-on-methods="stepDefinition.AddNewContractOfStorage.fillRegion" finished-at="2018-02-05T12:37:15Z">
+        <test-method status="PASS" signature="fillCity(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="fillCity" duration-ms="226" started-at="2018-02-05T13:31:01Z" data-provider="fillCity" depends-on-methods="stepDefinition.AddNewContractOfStorage.fillRegion" finished-at="2018-02-05T13:31:01Z">
           <params>
             <param index="0">
               <value>
@@ -481,7 +481,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillCity -->
-        <test-method status="PASS" signature="fillSettlement(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="fillSettlement" duration-ms="241" started-at="2018-02-05T12:37:15Z" data-provider="fillSettlement" depends-on-methods="stepDefinition.AddNewContractOfStorage.fillCity" finished-at="2018-02-05T12:37:15Z">
+        <test-method status="PASS" signature="fillSettlement(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="fillSettlement" duration-ms="282" started-at="2018-02-05T13:31:01Z" data-provider="fillSettlement" depends-on-methods="stepDefinition.AddNewContractOfStorage.fillCity" finished-at="2018-02-05T13:31:01Z">
           <params>
             <param index="0">
               <value>
@@ -497,7 +497,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillSettlement -->
-        <test-method status="PASS" signature="fillStreet(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="fillStreet" duration-ms="233" started-at="2018-02-05T12:37:15Z" data-provider="fillStreet" depends-on-methods="stepDefinition.AddNewContractOfStorage.fillSettlement" finished-at="2018-02-05T12:37:15Z">
+        <test-method status="PASS" signature="fillStreet(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="fillStreet" duration-ms="232" started-at="2018-02-05T13:31:01Z" data-provider="fillStreet" depends-on-methods="stepDefinition.AddNewContractOfStorage.fillSettlement" finished-at="2018-02-05T13:31:01Z">
           <params>
             <param index="0">
               <value>
@@ -513,7 +513,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillStreet -->
-        <test-method status="PASS" signature="fillHome(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="fillHome" duration-ms="133" started-at="2018-02-05T12:37:15Z" data-provider="fillHome" depends-on-methods="stepDefinition.AddNewContractOfStorage.fillStreet" finished-at="2018-02-05T12:37:15Z">
+        <test-method status="PASS" signature="fillHome(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="fillHome" duration-ms="143" started-at="2018-02-05T13:31:01Z" data-provider="fillHome" depends-on-methods="stepDefinition.AddNewContractOfStorage.fillStreet" finished-at="2018-02-05T13:31:02Z">
           <params>
             <param index="0">
               <value>
@@ -529,7 +529,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillHome -->
-        <test-method status="PASS" signature="fillIndex(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="fillIndex" duration-ms="197" started-at="2018-02-05T12:37:15Z" data-provider="fillIndex" depends-on-methods="stepDefinition.AddNewContractOfStorage.fillHome" finished-at="2018-02-05T12:37:15Z">
+        <test-method status="PASS" signature="fillIndex(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="fillIndex" duration-ms="211" started-at="2018-02-05T13:31:02Z" data-provider="fillIndex" depends-on-methods="stepDefinition.AddNewContractOfStorage.fillHome" finished-at="2018-02-05T13:31:02Z">
           <params>
             <param index="0">
               <value>
@@ -545,15 +545,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillIndex -->
-        <test-method status="PASS" signature="pushSaveButton()[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushSaveButton" duration-ms="118" started-at="2018-02-05T12:37:15Z" depends-on-methods="stepDefinition.AddNewContractOfStorage.fillIndex" finished-at="2018-02-05T12:37:16Z">
+        <test-method status="PASS" signature="pushSaveButton()[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushSaveButton" duration-ms="108" started-at="2018-02-05T13:31:02Z" depends-on-methods="stepDefinition.AddNewContractOfStorage.fillIndex" finished-at="2018-02-05T13:31:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushSaveButton -->
-        <test-method status="PASS" signature="pushSaveButtonGlobal()[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushSaveButtonGlobal" duration-ms="2492" started-at="2018-02-05T12:37:16Z" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushSaveButton" finished-at="2018-02-05T12:37:18Z">
+        <test-method status="PASS" signature="pushSaveButtonGlobal()[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushSaveButtonGlobal" duration-ms="2482" started-at="2018-02-05T13:31:02Z" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushSaveButton" finished-at="2018-02-05T13:31:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushSaveButtonGlobal -->
-        <test-method status="PASS" signature="pushAssetName(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushAssetName" duration-ms="1085" started-at="2018-02-05T12:37:18Z" data-provider="checkPresenseOfAsset" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushSaveButtonGlobal" finished-at="2018-02-05T12:37:19Z">
+        <test-method status="PASS" signature="pushAssetName(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushAssetName" duration-ms="1090" started-at="2018-02-05T13:31:04Z" data-provider="checkPresenseOfAsset" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushSaveButtonGlobal" finished-at="2018-02-05T13:31:06Z">
           <params>
             <param index="0">
               <value>
@@ -564,7 +564,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushAssetName -->
-        <test-method status="PASS" signature="checkPresenceOfDocumentByDateAndNumber(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="checkPresenceOfDocumentByDateAndNumber" duration-ms="181" started-at="2018-02-05T12:37:19Z" data-provider="checkPresenceOfDocumentByDateAndNumber" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushAssetName" finished-at="2018-02-05T12:37:19Z">
+        <test-method status="PASS" signature="checkPresenceOfDocumentByDateAndNumber(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="checkPresenceOfDocumentByDateAndNumber" duration-ms="179" started-at="2018-02-05T13:31:06Z" data-provider="checkPresenceOfDocumentByDateAndNumber" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushAssetName" finished-at="2018-02-05T13:31:06Z">
           <params>
             <param index="0">
               <value>
@@ -580,7 +580,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPresenceOfDocumentByDateAndNumber -->
-        <test-method status="PASS" signature="pushPreExitButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushPreExitButton" duration-ms="1078" started-at="2018-02-05T12:37:19Z" data-provider="pushPreExitButton" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkPresenceOfDocumentByDateAndNumber" finished-at="2018-02-05T12:37:20Z">
+        <test-method status="PASS" signature="pushPreExitButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushPreExitButton" duration-ms="1091" started-at="2018-02-05T13:31:06Z" data-provider="pushPreExitButton" depends-on-methods="stepDefinition.AddNewContractOfStorage.checkPresenceOfDocumentByDateAndNumber" finished-at="2018-02-05T13:31:07Z">
           <params>
             <param index="0">
               <value>
@@ -591,7 +591,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushPreExitButton -->
-        <test-method status="PASS" signature="pushExitButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@b8a7e43]" name="pushExitButton" duration-ms="119" started-at="2018-02-05T12:37:20Z" data-provider="pushExitButton" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushPreExitButton" finished-at="2018-02-05T12:37:21Z">
+        <test-method status="PASS" signature="pushExitButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewContractOfStorage@6892cc6f]" name="pushExitButton" duration-ms="85" started-at="2018-02-05T13:31:07Z" data-provider="pushExitButton" depends-on-methods="stepDefinition.AddNewContractOfStorage.pushPreExitButton" finished-at="2018-02-05T13:31:07Z">
           <params>
             <param index="0">
               <value>
@@ -604,15 +604,15 @@
         </test-method> <!-- pushExitButton -->
       </class> <!-- stepDefinition.AddNewContractOfStorage -->
       <class name="stepDefinition.AddNewActiveTypeCash">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="openBrowser" is-config="true" duration-ms="7615" started-at="2018-02-05T12:35:57Z" finished-at="2018-02-05T12:36:05Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="openBrowser" is-config="true" duration-ms="6566" started-at="2018-02-05T13:29:47Z" finished-at="2018-02-05T13:29:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="waitSecond()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="waitSecond" is-config="true" duration-ms="3026" started-at="2018-02-05T12:36:05Z" finished-at="2018-02-05T12:36:08Z">
+        <test-method status="PASS" signature="waitSecond()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="waitSecond" is-config="true" duration-ms="3033" started-at="2018-02-05T13:29:54Z" finished-at="2018-02-05T13:29:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitSecond -->
-        <test-method status="PASS" signature="checkPageName(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkPageName" duration-ms="255" started-at="2018-02-05T12:36:08Z" data-provider="checkPageName" finished-at="2018-02-05T12:36:08Z">
+        <test-method status="PASS" signature="checkPageName(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkPageName" duration-ms="180" started-at="2018-02-05T13:29:57Z" data-provider="checkPageName" finished-at="2018-02-05T13:29:57Z">
           <params>
             <param index="0">
               <value>
@@ -623,7 +623,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPageName -->
-        <test-method status="PASS" signature="userFillsValidLogin(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="userFillsValidLogin" duration-ms="160" started-at="2018-02-05T12:36:08Z" data-provider="userFillsValidLogin" depends-on-methods="helper.InitialSteps.checkPageName" finished-at="2018-02-05T12:36:08Z">
+        <test-method status="PASS" signature="userFillsValidLogin(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="userFillsValidLogin" duration-ms="145" started-at="2018-02-05T13:29:57Z" data-provider="userFillsValidLogin" depends-on-methods="helper.InitialSteps.checkPageName" finished-at="2018-02-05T13:29:57Z">
           <params>
             <param index="0">
               <value>
@@ -639,7 +639,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userFillsValidLogin -->
-        <test-method status="PASS" signature="userFillsValidPassword(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="userFillsValidPassword" duration-ms="117" started-at="2018-02-05T12:36:08Z" data-provider="userFillsValidPassword" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userFillsValidLogin" finished-at="2018-02-05T12:36:08Z">
+        <test-method status="PASS" signature="userFillsValidPassword(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="userFillsValidPassword" duration-ms="168" started-at="2018-02-05T13:29:57Z" data-provider="userFillsValidPassword" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userFillsValidLogin" finished-at="2018-02-05T13:29:57Z">
           <params>
             <param index="0">
               <value>
@@ -655,7 +655,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userFillsValidPassword -->
-        <test-method status="PASS" signature="userPushEnterButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="userPushEnterButton" duration-ms="2697" started-at="2018-02-05T12:36:08Z" data-provider="userPushEnterButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userFillsValidPassword" finished-at="2018-02-05T12:36:11Z">
+        <test-method status="PASS" signature="userPushEnterButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="userPushEnterButton" duration-ms="2877" started-at="2018-02-05T13:29:57Z" data-provider="userPushEnterButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userFillsValidPassword" finished-at="2018-02-05T13:30:00Z">
           <params>
             <param index="0">
               <value>
@@ -666,7 +666,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userPushEnterButton -->
-        <test-method status="PASS" signature="checkModalWindowName(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkModalWindowName" duration-ms="117" started-at="2018-02-05T12:36:11Z" data-provider="checkModalWindowName" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userPushEnterButton" finished-at="2018-02-05T12:36:11Z">
+        <test-method status="PASS" signature="checkModalWindowName(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkModalWindowName" duration-ms="93" started-at="2018-02-05T13:30:00Z" data-provider="checkModalWindowName" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userPushEnterButton" finished-at="2018-02-05T13:30:00Z">
           <params>
             <param index="0">
               <value>
@@ -677,7 +677,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkModalWindowName -->
-        <test-method status="PASS" signature="userChooseOrganization(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="userChooseOrganization" duration-ms="103" started-at="2018-02-05T12:36:11Z" data-provider="userChooseOrganization" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkModalWindowName" finished-at="2018-02-05T12:36:11Z">
+        <test-method status="PASS" signature="userChooseOrganization(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="userChooseOrganization" duration-ms="68" started-at="2018-02-05T13:30:00Z" data-provider="userChooseOrganization" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkModalWindowName" finished-at="2018-02-05T13:30:00Z">
           <params>
             <param index="0">
               <value>
@@ -688,7 +688,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userChooseOrganization -->
-        <test-method status="PASS" signature="pushChooseButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushChooseButton" duration-ms="101" started-at="2018-02-05T12:36:11Z" data-provider="pushChooseButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userChooseOrganization" finished-at="2018-02-05T12:36:11Z">
+        <test-method status="PASS" signature="pushChooseButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushChooseButton" duration-ms="102" started-at="2018-02-05T13:30:00Z" data-provider="pushChooseButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userChooseOrganization" finished-at="2018-02-05T13:30:00Z">
           <params>
             <param index="0">
               <value>
@@ -699,7 +699,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushChooseButton -->
-        <test-method status="PASS" signature="checkLogoName(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkLogoName" duration-ms="156" started-at="2018-02-05T12:36:11Z" data-provider="checkLogoName" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushChooseButton" finished-at="2018-02-05T12:36:12Z">
+        <test-method status="PASS" signature="checkLogoName(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkLogoName" duration-ms="138" started-at="2018-02-05T13:30:00Z" data-provider="checkLogoName" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushChooseButton" finished-at="2018-02-05T13:30:00Z">
           <params>
             <param index="0">
               <value>
@@ -710,7 +710,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLogoName -->
-        <test-method status="PASS" signature="checkOrganizationName(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkOrganizationName" duration-ms="1011" started-at="2018-02-05T12:36:12Z" data-provider="checkOrganizationName" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushChooseButton" finished-at="2018-02-05T12:36:13Z">
+        <test-method status="PASS" signature="checkOrganizationName(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkOrganizationName" duration-ms="851" started-at="2018-02-05T13:30:00Z" data-provider="checkOrganizationName" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushChooseButton" finished-at="2018-02-05T13:30:01Z">
           <params>
             <param index="0">
               <value>
@@ -721,7 +721,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkOrganizationName -->
-        <test-method status="PASS" signature="pushSettingsBar(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushSettingsBar" duration-ms="90" started-at="2018-02-05T12:36:13Z" data-provider="pushSettingsBar" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkOrganizationName" finished-at="2018-02-05T12:36:13Z">
+        <test-method status="PASS" signature="pushSettingsBar(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushSettingsBar" duration-ms="122" started-at="2018-02-05T13:30:01Z" data-provider="pushSettingsBar" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkOrganizationName" finished-at="2018-02-05T13:30:01Z">
           <params>
             <param index="0">
               <value>
@@ -732,7 +732,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushSettingsBar -->
-        <test-method status="PASS" signature="pushReferenceBooks(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushReferenceBooks" duration-ms="4516" started-at="2018-02-05T12:36:13Z" data-provider="pushReferenceBooks" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushSettingsBar" finished-at="2018-02-05T12:36:17Z">
+        <test-method status="PASS" signature="pushReferenceBooks(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushReferenceBooks" duration-ms="3121" started-at="2018-02-05T13:30:01Z" data-provider="pushReferenceBooks" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushSettingsBar" finished-at="2018-02-05T13:30:05Z">
           <params>
             <param index="0">
               <value>
@@ -743,7 +743,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushReferenceBooks -->
-        <test-method status="PASS" signature="checkDictionaryName(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkDictionaryName" duration-ms="1310" started-at="2018-02-05T12:36:17Z" data-provider="pushReferenceBooks" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushReferenceBooks" finished-at="2018-02-05T12:36:19Z">
+        <test-method status="PASS" signature="checkDictionaryName(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkDictionaryName" duration-ms="1096" started-at="2018-02-05T13:30:05Z" data-provider="pushReferenceBooks" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushReferenceBooks" finished-at="2018-02-05T13:30:06Z">
           <params>
             <param index="0">
               <value>
@@ -754,15 +754,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDictionaryName -->
-        <test-method status="PASS" signature="pushAccountNumber()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushAccountNumber" duration-ms="216" started-at="2018-02-05T12:36:19Z" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkDictionaryName" finished-at="2018-02-05T12:36:19Z">
+        <test-method status="PASS" signature="pushAccountNumber()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushAccountNumber" duration-ms="64" started-at="2018-02-05T13:30:06Z" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkDictionaryName" finished-at="2018-02-05T13:30:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushAccountNumber -->
-        <test-method status="PASS" signature="pushSearchIcon()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushSearchIcon" duration-ms="4131" started-at="2018-02-05T12:36:19Z" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushAccountNumber" finished-at="2018-02-05T12:36:23Z">
+        <test-method status="PASS" signature="pushSearchIcon()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushSearchIcon" duration-ms="4109" started-at="2018-02-05T13:30:06Z" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushAccountNumber" finished-at="2018-02-05T13:30:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushSearchIcon -->
-        <test-method status="PASS" signature="checkSearchWindow(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkSearchWindow" duration-ms="105" started-at="2018-02-05T12:36:23Z" data-provider="checkSearchWindow" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushSearchIcon" finished-at="2018-02-05T12:36:23Z">
+        <test-method status="PASS" signature="checkSearchWindow(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkSearchWindow" duration-ms="108" started-at="2018-02-05T13:30:10Z" data-provider="checkSearchWindow" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushSearchIcon" finished-at="2018-02-05T13:30:10Z">
           <params>
             <param index="0">
               <value>
@@ -773,7 +773,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSearchWindow -->
-        <test-method status="PASS" signature="pushFirstSearchOption(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushFirstSearchOption" duration-ms="65" started-at="2018-02-05T12:36:23Z" data-provider="pushFirstSearchOption" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkSearchWindow" finished-at="2018-02-05T12:36:23Z">
+        <test-method status="PASS" signature="pushFirstSearchOption(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushFirstSearchOption" duration-ms="48" started-at="2018-02-05T13:30:10Z" data-provider="pushFirstSearchOption" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkSearchWindow" finished-at="2018-02-05T13:30:10Z">
           <params>
             <param index="0">
               <value>
@@ -784,7 +784,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushFirstSearchOption -->
-        <test-method status="PASS" signature="pushSecondSearchOption(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushSecondSearchOption" duration-ms="59" started-at="2018-02-05T12:36:23Z" data-provider="pushSecondSearchOption" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushFirstSearchOption" finished-at="2018-02-05T12:36:23Z">
+        <test-method status="PASS" signature="pushSecondSearchOption(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushSecondSearchOption" duration-ms="80" started-at="2018-02-05T13:30:10Z" data-provider="pushSecondSearchOption" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushFirstSearchOption" finished-at="2018-02-05T13:30:10Z">
           <params>
             <param index="0">
               <value>
@@ -795,7 +795,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushSecondSearchOption -->
-        <test-method status="PASS" signature="fillsSearchOption(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="fillsSearchOption" duration-ms="194" started-at="2018-02-05T12:36:23Z" data-provider="fillsSearchOption" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushSecondSearchOption" finished-at="2018-02-05T12:36:23Z">
+        <test-method status="PASS" signature="fillsSearchOption(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="fillsSearchOption" duration-ms="104" started-at="2018-02-05T13:30:10Z" data-provider="fillsSearchOption" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushSecondSearchOption" finished-at="2018-02-05T13:30:10Z">
           <params>
             <param index="0">
               <value>
@@ -806,7 +806,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillsSearchOption -->
-        <test-method status="PASS" signature="pushSearchButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushSearchButton" duration-ms="168" started-at="2018-02-05T12:36:23Z" data-provider="pushSearchButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.fillsSearchOption, stepDefinition.AddNewActiveTypeCash.pushSecondSearchOption, stepDefinition.AddNewActiveTypeCash.pushFirstSearchOption" finished-at="2018-02-05T12:36:23Z">
+        <test-method status="PASS" signature="pushSearchButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushSearchButton" duration-ms="139" started-at="2018-02-05T13:30:10Z" data-provider="pushSearchButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.fillsSearchOption, stepDefinition.AddNewActiveTypeCash.pushSecondSearchOption, stepDefinition.AddNewActiveTypeCash.pushFirstSearchOption" finished-at="2018-02-05T13:30:10Z">
           <params>
             <param index="0">
               <value>
@@ -817,7 +817,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushSearchButton -->
-        <test-method status="PASS" signature="checkPresenseOfElements(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkPresenseOfElements" duration-ms="1034" started-at="2018-02-05T12:36:23Z" data-provider="checkPresenseOfElements" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushSearchButton" finished-at="2018-02-05T12:36:24Z">
+        <test-method status="PASS" signature="checkPresenseOfElements(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkPresenseOfElements" duration-ms="1072" started-at="2018-02-05T13:30:10Z" data-provider="checkPresenseOfElements" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushSearchButton" finished-at="2018-02-05T13:30:11Z">
           <params>
             <param index="0">
               <value>
@@ -828,7 +828,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPresenseOfElements -->
-        <test-method status="PASS" signature="pushCollectionAndMaintenanceofData(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushCollectionAndMaintenanceofData" duration-ms="1075" started-at="2018-02-05T12:36:24Z" data-provider="pushCollectionAndMaintenanceofData" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkPresenseOfElements" finished-at="2018-02-05T12:36:26Z">
+        <test-method status="PASS" signature="pushCollectionAndMaintenanceofData(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushCollectionAndMaintenanceofData" duration-ms="1073" started-at="2018-02-05T13:30:11Z" data-provider="pushCollectionAndMaintenanceofData" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkPresenseOfElements" finished-at="2018-02-05T13:30:12Z">
           <params>
             <param index="0">
               <value>
@@ -839,7 +839,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushCollectionAndMaintenanceofData -->
-        <test-method status="PASS" signature="pushAssetList(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushAssetList" duration-ms="116" started-at="2018-02-05T12:36:26Z" data-provider="pushAssetList" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushCollectionAndMaintenanceofData" finished-at="2018-02-05T12:36:26Z">
+        <test-method status="PASS" signature="pushAssetList(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushAssetList" duration-ms="95" started-at="2018-02-05T13:30:12Z" data-provider="pushAssetList" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushCollectionAndMaintenanceofData" finished-at="2018-02-05T13:30:13Z">
           <params>
             <param index="0">
               <value>
@@ -850,7 +850,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushAssetList -->
-        <test-method status="PASS" signature="checkAssetListName(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkAssetListName" duration-ms="1091" started-at="2018-02-05T12:36:26Z" data-provider="pushAssetList" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushAssetList" finished-at="2018-02-05T12:36:27Z">
+        <test-method status="PASS" signature="checkAssetListName(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkAssetListName" duration-ms="1087" started-at="2018-02-05T13:30:13Z" data-provider="pushAssetList" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushAssetList" finished-at="2018-02-05T13:30:14Z">
           <params>
             <param index="0">
               <value>
@@ -861,7 +861,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAssetListName -->
-        <test-method status="PASS" signature="pushCreateButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushCreateButton" duration-ms="72" started-at="2018-02-05T12:36:27Z" data-provider="pushCreateButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkAssetListName" finished-at="2018-02-05T12:36:27Z">
+        <test-method status="PASS" signature="pushCreateButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushCreateButton" duration-ms="63" started-at="2018-02-05T13:30:14Z" data-provider="pushCreateButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkAssetListName" finished-at="2018-02-05T13:30:14Z">
           <params>
             <param index="0">
               <value>
@@ -872,11 +872,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushCreateButton -->
-        <test-method status="PASS" signature="checkAssetFunctionalType()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkAssetFunctionalType" duration-ms="170" started-at="2018-02-05T12:36:27Z" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushCreateButton" finished-at="2018-02-05T12:36:27Z">
+        <test-method status="PASS" signature="checkAssetFunctionalType()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkAssetFunctionalType" duration-ms="162" started-at="2018-02-05T13:30:14Z" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushCreateButton" finished-at="2018-02-05T13:30:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAssetFunctionalType -->
-        <test-method status="PASS" signature="checkAssetListFirstStep(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkAssetListFirstStep" duration-ms="90" started-at="2018-02-05T12:36:27Z" data-provider="checkAssetListFirstStep" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushCreateButton" finished-at="2018-02-05T12:36:27Z">
+        <test-method status="PASS" signature="checkAssetListFirstStep(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkAssetListFirstStep" duration-ms="99" started-at="2018-02-05T13:30:14Z" data-provider="checkAssetListFirstStep" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushCreateButton" finished-at="2018-02-05T13:30:14Z">
           <params>
             <param index="0">
               <value>
@@ -887,7 +887,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAssetListFirstStep -->
-        <test-method status="PASS" signature="checkAssetType(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkAssetType" duration-ms="56" started-at="2018-02-05T12:36:27Z" data-provider="checkAssetType" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushCreateButton" finished-at="2018-02-05T12:36:27Z">
+        <test-method status="PASS" signature="checkAssetType(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkAssetType" duration-ms="76" started-at="2018-02-05T13:30:14Z" data-provider="checkAssetType" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushCreateButton" finished-at="2018-02-05T13:30:14Z">
           <params>
             <param index="0">
               <value>
@@ -898,7 +898,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAssetType -->
-        <test-method status="PASS" signature="checkFOName(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkFOName" duration-ms="44" started-at="2018-02-05T12:36:27Z" data-provider="checkFOName" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushCreateButton" finished-at="2018-02-05T12:36:27Z">
+        <test-method status="PASS" signature="checkFOName(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkFOName" duration-ms="31" started-at="2018-02-05T13:30:14Z" data-provider="checkFOName" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushCreateButton" finished-at="2018-02-05T13:30:14Z">
           <params>
             <param index="0">
               <value>
@@ -909,11 +909,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkFOName -->
-        <test-method status="PASS" signature="checkSelectOrg()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkSelectOrg" duration-ms="36" started-at="2018-02-05T12:36:27Z" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushCreateButton" finished-at="2018-02-05T12:36:27Z">
+        <test-method status="PASS" signature="checkSelectOrg()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkSelectOrg" duration-ms="47" started-at="2018-02-05T13:30:14Z" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushCreateButton" finished-at="2018-02-05T13:30:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSelectOrg -->
-        <test-method status="PASS" signature="pushAssetFunctionalType(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushAssetFunctionalType" duration-ms="84" started-at="2018-02-05T12:36:27Z" data-provider="pushAssetFunctionalType" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkAssetFunctionalType" finished-at="2018-02-05T12:36:27Z">
+        <test-method status="PASS" signature="pushAssetFunctionalType(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushAssetFunctionalType" duration-ms="48" started-at="2018-02-05T13:30:14Z" data-provider="pushAssetFunctionalType" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkAssetFunctionalType" finished-at="2018-02-05T13:30:14Z">
           <params>
             <param index="0">
               <value>
@@ -924,7 +924,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushAssetFunctionalType -->
-        <test-method status="PASS" signature="pushContinueButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushContinueButton" duration-ms="111" started-at="2018-02-05T12:36:27Z" data-provider="pushContinueButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushAssetFunctionalType" finished-at="2018-02-05T12:36:27Z">
+        <test-method status="PASS" signature="pushContinueButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushContinueButton" duration-ms="101" started-at="2018-02-05T13:30:14Z" data-provider="pushContinueButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushAssetFunctionalType" finished-at="2018-02-05T13:30:14Z">
           <params>
             <param index="0">
               <value>
@@ -935,7 +935,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushContinueButton -->
-        <test-method status="PASS" signature="checkAssetListSecondStep(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkAssetListSecondStep" duration-ms="1157" started-at="2018-02-05T12:36:27Z" data-provider="checkAssetListSecondStep" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushContinueButton" finished-at="2018-02-05T12:36:29Z">
+        <test-method status="PASS" signature="checkAssetListSecondStep(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkAssetListSecondStep" duration-ms="1214" started-at="2018-02-05T13:30:14Z" data-provider="checkAssetListSecondStep" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushContinueButton" finished-at="2018-02-05T13:30:15Z">
           <params>
             <param index="0">
               <value>
@@ -946,7 +946,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAssetListSecondStep -->
-        <test-method status="PASS" signature="checkAssetConnectionName(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkAssetConnectionName" duration-ms="59" started-at="2018-02-05T12:36:29Z" data-provider="checkAssetConnectionName" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkAssetListSecondStep" finished-at="2018-02-05T12:36:29Z">
+        <test-method status="PASS" signature="checkAssetConnectionName(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkAssetConnectionName" duration-ms="71" started-at="2018-02-05T13:30:15Z" data-provider="checkAssetConnectionName" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkAssetListSecondStep" finished-at="2018-02-05T13:30:16Z">
           <params>
             <param index="0">
               <value>
@@ -957,7 +957,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAssetConnectionName -->
-        <test-method status="PASS" signature="checkInventoryName(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkInventoryName" duration-ms="67" started-at="2018-02-05T12:36:29Z" data-provider="checkInventoryName" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkAssetListSecondStep" finished-at="2018-02-05T12:36:29Z">
+        <test-method status="PASS" signature="checkInventoryName(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkInventoryName" duration-ms="65" started-at="2018-02-05T13:30:16Z" data-provider="checkInventoryName" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkAssetListSecondStep" finished-at="2018-02-05T13:30:16Z">
           <params>
             <param index="0">
               <value>
@@ -968,18 +968,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkInventoryName -->
-        <test-method status="PASS" signature="checkMainAssetLinks([Ljava.lang.String;)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkMainAssetLinks" duration-ms="903" started-at="2018-02-05T12:36:29Z" data-provider="checkMainAssetLinks" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkAssetListSecondStep" finished-at="2018-02-05T12:36:30Z">
+        <test-method status="PASS" signature="checkMainAssetLinks([Ljava.lang.String;)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkMainAssetLinks" duration-ms="809" started-at="2018-02-05T13:30:16Z" data-provider="checkMainAssetLinks" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkAssetListSecondStep" finished-at="2018-02-05T13:30:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@118c1faa]]>
+                <![CDATA[[Ljava.lang.String;@5aefdb9e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMainAssetLinks -->
-        <test-method status="PASS" signature="userFillsAccountNumber(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="userFillsAccountNumber" duration-ms="1440" started-at="2018-02-05T12:36:30Z" data-provider="userFillsAccountNumber" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkMainAssetLinks" finished-at="2018-02-05T12:36:31Z">
+        <test-method status="PASS" signature="userFillsAccountNumber(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="userFillsAccountNumber" duration-ms="576" started-at="2018-02-05T13:30:16Z" data-provider="userFillsAccountNumber" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkMainAssetLinks" finished-at="2018-02-05T13:30:17Z">
           <params>
             <param index="0">
               <value>
@@ -995,7 +995,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userFillsAccountNumber -->
-        <test-method status="PASS" signature="userFillsAssetName(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="userFillsAssetName" duration-ms="513" started-at="2018-02-05T12:36:31Z" data-provider="userFillsAssetName" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkMainAssetLinks" finished-at="2018-02-05T12:36:32Z">
+        <test-method status="PASS" signature="userFillsAssetName(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="userFillsAssetName" duration-ms="1147" started-at="2018-02-05T13:30:17Z" data-provider="userFillsAssetName" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkMainAssetLinks" finished-at="2018-02-05T13:30:18Z">
           <params>
             <param index="0">
               <value>
@@ -1011,7 +1011,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userFillsAssetName -->
-        <test-method status="PASS" signature="userFillsBalanceInitial(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="userFillsBalanceInitial" duration-ms="291" started-at="2018-02-05T12:36:32Z" data-provider="userFillsBalanceInitial" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkMainAssetLinks" finished-at="2018-02-05T12:36:32Z">
+        <test-method status="PASS" signature="userFillsBalanceInitial(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="userFillsBalanceInitial" duration-ms="335" started-at="2018-02-05T13:30:18Z" data-provider="userFillsBalanceInitial" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkMainAssetLinks" finished-at="2018-02-05T13:30:18Z">
           <params>
             <param index="0">
               <value>
@@ -1027,7 +1027,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userFillsBalanceInitial -->
-        <test-method status="PASS" signature="checkCurrency(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkCurrency" duration-ms="4146" started-at="2018-02-05T12:36:32Z" data-provider="checkCurrency" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userFillsAccountNumber" finished-at="2018-02-05T12:36:36Z">
+        <test-method status="PASS" signature="checkCurrency(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkCurrency" duration-ms="4048" started-at="2018-02-05T13:30:18Z" data-provider="checkCurrency" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userFillsAccountNumber" finished-at="2018-02-05T13:30:23Z">
           <params>
             <param index="0">
               <value>
@@ -1038,7 +1038,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCurrency -->
-        <test-method status="PASS" signature="checkBalanceInitialCurrency(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkBalanceInitialCurrency" duration-ms="49" started-at="2018-02-05T12:36:36Z" data-provider="checkBalanceInitialCurrency" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userFillsAccountNumber, stepDefinition.AddNewActiveTypeCash.userFillsBalanceInitial" finished-at="2018-02-05T12:36:36Z">
+        <test-method status="PASS" signature="checkBalanceInitialCurrency(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkBalanceInitialCurrency" duration-ms="53" started-at="2018-02-05T13:30:23Z" data-provider="checkBalanceInitialCurrency" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userFillsAccountNumber, stepDefinition.AddNewActiveTypeCash.userFillsBalanceInitial" finished-at="2018-02-05T13:30:23Z">
           <params>
             <param index="0">
               <value>
@@ -1049,7 +1049,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkBalanceInitialCurrency -->
-        <test-method status="PASS" signature="checkCurrentBalanceName(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkCurrentBalanceName" duration-ms="57" started-at="2018-02-05T12:36:36Z" data-provider="checkCurrentBalanceName" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userFillsBalanceInitial" finished-at="2018-02-05T12:36:36Z">
+        <test-method status="PASS" signature="checkCurrentBalanceName(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkCurrentBalanceName" duration-ms="78" started-at="2018-02-05T13:30:23Z" data-provider="checkCurrentBalanceName" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userFillsBalanceInitial" finished-at="2018-02-05T13:30:23Z">
           <params>
             <param index="0">
               <value>
@@ -1065,7 +1065,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCurrentBalanceName -->
-        <test-method status="PASS" signature="pushReceivingButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushReceivingButton" duration-ms="107" started-at="2018-02-05T12:36:36Z" data-provider="pushReceivingButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userFillsAccountNumber, stepDefinition.AddNewActiveTypeCash.userFillsBalanceInitial, stepDefinition.AddNewActiveTypeCash.userFillsAssetName" finished-at="2018-02-05T12:36:36Z">
+        <test-method status="PASS" signature="pushReceivingButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushReceivingButton" duration-ms="106" started-at="2018-02-05T13:30:23Z" data-provider="pushReceivingButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userFillsAccountNumber, stepDefinition.AddNewActiveTypeCash.userFillsBalanceInitial, stepDefinition.AddNewActiveTypeCash.userFillsAssetName" finished-at="2018-02-05T13:30:23Z">
           <params>
             <param index="0">
               <value>
@@ -1076,7 +1076,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushReceivingButton -->
-        <test-method status="PASS" signature="checkCurrentBalanceCurrency(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkCurrentBalanceCurrency" duration-ms="81" started-at="2018-02-05T12:36:36Z" data-provider="checkCurrentBalanceCurrency" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userFillsAccountNumber, stepDefinition.AddNewActiveTypeCash.checkCurrentBalanceName" finished-at="2018-02-05T12:36:36Z">
+        <test-method status="PASS" signature="checkCurrentBalanceCurrency(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkCurrentBalanceCurrency" duration-ms="64" started-at="2018-02-05T13:30:23Z" data-provider="checkCurrentBalanceCurrency" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userFillsAccountNumber, stepDefinition.AddNewActiveTypeCash.checkCurrentBalanceName" finished-at="2018-02-05T13:30:23Z">
           <params>
             <param index="0">
               <value>
@@ -1087,7 +1087,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCurrentBalanceCurrency -->
-        <test-method status="PASS" signature="userFillsStartDate(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="userFillsStartDate" duration-ms="1347" started-at="2018-02-05T12:36:36Z" data-provider="userFillsStartDate" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushReceivingButton" finished-at="2018-02-05T12:36:38Z">
+        <test-method status="PASS" signature="userFillsStartDate(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="userFillsStartDate" duration-ms="1359" started-at="2018-02-05T13:30:23Z" data-provider="userFillsStartDate" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushReceivingButton" finished-at="2018-02-05T13:30:24Z">
           <params>
             <param index="0">
               <value>
@@ -1103,7 +1103,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userFillsStartDate -->
-        <test-method status="PASS" signature="userFillsEndDate(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="userFillsEndDate" duration-ms="346" started-at="2018-02-05T12:36:38Z" data-provider="userFillsEndDate" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userFillsStartDate" finished-at="2018-02-05T12:36:38Z">
+        <test-method status="PASS" signature="userFillsEndDate(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="userFillsEndDate" duration-ms="374" started-at="2018-02-05T13:30:24Z" data-provider="userFillsEndDate" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userFillsStartDate" finished-at="2018-02-05T13:30:25Z">
           <params>
             <param index="0">
               <value>
@@ -1119,11 +1119,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userFillsEndDate -->
-        <test-method status="PASS" signature="pushSaveButton()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushSaveButton" duration-ms="1744" started-at="2018-02-05T12:36:38Z" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userFillsStartDate, stepDefinition.AddNewActiveTypeCash.userFillsEndDate" finished-at="2018-02-05T12:36:40Z">
+        <test-method status="PASS" signature="pushSaveButton()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushSaveButton" duration-ms="1776" started-at="2018-02-05T13:30:25Z" depends-on-methods="stepDefinition.AddNewActiveTypeCash.userFillsStartDate, stepDefinition.AddNewActiveTypeCash.userFillsEndDate" finished-at="2018-02-05T13:30:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushSaveButton -->
-        <test-method status="PASS" signature="pushCollectionAndMaintenanceofDataToCheck(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushCollectionAndMaintenanceofDataToCheck" duration-ms="1095" started-at="2018-02-05T12:36:40Z" data-provider="pushCollectionAndMaintenanceofData" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushSaveButton" finished-at="2018-02-05T12:36:41Z">
+        <test-method status="PASS" signature="pushCollectionAndMaintenanceofDataToCheck(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushCollectionAndMaintenanceofDataToCheck" duration-ms="1095" started-at="2018-02-05T13:30:26Z" data-provider="pushCollectionAndMaintenanceofData" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushSaveButton" finished-at="2018-02-05T13:30:27Z">
           <params>
             <param index="0">
               <value>
@@ -1134,7 +1134,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushCollectionAndMaintenanceofDataToCheck -->
-        <test-method status="PASS" signature="pushAssetListToCheck(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushAssetListToCheck" duration-ms="203" started-at="2018-02-05T12:36:41Z" data-provider="pushAssetList" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushCollectionAndMaintenanceofDataToCheck" finished-at="2018-02-05T12:36:41Z">
+        <test-method status="PASS" signature="pushAssetListToCheck(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushAssetListToCheck" duration-ms="173" started-at="2018-02-05T13:30:27Z" data-provider="pushAssetList" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushCollectionAndMaintenanceofDataToCheck" finished-at="2018-02-05T13:30:28Z">
           <params>
             <param index="0">
               <value>
@@ -1145,11 +1145,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushAssetListToCheck -->
-        <test-method status="PASS" signature="pushSearchIconToCheck()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushSearchIconToCheck" duration-ms="4136" started-at="2018-02-05T12:36:41Z" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushAssetListToCheck" finished-at="2018-02-05T12:36:45Z">
+        <test-method status="PASS" signature="pushSearchIconToCheck()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushSearchIconToCheck" duration-ms="4137" started-at="2018-02-05T13:30:28Z" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushAssetListToCheck" finished-at="2018-02-05T13:30:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushSearchIconToCheck -->
-        <test-method status="PASS" signature="checkSearchWindowToCheck(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkSearchWindowToCheck" duration-ms="100" started-at="2018-02-05T12:36:45Z" data-provider="checkSearchWindow" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushSearchIconToCheck" finished-at="2018-02-05T12:36:45Z">
+        <test-method status="PASS" signature="checkSearchWindowToCheck(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkSearchWindowToCheck" duration-ms="120" started-at="2018-02-05T13:30:32Z" data-provider="checkSearchWindow" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushSearchIconToCheck" finished-at="2018-02-05T13:30:32Z">
           <params>
             <param index="0">
               <value>
@@ -1160,7 +1160,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSearchWindowToCheck -->
-        <test-method status="PASS" signature="pushFirstSearchOptionToCheck(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushFirstSearchOptionToCheck" duration-ms="78" started-at="2018-02-05T12:36:45Z" data-provider="pushFirstSearchOptionToCheck" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkSearchWindowToCheck" finished-at="2018-02-05T12:36:45Z">
+        <test-method status="PASS" signature="pushFirstSearchOptionToCheck(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushFirstSearchOptionToCheck" duration-ms="63" started-at="2018-02-05T13:30:32Z" data-provider="pushFirstSearchOptionToCheck" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkSearchWindowToCheck" finished-at="2018-02-05T13:30:32Z">
           <params>
             <param index="0">
               <value>
@@ -1171,7 +1171,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushFirstSearchOptionToCheck -->
-        <test-method status="PASS" signature="pushSecondSearchOptionToCheck(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushSecondSearchOptionToCheck" duration-ms="113" started-at="2018-02-05T12:36:45Z" data-provider="pushSecondSearchOption" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushFirstSearchOptionToCheck" finished-at="2018-02-05T12:36:46Z">
+        <test-method status="PASS" signature="pushSecondSearchOptionToCheck(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushSecondSearchOptionToCheck" duration-ms="86" started-at="2018-02-05T13:30:32Z" data-provider="pushSecondSearchOption" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushFirstSearchOptionToCheck" finished-at="2018-02-05T13:30:32Z">
           <params>
             <param index="0">
               <value>
@@ -1182,7 +1182,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushSecondSearchOptionToCheck -->
-        <test-method status="PASS" signature="fillsSearchOptionToCheck(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="fillsSearchOptionToCheck" duration-ms="537" started-at="2018-02-05T12:36:46Z" data-provider="fillsSearchOptionToCheck" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushSecondSearchOptionToCheck" finished-at="2018-02-05T12:36:46Z">
+        <test-method status="PASS" signature="fillsSearchOptionToCheck(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="fillsSearchOptionToCheck" duration-ms="516" started-at="2018-02-05T13:30:32Z" data-provider="fillsSearchOptionToCheck" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushSecondSearchOptionToCheck" finished-at="2018-02-05T13:30:33Z">
           <params>
             <param index="0">
               <value>
@@ -1193,7 +1193,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillsSearchOptionToCheck -->
-        <test-method status="PASS" signature="pushSearchButtonToCheck(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushSearchButtonToCheck" duration-ms="506" started-at="2018-02-05T12:36:46Z" data-provider="pushSearchButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushFirstSearchOptionToCheck, stepDefinition.AddNewActiveTypeCash.fillsSearchOptionToCheck, stepDefinition.AddNewActiveTypeCash.pushSecondSearchOptionToCheck" finished-at="2018-02-05T12:36:47Z">
+        <test-method status="PASS" signature="pushSearchButtonToCheck(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushSearchButtonToCheck" duration-ms="459" started-at="2018-02-05T13:30:33Z" data-provider="pushSearchButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushFirstSearchOptionToCheck, stepDefinition.AddNewActiveTypeCash.fillsSearchOptionToCheck, stepDefinition.AddNewActiveTypeCash.pushSecondSearchOptionToCheck" finished-at="2018-02-05T13:30:33Z">
           <params>
             <param index="0">
               <value>
@@ -1204,7 +1204,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushSearchButtonToCheck -->
-        <test-method status="PASS" signature="checkPresenseOfAsset(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="checkPresenseOfAsset" duration-ms="1032" started-at="2018-02-05T12:36:47Z" data-provider="checkPresenseOfAsset" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushSearchButtonToCheck" finished-at="2018-02-05T12:36:48Z">
+        <test-method status="PASS" signature="checkPresenseOfAsset(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="checkPresenseOfAsset" duration-ms="1035" started-at="2018-02-05T13:30:33Z" data-provider="checkPresenseOfAsset" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushSearchButtonToCheck" finished-at="2018-02-05T13:30:34Z">
           <params>
             <param index="0">
               <value>
@@ -1215,11 +1215,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPresenseOfAsset -->
-        <test-method status="PASS" signature="pushCheckboxToDelete()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushCheckboxToDelete" duration-ms="1116" started-at="2018-02-05T12:36:48Z" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkPresenseOfAsset" finished-at="2018-02-05T12:36:49Z">
+        <test-method status="PASS" signature="pushCheckboxToDelete()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushCheckboxToDelete" duration-ms="1112" started-at="2018-02-05T13:30:34Z" depends-on-methods="stepDefinition.AddNewActiveTypeCash.checkPresenseOfAsset" finished-at="2018-02-05T13:30:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushCheckboxToDelete -->
-        <test-method status="PASS" signature="pushDeleteButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushDeleteButton" duration-ms="91" started-at="2018-02-05T12:36:49Z" data-provider="pushDeleteButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushCheckboxToDelete" finished-at="2018-02-05T12:36:49Z">
+        <test-method status="PASS" signature="pushDeleteButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushDeleteButton" duration-ms="107" started-at="2018-02-05T13:30:35Z" data-provider="pushDeleteButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushCheckboxToDelete" finished-at="2018-02-05T13:30:35Z">
           <params>
             <param index="0">
               <value>
@@ -1230,11 +1230,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushDeleteButton -->
-        <test-method status="PASS" signature="pushYesButton()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushYesButton" duration-ms="1597" started-at="2018-02-05T12:36:49Z" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushDeleteButton" finished-at="2018-02-05T12:36:50Z">
+        <test-method status="PASS" signature="pushYesButton()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushYesButton" duration-ms="1660" started-at="2018-02-05T13:30:35Z" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushDeleteButton" finished-at="2018-02-05T13:30:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushYesButton -->
-        <test-method status="PASS" signature="pushCloseButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushCloseButton" duration-ms="86" started-at="2018-02-05T12:36:50Z" data-provider="pushCloseButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushYesButton" finished-at="2018-02-05T12:36:50Z">
+        <test-method status="PASS" signature="pushCloseButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushCloseButton" duration-ms="64" started-at="2018-02-05T13:30:37Z" data-provider="pushCloseButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushYesButton" finished-at="2018-02-05T13:30:37Z">
           <params>
             <param index="0">
               <value>
@@ -1245,7 +1245,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushCloseButton -->
-        <test-method status="PASS" signature="pushPreExitButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushPreExitButton" duration-ms="1107" started-at="2018-02-05T12:36:50Z" data-provider="pushPreExitButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushYesButton" finished-at="2018-02-05T12:36:52Z">
+        <test-method status="PASS" signature="pushPreExitButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushPreExitButton" duration-ms="1079" started-at="2018-02-05T13:30:37Z" data-provider="pushPreExitButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushYesButton" finished-at="2018-02-05T13:30:38Z">
           <params>
             <param index="0">
               <value>
@@ -1256,7 +1256,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushPreExitButton -->
-        <test-method status="PASS" signature="pushExitButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="pushExitButton" duration-ms="77" started-at="2018-02-05T12:36:52Z" data-provider="pushExitButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushPreExitButton" finished-at="2018-02-05T12:36:52Z">
+        <test-method status="PASS" signature="pushExitButton(java.lang.String)[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="pushExitButton" duration-ms="65" started-at="2018-02-05T13:30:38Z" data-provider="pushExitButton" depends-on-methods="stepDefinition.AddNewActiveTypeCash.pushPreExitButton" finished-at="2018-02-05T13:30:38Z">
           <params>
             <param index="0">
               <value>
@@ -1267,17 +1267,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushExitButton -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@66ec9390]" name="closeBrowser" is-config="true" duration-ms="703" started-at="2018-02-05T12:37:47Z" finished-at="2018-02-05T12:37:48Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:stepDefinition.AddNewActiveTypeCash@1a35993f]" name="closeBrowser" is-config="true" duration-ms="694" started-at="2018-02-05T13:31:33Z" finished-at="2018-02-05T13:31:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- stepDefinition.AddNewActiveTypeCash -->
       <class name="stepDefinition.AuthentificationInvalidDataTestCase">
-        <test-method status="PASS" signature="waitSecond()[pri:0, instance:stepDefinition.AuthentificationInvalidDataTestCase@35835fa]" name="waitSecond" is-config="true" duration-ms="3021" started-at="2018-02-05T12:37:21Z" finished-at="2018-02-05T12:37:24Z">
+        <test-method status="PASS" signature="waitSecond()[pri:0, instance:stepDefinition.AuthentificationInvalidDataTestCase@6fd1660]" name="waitSecond" is-config="true" duration-ms="3020" started-at="2018-02-05T13:31:07Z" finished-at="2018-02-05T13:31:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitSecond -->
-        <test-method status="PASS" signature="checkPageName(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationInvalidDataTestCase@35835fa]" name="checkPageName" duration-ms="82" started-at="2018-02-05T12:37:24Z" data-provider="checkPageName" finished-at="2018-02-05T12:37:24Z">
+        <test-method status="PASS" signature="checkPageName(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationInvalidDataTestCase@6fd1660]" name="checkPageName" duration-ms="63" started-at="2018-02-05T13:31:10Z" data-provider="checkPageName" finished-at="2018-02-05T13:31:10Z">
           <params>
             <param index="0">
               <value>
@@ -1288,7 +1288,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPageName -->
-        <test-method status="PASS" signature="userFillsLoginFieldInvalid(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AuthentificationInvalidDataTestCase@35835fa]" name="userFillsLoginFieldInvalid" duration-ms="85" started-at="2018-02-05T12:37:24Z" data-provider="userFillsLoginFieldInvalid" depends-on-methods="helper.InitialSteps.checkPageName" finished-at="2018-02-05T12:37:24Z">
+        <test-method status="PASS" signature="userFillsLoginFieldInvalid(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AuthentificationInvalidDataTestCase@6fd1660]" name="userFillsLoginFieldInvalid" duration-ms="92" started-at="2018-02-05T13:31:10Z" data-provider="userFillsLoginFieldInvalid" depends-on-methods="helper.InitialSteps.checkPageName" finished-at="2018-02-05T13:31:10Z">
           <params>
             <param index="0">
               <value>
@@ -1304,7 +1304,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userFillsLoginFieldInvalid -->
-        <test-method status="PASS" signature="userFillsPasswordFieldInvalid(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AuthentificationInvalidDataTestCase@35835fa]" name="userFillsPasswordFieldInvalid" duration-ms="101" started-at="2018-02-05T12:37:24Z" data-provider="userFillsPasswordFieldInvalid" depends-on-methods="stepDefinition.AuthentificationInvalidDataTestCase.userFillsLoginFieldInvalid" finished-at="2018-02-05T12:37:24Z">
+        <test-method status="PASS" signature="userFillsPasswordFieldInvalid(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AuthentificationInvalidDataTestCase@6fd1660]" name="userFillsPasswordFieldInvalid" duration-ms="101" started-at="2018-02-05T13:31:10Z" data-provider="userFillsPasswordFieldInvalid" depends-on-methods="stepDefinition.AuthentificationInvalidDataTestCase.userFillsLoginFieldInvalid" finished-at="2018-02-05T13:31:10Z">
           <params>
             <param index="0">
               <value>
@@ -1320,7 +1320,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userFillsPasswordFieldInvalid -->
-        <test-method status="PASS" signature="userPushEnterButton(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationInvalidDataTestCase@35835fa]" name="userPushEnterButton" duration-ms="129" started-at="2018-02-05T12:37:24Z" data-provider="userPushEnterButton" depends-on-methods="stepDefinition.AuthentificationInvalidDataTestCase.userFillsPasswordFieldInvalid" finished-at="2018-02-05T12:37:24Z">
+        <test-method status="PASS" signature="userPushEnterButton(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationInvalidDataTestCase@6fd1660]" name="userPushEnterButton" duration-ms="120" started-at="2018-02-05T13:31:10Z" data-provider="userPushEnterButton" depends-on-methods="stepDefinition.AuthentificationInvalidDataTestCase.userFillsPasswordFieldInvalid" finished-at="2018-02-05T13:31:10Z">
           <params>
             <param index="0">
               <value>
@@ -1331,7 +1331,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userPushEnterButton -->
-        <test-method status="PASS" signature="checkWrongLoginOrPassword(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationInvalidDataTestCase@35835fa]" name="checkWrongLoginOrPassword" duration-ms="74" started-at="2018-02-05T12:37:24Z" data-provider="checkWrongLoginOrPassword" depends-on-methods="stepDefinition.AuthentificationInvalidDataTestCase.userPushEnterButton" finished-at="2018-02-05T12:37:24Z">
+        <test-method status="PASS" signature="checkWrongLoginOrPassword(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationInvalidDataTestCase@6fd1660]" name="checkWrongLoginOrPassword" duration-ms="75" started-at="2018-02-05T13:31:10Z" data-provider="checkWrongLoginOrPassword" depends-on-methods="stepDefinition.AuthentificationInvalidDataTestCase.userPushEnterButton" finished-at="2018-02-05T13:31:10Z">
           <params>
             <param index="0">
               <value>
@@ -1344,11 +1344,11 @@
         </test-method> <!-- checkWrongLoginOrPassword -->
       </class> <!-- stepDefinition.AuthentificationInvalidDataTestCase -->
       <class name="stepDefinition.CheckAccountNumberBegins">
-        <test-method status="PASS" signature="waitSecond()[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="waitSecond" is-config="true" duration-ms="3001" started-at="2018-02-05T12:37:31Z" finished-at="2018-02-05T12:37:34Z">
+        <test-method status="PASS" signature="waitSecond()[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="waitSecond" is-config="true" duration-ms="3031" started-at="2018-02-05T13:31:17Z" finished-at="2018-02-05T13:31:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitSecond -->
-        <test-method status="PASS" signature="checkPageName(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="checkPageName" duration-ms="68" started-at="2018-02-05T12:37:34Z" data-provider="checkPageName" finished-at="2018-02-05T12:37:34Z">
+        <test-method status="PASS" signature="checkPageName(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="checkPageName" duration-ms="63" started-at="2018-02-05T13:31:20Z" data-provider="checkPageName" finished-at="2018-02-05T13:31:20Z">
           <params>
             <param index="0">
               <value>
@@ -1359,7 +1359,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPageName -->
-        <test-method status="PASS" signature="userFillsValidLogin(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="userFillsValidLogin" duration-ms="102" started-at="2018-02-05T12:37:34Z" data-provider="userFillsValidLogin" depends-on-methods="helper.InitialSteps.checkPageName" finished-at="2018-02-05T12:37:34Z">
+        <test-method status="PASS" signature="userFillsValidLogin(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="userFillsValidLogin" duration-ms="78" started-at="2018-02-05T13:31:20Z" data-provider="userFillsValidLogin" depends-on-methods="helper.InitialSteps.checkPageName" finished-at="2018-02-05T13:31:20Z">
           <params>
             <param index="0">
               <value>
@@ -1375,7 +1375,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userFillsValidLogin -->
-        <test-method status="PASS" signature="userFillsValidPassword(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="userFillsValidPassword" duration-ms="117" started-at="2018-02-05T12:37:34Z" data-provider="userFillsValidPassword" depends-on-methods="stepDefinition.CheckAccountNumberBegins.userFillsValidLogin" finished-at="2018-02-05T12:37:34Z">
+        <test-method status="PASS" signature="userFillsValidPassword(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="userFillsValidPassword" duration-ms="99" started-at="2018-02-05T13:31:20Z" data-provider="userFillsValidPassword" depends-on-methods="stepDefinition.CheckAccountNumberBegins.userFillsValidLogin" finished-at="2018-02-05T13:31:20Z">
           <params>
             <param index="0">
               <value>
@@ -1391,7 +1391,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userFillsValidPassword -->
-        <test-method status="PASS" signature="userPushEnterButton(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="userPushEnterButton" duration-ms="1741" started-at="2018-02-05T12:37:34Z" data-provider="userPushEnterButton" depends-on-methods="stepDefinition.CheckAccountNumberBegins.userFillsValidPassword" finished-at="2018-02-05T12:37:36Z">
+        <test-method status="PASS" signature="userPushEnterButton(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="userPushEnterButton" duration-ms="1777" started-at="2018-02-05T13:31:20Z" data-provider="userPushEnterButton" depends-on-methods="stepDefinition.CheckAccountNumberBegins.userFillsValidPassword" finished-at="2018-02-05T13:31:22Z">
           <params>
             <param index="0">
               <value>
@@ -1402,7 +1402,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userPushEnterButton -->
-        <test-method status="PASS" signature="checkModalWindowName(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="checkModalWindowName" duration-ms="69" started-at="2018-02-05T12:37:36Z" data-provider="checkModalWindowName" depends-on-methods="stepDefinition.CheckAccountNumberBegins.userPushEnterButton" finished-at="2018-02-05T12:37:36Z">
+        <test-method status="PASS" signature="checkModalWindowName(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="checkModalWindowName" duration-ms="78" started-at="2018-02-05T13:31:22Z" data-provider="checkModalWindowName" depends-on-methods="stepDefinition.CheckAccountNumberBegins.userPushEnterButton" finished-at="2018-02-05T13:31:22Z">
           <params>
             <param index="0">
               <value>
@@ -1413,7 +1413,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkModalWindowName -->
-        <test-method status="PASS" signature="userChooseOrganization(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="userChooseOrganization" duration-ms="69" started-at="2018-02-05T12:37:36Z" data-provider="userChooseOrganization" depends-on-methods="stepDefinition.CheckAccountNumberBegins.checkModalWindowName" finished-at="2018-02-05T12:37:36Z">
+        <test-method status="PASS" signature="userChooseOrganization(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="userChooseOrganization" duration-ms="54" started-at="2018-02-05T13:31:22Z" data-provider="userChooseOrganization" depends-on-methods="stepDefinition.CheckAccountNumberBegins.checkModalWindowName" finished-at="2018-02-05T13:31:22Z">
           <params>
             <param index="0">
               <value>
@@ -1424,7 +1424,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userChooseOrganization -->
-        <test-method status="PASS" signature="pushChooseButton(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="pushChooseButton" duration-ms="78" started-at="2018-02-05T12:37:36Z" data-provider="pushChooseButton" depends-on-methods="stepDefinition.CheckAccountNumberBegins.userChooseOrganization" finished-at="2018-02-05T12:37:36Z">
+        <test-method status="PASS" signature="pushChooseButton(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="pushChooseButton" duration-ms="81" started-at="2018-02-05T13:31:22Z" data-provider="pushChooseButton" depends-on-methods="stepDefinition.CheckAccountNumberBegins.userChooseOrganization" finished-at="2018-02-05T13:31:22Z">
           <params>
             <param index="0">
               <value>
@@ -1435,7 +1435,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushChooseButton -->
-        <test-method status="PASS" signature="checkLogoName(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="checkLogoName" duration-ms="99" started-at="2018-02-05T12:37:36Z" data-provider="checkLogoName" depends-on-methods="stepDefinition.CheckAccountNumberBegins.pushChooseButton" finished-at="2018-02-05T12:37:36Z">
+        <test-method status="PASS" signature="checkLogoName(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="checkLogoName" duration-ms="85" started-at="2018-02-05T13:31:22Z" data-provider="checkLogoName" depends-on-methods="stepDefinition.CheckAccountNumberBegins.pushChooseButton" finished-at="2018-02-05T13:31:22Z">
           <params>
             <param index="0">
               <value>
@@ -1446,7 +1446,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLogoName -->
-        <test-method status="PASS" signature="checkOrganizationName(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="checkOrganizationName" duration-ms="827" started-at="2018-02-05T12:37:36Z" data-provider="checkOrganizationName" depends-on-methods="stepDefinition.CheckAccountNumberBegins.pushChooseButton" finished-at="2018-02-05T12:37:37Z">
+        <test-method status="PASS" signature="checkOrganizationName(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="checkOrganizationName" duration-ms="344" started-at="2018-02-05T13:31:22Z" data-provider="checkOrganizationName" depends-on-methods="stepDefinition.CheckAccountNumberBegins.pushChooseButton" finished-at="2018-02-05T13:31:23Z">
           <params>
             <param index="0">
               <value>
@@ -1457,7 +1457,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkOrganizationName -->
-        <test-method status="PASS" signature="pushSettingsBar(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="pushSettingsBar" duration-ms="96" started-at="2018-02-05T12:37:37Z" data-provider="pushSettingsBar" depends-on-methods="stepDefinition.CheckAccountNumberBegins.checkOrganizationName" finished-at="2018-02-05T12:37:37Z">
+        <test-method status="PASS" signature="pushSettingsBar(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="pushSettingsBar" duration-ms="562" started-at="2018-02-05T13:31:23Z" data-provider="pushSettingsBar" depends-on-methods="stepDefinition.CheckAccountNumberBegins.checkOrganizationName" finished-at="2018-02-05T13:31:23Z">
           <params>
             <param index="0">
               <value>
@@ -1468,7 +1468,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushSettingsBar -->
-        <test-method status="PASS" signature="pushReferenceBooks(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="pushReferenceBooks" duration-ms="3122" started-at="2018-02-05T12:37:37Z" data-provider="pushReferenceBooks" depends-on-methods="stepDefinition.CheckAccountNumberBegins.pushSettingsBar" finished-at="2018-02-05T12:37:40Z">
+        <test-method status="PASS" signature="pushReferenceBooks(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="pushReferenceBooks" duration-ms="3128" started-at="2018-02-05T13:31:23Z" data-provider="pushReferenceBooks" depends-on-methods="stepDefinition.CheckAccountNumberBegins.pushSettingsBar" finished-at="2018-02-05T13:31:26Z">
           <params>
             <param index="0">
               <value>
@@ -1479,7 +1479,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushReferenceBooks -->
-        <test-method status="PASS" signature="checkDictionaryName(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="checkDictionaryName" duration-ms="1085" started-at="2018-02-05T12:37:40Z" data-provider="pushReferenceBooks" depends-on-methods="stepDefinition.CheckAccountNumberBegins.pushReferenceBooks" finished-at="2018-02-05T12:37:41Z">
+        <test-method status="PASS" signature="checkDictionaryName(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="checkDictionaryName" duration-ms="1087" started-at="2018-02-05T13:31:26Z" data-provider="pushReferenceBooks" depends-on-methods="stepDefinition.CheckAccountNumberBegins.pushReferenceBooks" finished-at="2018-02-05T13:31:27Z">
           <params>
             <param index="0">
               <value>
@@ -1490,15 +1490,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDictionaryName -->
-        <test-method status="PASS" signature="pushAccountNumber()[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="pushAccountNumber" duration-ms="56" started-at="2018-02-05T12:37:41Z" depends-on-methods="stepDefinition.CheckAccountNumberBegins.checkDictionaryName" finished-at="2018-02-05T12:37:41Z">
+        <test-method status="PASS" signature="pushAccountNumber()[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="pushAccountNumber" duration-ms="63" started-at="2018-02-05T13:31:27Z" depends-on-methods="stepDefinition.CheckAccountNumberBegins.checkDictionaryName" finished-at="2018-02-05T13:31:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushAccountNumber -->
-        <test-method status="PASS" signature="pushSearchIcon()[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="pushSearchIcon" duration-ms="4110" started-at="2018-02-05T12:37:41Z" depends-on-methods="stepDefinition.CheckAccountNumberBegins.pushAccountNumber" finished-at="2018-02-05T12:37:45Z">
+        <test-method status="PASS" signature="pushSearchIcon()[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="pushSearchIcon" duration-ms="4122" started-at="2018-02-05T13:31:27Z" depends-on-methods="stepDefinition.CheckAccountNumberBegins.pushAccountNumber" finished-at="2018-02-05T13:31:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushSearchIcon -->
-        <test-method status="PASS" signature="checkSearchWindow(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="checkSearchWindow" duration-ms="94" started-at="2018-02-05T12:37:45Z" data-provider="checkSearchWindow" depends-on-methods="stepDefinition.CheckAccountNumberBegins.pushSearchIcon" finished-at="2018-02-05T12:37:45Z">
+        <test-method status="PASS" signature="checkSearchWindow(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="checkSearchWindow" duration-ms="136" started-at="2018-02-05T13:31:32Z" data-provider="checkSearchWindow" depends-on-methods="stepDefinition.CheckAccountNumberBegins.pushSearchIcon" finished-at="2018-02-05T13:31:32Z">
           <params>
             <param index="0">
               <value>
@@ -1509,7 +1509,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSearchWindow -->
-        <test-method status="PASS" signature="fillsSearchOption(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="fillsSearchOption" duration-ms="124" started-at="2018-02-05T12:37:45Z" data-provider="fillsSearchOption" depends-on-methods="stepDefinition.CheckAccountNumberBegins.checkSearchWindow" finished-at="2018-02-05T12:37:45Z">
+        <test-method status="PASS" signature="fillsSearchOption(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="fillsSearchOption" duration-ms="81" started-at="2018-02-05T13:31:32Z" data-provider="fillsSearchOption" depends-on-methods="stepDefinition.CheckAccountNumberBegins.checkSearchWindow" finished-at="2018-02-05T13:31:32Z">
           <params>
             <param index="0">
               <value>
@@ -1520,7 +1520,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillsSearchOption -->
-        <test-method status="PASS" signature="pushFirstSearchOption(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="pushFirstSearchOption" duration-ms="46" started-at="2018-02-05T12:37:45Z" data-provider="pushFirstSearchOption" depends-on-methods="stepDefinition.CheckAccountNumberBegins.checkSearchWindow" finished-at="2018-02-05T12:37:46Z">
+        <test-method status="PASS" signature="pushFirstSearchOption(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="pushFirstSearchOption" duration-ms="63" started-at="2018-02-05T13:31:32Z" data-provider="pushFirstSearchOption" depends-on-methods="stepDefinition.CheckAccountNumberBegins.checkSearchWindow" finished-at="2018-02-05T13:31:32Z">
           <params>
             <param index="0">
               <value>
@@ -1531,7 +1531,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushFirstSearchOption -->
-        <test-method status="PASS" signature="pushSecondSearchOption(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="pushSecondSearchOption" duration-ms="69" started-at="2018-02-05T12:37:46Z" data-provider="pushSecondSearchOption" depends-on-methods="stepDefinition.CheckAccountNumberBegins.checkSearchWindow" finished-at="2018-02-05T12:37:46Z">
+        <test-method status="PASS" signature="pushSecondSearchOption(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="pushSecondSearchOption" duration-ms="71" started-at="2018-02-05T13:31:32Z" data-provider="pushSecondSearchOption" depends-on-methods="stepDefinition.CheckAccountNumberBegins.checkSearchWindow" finished-at="2018-02-05T13:31:32Z">
           <params>
             <param index="0">
               <value>
@@ -1542,7 +1542,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushSecondSearchOption -->
-        <test-method status="PASS" signature="pushSearchButton(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="pushSearchButton" duration-ms="123" started-at="2018-02-05T12:37:46Z" data-provider="pushSearchButton" depends-on-methods="stepDefinition.CheckAccountNumberBegins.fillsSearchOption, stepDefinition.CheckAccountNumberBegins.pushSecondSearchOption, stepDefinition.CheckAccountNumberBegins.pushFirstSearchOption" finished-at="2018-02-05T12:37:46Z">
+        <test-method status="PASS" signature="pushSearchButton(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="pushSearchButton" duration-ms="118" started-at="2018-02-05T13:31:32Z" data-provider="pushSearchButton" depends-on-methods="stepDefinition.CheckAccountNumberBegins.fillsSearchOption, stepDefinition.CheckAccountNumberBegins.pushSecondSearchOption, stepDefinition.CheckAccountNumberBegins.pushFirstSearchOption" finished-at="2018-02-05T13:31:32Z">
           <params>
             <param index="0">
               <value>
@@ -1553,7 +1553,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushSearchButton -->
-        <test-method status="PASS" signature="checkPresenseOfElements(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="checkPresenseOfElements" duration-ms="1039" started-at="2018-02-05T12:37:46Z" data-provider="checkPresenseOfElements" depends-on-methods="stepDefinition.CheckAccountNumberBegins.pushSearchButton" finished-at="2018-02-05T12:37:47Z">
+        <test-method status="PASS" signature="checkPresenseOfElements(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="checkPresenseOfElements" duration-ms="1054" started-at="2018-02-05T13:31:32Z" data-provider="checkPresenseOfElements" depends-on-methods="stepDefinition.CheckAccountNumberBegins.pushSearchButton" finished-at="2018-02-05T13:31:33Z">
           <params>
             <param index="0">
               <value>
@@ -1564,7 +1564,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPresenseOfElements -->
-        <test-method status="PASS" signature="pushPreExitButton(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="pushPreExitButton" duration-ms="53" started-at="2018-02-05T12:37:47Z" data-provider="pushPreExitButton" depends-on-methods="stepDefinition.CheckAccountNumberBegins.checkPresenseOfElements" finished-at="2018-02-05T12:37:47Z">
+        <test-method status="PASS" signature="pushPreExitButton(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="pushPreExitButton" duration-ms="64" started-at="2018-02-05T13:31:33Z" data-provider="pushPreExitButton" depends-on-methods="stepDefinition.CheckAccountNumberBegins.checkPresenseOfElements" finished-at="2018-02-05T13:31:33Z">
           <params>
             <param index="0">
               <value>
@@ -1575,7 +1575,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushPreExitButton -->
-        <test-method status="PASS" signature="pushExitButton(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@7207cb51]" name="pushExitButton" duration-ms="80" started-at="2018-02-05T12:37:47Z" data-provider="pushExitButton" depends-on-methods="stepDefinition.CheckAccountNumberBegins.pushPreExitButton" finished-at="2018-02-05T12:37:47Z">
+        <test-method status="PASS" signature="pushExitButton(java.lang.String)[pri:0, instance:stepDefinition.CheckAccountNumberBegins@5e8604bf]" name="pushExitButton" duration-ms="82" started-at="2018-02-05T13:31:33Z" data-provider="pushExitButton" depends-on-methods="stepDefinition.CheckAccountNumberBegins.pushPreExitButton" finished-at="2018-02-05T13:31:33Z">
           <params>
             <param index="0">
               <value>
@@ -1588,11 +1588,11 @@
         </test-method> <!-- pushExitButton -->
       </class> <!-- stepDefinition.CheckAccountNumberBegins -->
       <class name="stepDefinition.AuthentificationValidDataTestCase">
-        <test-method status="PASS" signature="waitSecond()[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@56f71edb]" name="waitSecond" is-config="true" duration-ms="3025" started-at="2018-02-05T12:37:24Z" finished-at="2018-02-05T12:37:27Z">
+        <test-method status="PASS" signature="waitSecond()[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@4a6c18ad]" name="waitSecond" is-config="true" duration-ms="3036" started-at="2018-02-05T13:31:10Z" finished-at="2018-02-05T13:31:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitSecond -->
-        <test-method status="PASS" signature="checkPageName(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@56f71edb]" name="checkPageName" duration-ms="67" started-at="2018-02-05T12:37:27Z" data-provider="checkPageName" finished-at="2018-02-05T12:37:27Z">
+        <test-method status="PASS" signature="checkPageName(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@4a6c18ad]" name="checkPageName" duration-ms="62" started-at="2018-02-05T13:31:13Z" data-provider="checkPageName" finished-at="2018-02-05T13:31:13Z">
           <params>
             <param index="0">
               <value>
@@ -1603,7 +1603,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPageName -->
-        <test-method status="PASS" signature="userFillsValidLogin(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@56f71edb]" name="userFillsValidLogin" duration-ms="92" started-at="2018-02-05T12:37:27Z" data-provider="userFillsValidLogin" depends-on-methods="helper.InitialSteps.checkPageName" finished-at="2018-02-05T12:37:27Z">
+        <test-method status="PASS" signature="userFillsValidLogin(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@4a6c18ad]" name="userFillsValidLogin" duration-ms="84" started-at="2018-02-05T13:31:13Z" data-provider="userFillsValidLogin" depends-on-methods="helper.InitialSteps.checkPageName" finished-at="2018-02-05T13:31:14Z">
           <params>
             <param index="0">
               <value>
@@ -1619,7 +1619,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userFillsValidLogin -->
-        <test-method status="PASS" signature="userFillsValidPassword(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@56f71edb]" name="userFillsValidPassword" duration-ms="100" started-at="2018-02-05T12:37:27Z" data-provider="userFillsValidPassword" depends-on-methods="stepDefinition.AuthentificationValidDataTestCase.userFillsValidLogin" finished-at="2018-02-05T12:37:27Z">
+        <test-method status="PASS" signature="userFillsValidPassword(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@4a6c18ad]" name="userFillsValidPassword" duration-ms="103" started-at="2018-02-05T13:31:14Z" data-provider="userFillsValidPassword" depends-on-methods="stepDefinition.AuthentificationValidDataTestCase.userFillsValidLogin" finished-at="2018-02-05T13:31:14Z">
           <params>
             <param index="0">
               <value>
@@ -1635,7 +1635,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userFillsValidPassword -->
-        <test-method status="PASS" signature="userPushEnterButton(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@56f71edb]" name="userPushEnterButton" duration-ms="1882" started-at="2018-02-05T12:37:27Z" data-provider="userPushEnterButton" depends-on-methods="stepDefinition.AuthentificationValidDataTestCase.userFillsValidPassword" finished-at="2018-02-05T12:37:29Z">
+        <test-method status="PASS" signature="userPushEnterButton(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@4a6c18ad]" name="userPushEnterButton" duration-ms="1933" started-at="2018-02-05T13:31:14Z" data-provider="userPushEnterButton" depends-on-methods="stepDefinition.AuthentificationValidDataTestCase.userFillsValidPassword" finished-at="2018-02-05T13:31:16Z">
           <params>
             <param index="0">
               <value>
@@ -1646,7 +1646,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userPushEnterButton -->
-        <test-method status="PASS" signature="checkModalWindowName(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@56f71edb]" name="checkModalWindowName" duration-ms="76" started-at="2018-02-05T12:37:29Z" data-provider="checkModalWindowName" depends-on-methods="stepDefinition.AuthentificationValidDataTestCase.userPushEnterButton" finished-at="2018-02-05T12:37:29Z">
+        <test-method status="PASS" signature="checkModalWindowName(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@4a6c18ad]" name="checkModalWindowName" duration-ms="78" started-at="2018-02-05T13:31:16Z" data-provider="checkModalWindowName" depends-on-methods="stepDefinition.AuthentificationValidDataTestCase.userPushEnterButton" finished-at="2018-02-05T13:31:16Z">
           <params>
             <param index="0">
               <value>
@@ -1657,7 +1657,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkModalWindowName -->
-        <test-method status="PASS" signature="userChooseOrganization(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@56f71edb]" name="userChooseOrganization" duration-ms="83" started-at="2018-02-05T12:37:29Z" data-provider="userChooseOrganization" depends-on-methods="stepDefinition.AuthentificationValidDataTestCase.checkModalWindowName" finished-at="2018-02-05T12:37:29Z">
+        <test-method status="PASS" signature="userChooseOrganization(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@4a6c18ad]" name="userChooseOrganization" duration-ms="68" started-at="2018-02-05T13:31:16Z" data-provider="userChooseOrganization" depends-on-methods="stepDefinition.AuthentificationValidDataTestCase.checkModalWindowName" finished-at="2018-02-05T13:31:16Z">
           <params>
             <param index="0">
               <value>
@@ -1668,7 +1668,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userChooseOrganization -->
-        <test-method status="PASS" signature="pushChooseButton(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@56f71edb]" name="pushChooseButton" duration-ms="82" started-at="2018-02-05T12:37:29Z" data-provider="pushChooseButton" depends-on-methods="stepDefinition.AuthentificationValidDataTestCase.userChooseOrganization" finished-at="2018-02-05T12:37:29Z">
+        <test-method status="PASS" signature="pushChooseButton(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@4a6c18ad]" name="pushChooseButton" duration-ms="79" started-at="2018-02-05T13:31:16Z" data-provider="pushChooseButton" depends-on-methods="stepDefinition.AuthentificationValidDataTestCase.userChooseOrganization" finished-at="2018-02-05T13:31:16Z">
           <params>
             <param index="0">
               <value>
@@ -1679,7 +1679,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushChooseButton -->
-        <test-method status="PASS" signature="checkLogoName(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@56f71edb]" name="checkLogoName" duration-ms="109" started-at="2018-02-05T12:37:29Z" data-provider="checkLogoName" depends-on-methods="stepDefinition.AuthentificationValidDataTestCase.pushChooseButton" finished-at="2018-02-05T12:37:30Z">
+        <test-method status="PASS" signature="checkLogoName(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@4a6c18ad]" name="checkLogoName" duration-ms="106" started-at="2018-02-05T13:31:16Z" data-provider="checkLogoName" depends-on-methods="stepDefinition.AuthentificationValidDataTestCase.pushChooseButton" finished-at="2018-02-05T13:31:16Z">
           <params>
             <param index="0">
               <value>
@@ -1690,7 +1690,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLogoName -->
-        <test-method status="PASS" signature="checkOrganizationName(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@56f71edb]" name="checkOrganizationName" duration-ms="810" started-at="2018-02-05T12:37:30Z" data-provider="checkOrganizationName" depends-on-methods="stepDefinition.AuthentificationValidDataTestCase.pushChooseButton" finished-at="2018-02-05T12:37:30Z">
+        <test-method status="PASS" signature="checkOrganizationName(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@4a6c18ad]" name="checkOrganizationName" duration-ms="825" started-at="2018-02-05T13:31:16Z" data-provider="checkOrganizationName" depends-on-methods="stepDefinition.AuthentificationValidDataTestCase.pushChooseButton" finished-at="2018-02-05T13:31:17Z">
           <params>
             <param index="0">
               <value>
@@ -1701,7 +1701,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkOrganizationName -->
-        <test-method status="PASS" signature="pushPreExitButton(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@56f71edb]" name="pushPreExitButton" duration-ms="97" started-at="2018-02-05T12:37:30Z" data-provider="pushPreExitButton" depends-on-methods="stepDefinition.AuthentificationValidDataTestCase.pushChooseButton" finished-at="2018-02-05T12:37:30Z">
+        <test-method status="PASS" signature="pushPreExitButton(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@4a6c18ad]" name="pushPreExitButton" duration-ms="100" started-at="2018-02-05T13:31:17Z" data-provider="pushPreExitButton" depends-on-methods="stepDefinition.AuthentificationValidDataTestCase.pushChooseButton" finished-at="2018-02-05T13:31:17Z">
           <params>
             <param index="0">
               <value>
@@ -1712,7 +1712,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pushPreExitButton -->
-        <test-method status="PASS" signature="pushExitButton(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@56f71edb]" name="pushExitButton" duration-ms="110" started-at="2018-02-05T12:37:30Z" data-provider="pushExitButton" depends-on-methods="stepDefinition.AuthentificationValidDataTestCase.pushPreExitButton" finished-at="2018-02-05T12:37:31Z">
+        <test-method status="PASS" signature="pushExitButton(java.lang.String)[pri:0, instance:stepDefinition.AuthentificationValidDataTestCase@4a6c18ad]" name="pushExitButton" duration-ms="113" started-at="2018-02-05T13:31:17Z" data-provider="pushExitButton" depends-on-methods="stepDefinition.AuthentificationValidDataTestCase.pushPreExitButton" finished-at="2018-02-05T13:31:17Z">
           <params>
             <param index="0">
               <value>

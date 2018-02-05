@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="111.932" tests="151" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="108.369" tests="151" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\USER~1.INV\AppData\Local\Temp\surefire1722277775363909141\surefirebooter6370475994250093364.jar C:\Users\user.inv5423-pc\AppData\Local\Temp\surefire1722277775363909141 2018-02-05T12-35-54_792-jvmRun1 surefire3546741597584226011tmp surefire_03422599763519889324tmp"/>
+    <property name="sun.java.command" value="C:\Users\USER~1.INV\AppData\Local\Temp\surefire7992969161214799522\surefirebooter8920460786884678993.jar C:\Users\user.inv5423-pc\AppData\Local\Temp\surefire7992969161214799522 2018-02-05T13-29-44_685-jvmRun1 surefire5177295876041275116tmp surefire_06982671329952511465tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\user.inv5423-pc\Desktop\Smirnov Kirill\Initial1\target\test-classes;C:\Users\user.inv5423-pc\Desktop\Smirnov Kirill\Initial1\target\classes;C:\Users\user.inv5423-pc\.m2\repository\org\seleniumhq\selenium\selenium-java\3.8.1\selenium-java-3.8.1.jar;C:\Users\user.inv5423-pc\.m2\repository\org\seleniumhq\selenium\selenium-api\3.8.1\selenium-api-3.8.1.jar;C:\Users\user.inv5423-pc\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.8.1\selenium-chrome-driver-3.8.1.jar;C:\Users\user.inv5423-pc\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.8.1\selenium-edge-driver-3.8.1.jar;C:\Users\user.inv5423-pc\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.8.1\selenium-firefox-driver-3.8.1.jar;C:\Users\user.inv5423-pc\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.8.1\selenium-ie-driver-3.8.1.jar;C:\Users\user.inv5423-pc\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.8.1\selenium-opera-driver-3.8.1.jar;C:\Users\user.inv5423-pc\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.8.1\selenium-remote-driver-3.8.1.jar;C:\Users\user.inv5423-pc\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.8.1\selenium-safari-driver-3.8.1.jar;C:\Users\user.inv5423-pc\.m2\repository\org\seleniumhq\selenium\selenium-support\3.8.1\selenium-support-3.8.1.jar;C:\Users\user.inv5423-pc\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\user.inv5423-pc\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\user.inv5423-pc\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\user.inv5423-pc\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\user.inv5423-pc\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\user.inv5423-pc\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\user.inv5423-pc\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\user.inv5423-pc\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\user.inv5423-pc\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\user.inv5423-pc\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\user.inv5423-pc\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\user.inv5423-pc\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\user.inv5423-pc\.m2\repository\org\testng\testng\6.13.1\testng-6.13.1.jar;C:\Users\user.inv5423-pc\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\user.inv5423-pc\.m2\repository\ru\yandex\qatools\allure\allure-testng-adaptor\1.5.4\allure-testng-adaptor-1.5.4.jar;C:\Users\user.inv5423-pc\.m2\repository\ru\yandex\qatools\allure\allure-java-aspects\1.5.4\allure-java-aspects-1.5.4.jar;C:\Users\user.inv5423-pc\.m2\repository\ru\yandex\qatools\allure\allure-java-adaptor-api\1.5.4\allure-java-adaptor-api-1.5.4.jar;C:\Users\user.inv5423-pc\.m2\repository\ru\yandex\qatools\allure\allure-java-annotations\1.5.4\allure-java-annotations-1.5.4.jar;C:\Users\user.inv5423-pc\.m2\repository\ru\yandex\qatools\allure\allure-model\1.5.4\allure-model-1.5.4.jar;C:\Users\user.inv5423-pc\.m2\repository\org\jvnet\jaxb2_commons\jaxb2-basics-runtime\0.9.3\jaxb2-basics-runtime-0.9.3.jar;C:\Users\user.inv5423-pc\.m2\repository\ru\qatools\commons\properties\2.0.RC5\properties-2.0.RC5.jar;C:\Users\user.inv5423-pc\.m2\repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar;C:\Users\user.inv5423-pc\.m2\repository\org\apache\tika\tika-core\1.7\tika-core-1.7.jar;C:\Users\user.inv5423-pc\.m2\repository\org\aspectj\aspectjrt\1.8.3\aspectjrt-1.8.3.jar;C:\Users\user.inv5423-pc\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\user.inv5423-pc\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\user.inv5423-pc"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\USER~1.INV\AppData\Local\Temp\surefire1722277775363909141\surefirebooter6370475994250093364.jar;C:\Users\user.inv5423-pc\.m2\repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\USER~1.INV\AppData\Local\Temp\surefire7992969161214799522\surefirebooter8920460786884678993.jar;C:\Users\user.inv5423-pc\.m2\repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_102\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -46,13 +46,14 @@
     <property name="localRepository" value="C:\Users\user.inv5423-pc\.m2\repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\USER~1.INV\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2016.2.4"/>
     <property name="java.version" value="1.8.0_102"/>
     <property name="user.dir" value="C:\Users\user.inv5423-pc\Desktop\Smirnov Kirill\Initial1"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\user.inv5423-pc\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN_HOME/bin;C:\Program Files\Java\jdk1.8.0_102/bin;C:\Program Files\Java\jdk1.8.0_102/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\PICT\;C:\Users\user.inv5423-pc\Downloads\allure1-1.5.4\allure1-1.5.4;C:\Program Files\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files (x86)\Google\Chrome\Application;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\PICT\;C:\Users\user.inv5423-pc\Downloads\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Users\user.inv5423-pc\Downloads\allure1-1.5.4\allure1-1.5.4;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\PICT\;C:\Users\user.inv5423-pc\Downloads\allure1-1.5.4\allure1-1.5.4;C:\Program Files\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files (x86)\Google\Chrome\Application;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\PICT\;C:\Users\user.inv5423-pc\Downloads\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Users\user.inv5423-pc\Downloads\allure1-1.5.4\allure1-1.5.4;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.102-b14"/>
@@ -60,155 +61,155 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="checkPageName" classname="stepDefinition.AddNewActiveTypeCash" time="0.192"/>
-  <testcase name="userFillsValidLogin" classname="stepDefinition.AddNewActiveTypeCash" time="0.12"/>
-  <testcase name="userFillsValidPassword" classname="stepDefinition.AddNewActiveTypeCash" time="0.114"/>
-  <testcase name="userPushEnterButton" classname="stepDefinition.AddNewActiveTypeCash" time="2.693"/>
-  <testcase name="checkModalWindowName" classname="stepDefinition.AddNewActiveTypeCash" time="0.112"/>
-  <testcase name="userChooseOrganization" classname="stepDefinition.AddNewActiveTypeCash" time="0.105"/>
-  <testcase name="pushChooseButton" classname="stepDefinition.AddNewActiveTypeCash" time="0.1"/>
-  <testcase name="checkLogoName" classname="stepDefinition.AddNewActiveTypeCash" time="0.145"/>
-  <testcase name="checkOrganizationName" classname="stepDefinition.AddNewActiveTypeCash" time="1.006"/>
-  <testcase name="pushSettingsBar" classname="stepDefinition.AddNewActiveTypeCash" time="0.088"/>
-  <testcase name="pushReferenceBooks" classname="stepDefinition.AddNewActiveTypeCash" time="4.521"/>
-  <testcase name="checkDictionaryName" classname="stepDefinition.AddNewActiveTypeCash" time="1.299"/>
-  <testcase name="pushAccountNumber" classname="stepDefinition.AddNewActiveTypeCash" time="0.193"/>
-  <testcase name="pushSearchIcon" classname="stepDefinition.AddNewActiveTypeCash" time="4.122"/>
-  <testcase name="checkSearchWindow" classname="stepDefinition.AddNewActiveTypeCash" time="0.091"/>
-  <testcase name="pushFirstSearchOption" classname="stepDefinition.AddNewActiveTypeCash" time="0.06"/>
-  <testcase name="pushSecondSearchOption" classname="stepDefinition.AddNewActiveTypeCash" time="0.062"/>
-  <testcase name="fillsSearchOption" classname="stepDefinition.AddNewActiveTypeCash" time="0.191"/>
-  <testcase name="pushSearchButton" classname="stepDefinition.AddNewActiveTypeCash" time="0.165"/>
-  <testcase name="checkPresenseOfElements" classname="stepDefinition.AddNewActiveTypeCash" time="1.032"/>
-  <testcase name="pushCollectionAndMaintenanceofData" classname="stepDefinition.AddNewActiveTypeCash" time="1.069"/>
-  <testcase name="pushAssetList" classname="stepDefinition.AddNewActiveTypeCash" time="0.115"/>
-  <testcase name="checkAssetListName" classname="stepDefinition.AddNewActiveTypeCash" time="1.084"/>
-  <testcase name="pushCreateButton" classname="stepDefinition.AddNewActiveTypeCash" time="0.074"/>
-  <testcase name="checkAssetFunctionalType" classname="stepDefinition.AddNewActiveTypeCash" time="0.168"/>
-  <testcase name="checkAssetListFirstStep" classname="stepDefinition.AddNewActiveTypeCash" time="0.088"/>
-  <testcase name="checkAssetType" classname="stepDefinition.AddNewActiveTypeCash" time="0.054"/>
-  <testcase name="checkFOName" classname="stepDefinition.AddNewActiveTypeCash" time="0.044"/>
-  <testcase name="checkSelectOrg" classname="stepDefinition.AddNewActiveTypeCash" time="0.037"/>
-  <testcase name="pushAssetFunctionalType" classname="stepDefinition.AddNewActiveTypeCash" time="0.078"/>
-  <testcase name="pushContinueButton" classname="stepDefinition.AddNewActiveTypeCash" time="0.112"/>
-  <testcase name="checkAssetListSecondStep" classname="stepDefinition.AddNewActiveTypeCash" time="1.134"/>
-  <testcase name="checkAssetConnectionName" classname="stepDefinition.AddNewActiveTypeCash" time="0.07"/>
-  <testcase name="checkInventoryName" classname="stepDefinition.AddNewActiveTypeCash" time="0.049"/>
-  <testcase name="checkMainAssetLinks" classname="stepDefinition.AddNewActiveTypeCash" time="0.903"/>
-  <testcase name="userFillsAccountNumber" classname="stepDefinition.AddNewActiveTypeCash" time="1.438"/>
-  <testcase name="userFillsAssetName" classname="stepDefinition.AddNewActiveTypeCash" time="0.475"/>
-  <testcase name="userFillsBalanceInitial" classname="stepDefinition.AddNewActiveTypeCash" time="0.29"/>
-  <testcase name="checkCurrency" classname="stepDefinition.AddNewActiveTypeCash" time="4.141"/>
-  <testcase name="checkBalanceInitialCurrency" classname="stepDefinition.AddNewActiveTypeCash" time="0.048"/>
-  <testcase name="checkCurrentBalanceName" classname="stepDefinition.AddNewActiveTypeCash" time="0.058"/>
-  <testcase name="pushReceivingButton" classname="stepDefinition.AddNewActiveTypeCash" time="0.108"/>
-  <testcase name="checkCurrentBalanceCurrency" classname="stepDefinition.AddNewActiveTypeCash" time="0.075"/>
-  <testcase name="userFillsStartDate" classname="stepDefinition.AddNewActiveTypeCash" time="1.345"/>
-  <testcase name="userFillsEndDate" classname="stepDefinition.AddNewActiveTypeCash" time="0.343"/>
-  <testcase name="pushSaveButton" classname="stepDefinition.AddNewActiveTypeCash" time="1.744"/>
-  <testcase name="pushCollectionAndMaintenanceofDataToCheck" classname="stepDefinition.AddNewActiveTypeCash" time="1.096"/>
-  <testcase name="pushAssetListToCheck" classname="stepDefinition.AddNewActiveTypeCash" time="0.2"/>
-  <testcase name="pushSearchIconToCheck" classname="stepDefinition.AddNewActiveTypeCash" time="4.129"/>
-  <testcase name="checkSearchWindowToCheck" classname="stepDefinition.AddNewActiveTypeCash" time="0.097"/>
-  <testcase name="pushFirstSearchOptionToCheck" classname="stepDefinition.AddNewActiveTypeCash" time="0.077"/>
-  <testcase name="pushSecondSearchOptionToCheck" classname="stepDefinition.AddNewActiveTypeCash" time="0.113"/>
-  <testcase name="fillsSearchOptionToCheck" classname="stepDefinition.AddNewActiveTypeCash" time="0.532"/>
-  <testcase name="pushSearchButtonToCheck" classname="stepDefinition.AddNewActiveTypeCash" time="0.508"/>
-  <testcase name="checkPresenseOfAsset" classname="stepDefinition.AddNewActiveTypeCash" time="1.03"/>
-  <testcase name="pushCheckboxToDelete" classname="stepDefinition.AddNewActiveTypeCash" time="1.114"/>
-  <testcase name="pushDeleteButton" classname="stepDefinition.AddNewActiveTypeCash" time="0.091"/>
-  <testcase name="pushYesButton" classname="stepDefinition.AddNewActiveTypeCash" time="1.598"/>
-  <testcase name="pushCloseButton" classname="stepDefinition.AddNewActiveTypeCash" time="0.082"/>
-  <testcase name="pushPreExitButton" classname="stepDefinition.AddNewActiveTypeCash" time="1.106"/>
-  <testcase name="pushExitButton" classname="stepDefinition.AddNewActiveTypeCash" time="0.077"/>
-  <testcase name="checkPageName" classname="stepDefinition.AddNewContractOfStorage" time="0.097"/>
-  <testcase name="userFillsValidLogin" classname="stepDefinition.AddNewContractOfStorage" time="0.085"/>
-  <testcase name="userFillsValidPassword" classname="stepDefinition.AddNewContractOfStorage" time="0.132"/>
-  <testcase name="userPushEnterButton" classname="stepDefinition.AddNewContractOfStorage" time="2.043"/>
-  <testcase name="checkModalWindowName" classname="stepDefinition.AddNewContractOfStorage" time="0.051"/>
-  <testcase name="userChooseOrganization" classname="stepDefinition.AddNewContractOfStorage" time="0.085"/>
-  <testcase name="pushChooseButton" classname="stepDefinition.AddNewContractOfStorage" time="0.08"/>
-  <testcase name="checkLogoName" classname="stepDefinition.AddNewContractOfStorage" time="0.105"/>
-  <testcase name="checkOrganizationName" classname="stepDefinition.AddNewContractOfStorage" time="0.809"/>
-  <testcase name="pushCollectionAndMaintenanceofData" classname="stepDefinition.AddNewContractOfStorage" time="3.089"/>
-  <testcase name="pushDocumentsDLKO" classname="stepDefinition.AddNewContractOfStorage" time="0.109"/>
-  <testcase name="checkDocumentsDLKO" classname="stepDefinition.AddNewContractOfStorage" time="1.174"/>
-  <testcase name="pushSearchIcon" classname="stepDefinition.AddNewContractOfStorage" time="4.097"/>
-  <testcase name="checkSearchWindow" classname="stepDefinition.AddNewContractOfStorage" time="0.091"/>
-  <testcase name="pushFirstSearchOptionForDLKO" classname="stepDefinition.AddNewContractOfStorage" time="0.063"/>
-  <testcase name="pushSecondSearchOptionForDLKO" classname="stepDefinition.AddNewContractOfStorage" time="0.057"/>
-  <testcase name="fillsSearchOptionForDLKO" classname="stepDefinition.AddNewContractOfStorage" time="0.204"/>
-  <testcase name="pushSearchButton" classname="stepDefinition.AddNewContractOfStorage" time="0.157"/>
-  <testcase name="checkPresenseOfElements" classname="stepDefinition.AddNewContractOfStorage" time="1.023"/>
-  <testcase name="pushCheckBox" classname="stepDefinition.AddNewContractOfStorage" time="0.088"/>
-  <testcase name="pushStorageButton" classname="stepDefinition.AddNewContractOfStorage" time="0.088"/>
-  <testcase name="mouseOnCreateDocumentButton" classname="stepDefinition.AddNewContractOfStorage" time="0.066"/>
-  <testcase name="pushDocumentWithBank" classname="stepDefinition.AddNewContractOfStorage" time="0.084"/>
-  <testcase name="checkCreatingStrorageDocumentName" classname="stepDefinition.AddNewContractOfStorage" time="1.062"/>
-  <testcase name="checkFieldsDisabled" classname="stepDefinition.AddNewContractOfStorage" time="0.078"/>
-  <testcase name="checkFirstDisabled" classname="stepDefinition.AddNewContractOfStorage" time="1.016"/>
-  <testcase name="checkSecondDisabled" classname="stepDefinition.AddNewContractOfStorage" time="0.006"/>
-  <testcase name="checkMainStorageDocumentFields" classname="stepDefinition.AddNewContractOfStorage" time="0.609"/>
-  <testcase name="checkBank" classname="stepDefinition.AddNewContractOfStorage" time="0.064"/>
-  <testcase name="checkCheckboxesNames" classname="stepDefinition.AddNewContractOfStorage" time="0.162"/>
-  <testcase name="pushBankName" classname="stepDefinition.AddNewContractOfStorage" time="0.128"/>
-  <testcase name="pushDocumentNumberName" classname="stepDefinition.AddNewContractOfStorage" time="0.206"/>
-  <testcase name="pushDocumentDateName" classname="stepDefinition.AddNewContractOfStorage" time="0.343"/>
-  <testcase name="pushDocumentTimeName" classname="stepDefinition.AddNewContractOfStorage" time="0.286"/>
-  <testcase name="pushTerminateDateName" classname="stepDefinition.AddNewContractOfStorage" time="0.307"/>
-  <testcase name="pushCommentName" classname="stepDefinition.AddNewContractOfStorage" time="0.164"/>
-  <testcase name="pushCheckboxes" classname="stepDefinition.AddNewContractOfStorage" time="0.229"/>
-  <testcase name="pushChooseAdress" classname="stepDefinition.AddNewContractOfStorage" time="0.09"/>
-  <testcase name="checkAddressForm" classname="stepDefinition.AddNewContractOfStorage" time="0.638"/>
-  <testcase name="pushState" classname="stepDefinition.AddNewContractOfStorage" time="0.064"/>
-  <testcase name="fillRegion" classname="stepDefinition.AddNewContractOfStorage" time="0.304"/>
-  <testcase name="fillCity" classname="stepDefinition.AddNewContractOfStorage" time="0.253"/>
-  <testcase name="fillSettlement" classname="stepDefinition.AddNewContractOfStorage" time="0.241"/>
+  <testcase name="checkPageName" classname="stepDefinition.AddNewActiveTypeCash" time="0.118"/>
+  <testcase name="userFillsValidLogin" classname="stepDefinition.AddNewActiveTypeCash" time="0.16"/>
+  <testcase name="userFillsValidPassword" classname="stepDefinition.AddNewActiveTypeCash" time="0.173"/>
+  <testcase name="userPushEnterButton" classname="stepDefinition.AddNewActiveTypeCash" time="2.863"/>
+  <testcase name="checkModalWindowName" classname="stepDefinition.AddNewActiveTypeCash" time="0.093"/>
+  <testcase name="userChooseOrganization" classname="stepDefinition.AddNewActiveTypeCash" time="0.07"/>
+  <testcase name="pushChooseButton" classname="stepDefinition.AddNewActiveTypeCash" time="0.111"/>
+  <testcase name="checkLogoName" classname="stepDefinition.AddNewActiveTypeCash" time="0.129"/>
+  <testcase name="checkOrganizationName" classname="stepDefinition.AddNewActiveTypeCash" time="0.847"/>
+  <testcase name="pushSettingsBar" classname="stepDefinition.AddNewActiveTypeCash" time="0.117"/>
+  <testcase name="pushReferenceBooks" classname="stepDefinition.AddNewActiveTypeCash" time="3.12"/>
+  <testcase name="checkDictionaryName" classname="stepDefinition.AddNewActiveTypeCash" time="1.093"/>
+  <testcase name="pushAccountNumber" classname="stepDefinition.AddNewActiveTypeCash" time="0.032"/>
+  <testcase name="pushSearchIcon" classname="stepDefinition.AddNewActiveTypeCash" time="4.108"/>
+  <testcase name="checkSearchWindow" classname="stepDefinition.AddNewActiveTypeCash" time="0.116"/>
+  <testcase name="pushFirstSearchOption" classname="stepDefinition.AddNewActiveTypeCash" time="0.048"/>
+  <testcase name="pushSecondSearchOption" classname="stepDefinition.AddNewActiveTypeCash" time="0.072"/>
+  <testcase name="fillsSearchOption" classname="stepDefinition.AddNewActiveTypeCash" time="0.105"/>
+  <testcase name="pushSearchButton" classname="stepDefinition.AddNewActiveTypeCash" time="0.141"/>
+  <testcase name="checkPresenseOfElements" classname="stepDefinition.AddNewActiveTypeCash" time="1.069"/>
+  <testcase name="pushCollectionAndMaintenanceofData" classname="stepDefinition.AddNewActiveTypeCash" time="1.073"/>
+  <testcase name="pushAssetList" classname="stepDefinition.AddNewActiveTypeCash" time="0.095"/>
+  <testcase name="checkAssetListName" classname="stepDefinition.AddNewActiveTypeCash" time="1.083"/>
+  <testcase name="pushCreateButton" classname="stepDefinition.AddNewActiveTypeCash" time="0.064"/>
+  <testcase name="checkAssetFunctionalType" classname="stepDefinition.AddNewActiveTypeCash" time="0.16"/>
+  <testcase name="checkAssetListFirstStep" classname="stepDefinition.AddNewActiveTypeCash" time="0.095"/>
+  <testcase name="checkAssetType" classname="stepDefinition.AddNewActiveTypeCash" time="0.074"/>
+  <testcase name="checkFOName" classname="stepDefinition.AddNewActiveTypeCash" time="0.031"/>
+  <testcase name="checkSelectOrg" classname="stepDefinition.AddNewActiveTypeCash" time="0.031"/>
+  <testcase name="pushAssetFunctionalType" classname="stepDefinition.AddNewActiveTypeCash" time="0.048"/>
+  <testcase name="pushContinueButton" classname="stepDefinition.AddNewActiveTypeCash" time="0.1"/>
+  <testcase name="checkAssetListSecondStep" classname="stepDefinition.AddNewActiveTypeCash" time="1.21"/>
+  <testcase name="checkAssetConnectionName" classname="stepDefinition.AddNewActiveTypeCash" time="0.065"/>
+  <testcase name="checkInventoryName" classname="stepDefinition.AddNewActiveTypeCash" time="0.062"/>
+  <testcase name="checkMainAssetLinks" classname="stepDefinition.AddNewActiveTypeCash" time="0.794"/>
+  <testcase name="userFillsAccountNumber" classname="stepDefinition.AddNewActiveTypeCash" time="0.576"/>
+  <testcase name="userFillsAssetName" classname="stepDefinition.AddNewActiveTypeCash" time="1.14"/>
+  <testcase name="userFillsBalanceInitial" classname="stepDefinition.AddNewActiveTypeCash" time="0.33"/>
+  <testcase name="checkCurrency" classname="stepDefinition.AddNewActiveTypeCash" time="4.046"/>
+  <testcase name="checkBalanceInitialCurrency" classname="stepDefinition.AddNewActiveTypeCash" time="0.051"/>
+  <testcase name="checkCurrentBalanceName" classname="stepDefinition.AddNewActiveTypeCash" time="0.063"/>
+  <testcase name="pushReceivingButton" classname="stepDefinition.AddNewActiveTypeCash" time="0.11"/>
+  <testcase name="checkCurrentBalanceCurrency" classname="stepDefinition.AddNewActiveTypeCash" time="0.062"/>
+  <testcase name="userFillsStartDate" classname="stepDefinition.AddNewActiveTypeCash" time="1.358"/>
+  <testcase name="userFillsEndDate" classname="stepDefinition.AddNewActiveTypeCash" time="0.372"/>
+  <testcase name="pushSaveButton" classname="stepDefinition.AddNewActiveTypeCash" time="1.777"/>
+  <testcase name="pushCollectionAndMaintenanceofDataToCheck" classname="stepDefinition.AddNewActiveTypeCash" time="1.093"/>
+  <testcase name="pushAssetListToCheck" classname="stepDefinition.AddNewActiveTypeCash" time="0.173"/>
+  <testcase name="pushSearchIconToCheck" classname="stepDefinition.AddNewActiveTypeCash" time="4.13"/>
+  <testcase name="checkSearchWindowToCheck" classname="stepDefinition.AddNewActiveTypeCash" time="0.116"/>
+  <testcase name="pushFirstSearchOptionToCheck" classname="stepDefinition.AddNewActiveTypeCash" time="0.063"/>
+  <testcase name="pushSecondSearchOptionToCheck" classname="stepDefinition.AddNewActiveTypeCash" time="0.087"/>
+  <testcase name="fillsSearchOptionToCheck" classname="stepDefinition.AddNewActiveTypeCash" time="0.514"/>
+  <testcase name="pushSearchButtonToCheck" classname="stepDefinition.AddNewActiveTypeCash" time="0.46"/>
+  <testcase name="checkPresenseOfAsset" classname="stepDefinition.AddNewActiveTypeCash" time="1.027"/>
+  <testcase name="pushCheckboxToDelete" classname="stepDefinition.AddNewActiveTypeCash" time="1.112"/>
+  <testcase name="pushDeleteButton" classname="stepDefinition.AddNewActiveTypeCash" time="0.096"/>
+  <testcase name="pushYesButton" classname="stepDefinition.AddNewActiveTypeCash" time="1.657"/>
+  <testcase name="pushCloseButton" classname="stepDefinition.AddNewActiveTypeCash" time="0.064"/>
+  <testcase name="pushPreExitButton" classname="stepDefinition.AddNewActiveTypeCash" time="1.079"/>
+  <testcase name="pushExitButton" classname="stepDefinition.AddNewActiveTypeCash" time="0.065"/>
+  <testcase name="checkPageName" classname="stepDefinition.AddNewContractOfStorage" time="0.063"/>
+  <testcase name="userFillsValidLogin" classname="stepDefinition.AddNewContractOfStorage" time="0.114"/>
+  <testcase name="userFillsValidPassword" classname="stepDefinition.AddNewContractOfStorage" time="0.11"/>
+  <testcase name="userPushEnterButton" classname="stepDefinition.AddNewContractOfStorage" time="2.033"/>
+  <testcase name="checkModalWindowName" classname="stepDefinition.AddNewContractOfStorage" time="0.062"/>
+  <testcase name="userChooseOrganization" classname="stepDefinition.AddNewContractOfStorage" time="0.053"/>
+  <testcase name="pushChooseButton" classname="stepDefinition.AddNewContractOfStorage" time="0.081"/>
+  <testcase name="checkLogoName" classname="stepDefinition.AddNewContractOfStorage" time="0.104"/>
+  <testcase name="checkOrganizationName" classname="stepDefinition.AddNewContractOfStorage" time="0.805"/>
+  <testcase name="pushCollectionAndMaintenanceofData" classname="stepDefinition.AddNewContractOfStorage" time="3.138"/>
+  <testcase name="pushDocumentsDLKO" classname="stepDefinition.AddNewContractOfStorage" time="0.089"/>
+  <testcase name="checkDocumentsDLKO" classname="stepDefinition.AddNewContractOfStorage" time="1.066"/>
+  <testcase name="pushSearchIcon" classname="stepDefinition.AddNewContractOfStorage" time="4.1"/>
+  <testcase name="checkSearchWindow" classname="stepDefinition.AddNewContractOfStorage" time="0.111"/>
+  <testcase name="pushFirstSearchOptionForDLKO" classname="stepDefinition.AddNewContractOfStorage" time="0.041"/>
+  <testcase name="pushSecondSearchOptionForDLKO" classname="stepDefinition.AddNewContractOfStorage" time="0.061"/>
+  <testcase name="fillsSearchOptionForDLKO" classname="stepDefinition.AddNewContractOfStorage" time="0.208"/>
+  <testcase name="pushSearchButton" classname="stepDefinition.AddNewContractOfStorage" time="0.153"/>
+  <testcase name="checkPresenseOfElements" classname="stepDefinition.AddNewContractOfStorage" time="1.054"/>
+  <testcase name="pushCheckBox" classname="stepDefinition.AddNewContractOfStorage" time="0.078"/>
+  <testcase name="pushStorageButton" classname="stepDefinition.AddNewContractOfStorage" time="0.083"/>
+  <testcase name="mouseOnCreateDocumentButton" classname="stepDefinition.AddNewContractOfStorage" time="0.081"/>
+  <testcase name="pushDocumentWithBank" classname="stepDefinition.AddNewContractOfStorage" time="0.082"/>
+  <testcase name="checkCreatingStrorageDocumentName" classname="stepDefinition.AddNewContractOfStorage" time="1.063"/>
+  <testcase name="checkFieldsDisabled" classname="stepDefinition.AddNewContractOfStorage" time="0.061"/>
+  <testcase name="checkFirstDisabled" classname="stepDefinition.AddNewContractOfStorage" time="1.027"/>
+  <testcase name="checkSecondDisabled" classname="stepDefinition.AddNewContractOfStorage" time="0.031"/>
+  <testcase name="checkMainStorageDocumentFields" classname="stepDefinition.AddNewContractOfStorage" time="0.591"/>
+  <testcase name="checkBank" classname="stepDefinition.AddNewContractOfStorage" time="0.063"/>
+  <testcase name="checkCheckboxesNames" classname="stepDefinition.AddNewContractOfStorage" time="0.171"/>
+  <testcase name="pushBankName" classname="stepDefinition.AddNewContractOfStorage" time="0.112"/>
+  <testcase name="pushDocumentNumberName" classname="stepDefinition.AddNewContractOfStorage" time="0.219"/>
+  <testcase name="pushDocumentDateName" classname="stepDefinition.AddNewContractOfStorage" time="0.339"/>
+  <testcase name="pushDocumentTimeName" classname="stepDefinition.AddNewContractOfStorage" time="0.278"/>
+  <testcase name="pushTerminateDateName" classname="stepDefinition.AddNewContractOfStorage" time="0.343"/>
+  <testcase name="pushCommentName" classname="stepDefinition.AddNewContractOfStorage" time="0.161"/>
+  <testcase name="pushCheckboxes" classname="stepDefinition.AddNewContractOfStorage" time="0.241"/>
+  <testcase name="pushChooseAdress" classname="stepDefinition.AddNewContractOfStorage" time="0.075"/>
+  <testcase name="checkAddressForm" classname="stepDefinition.AddNewContractOfStorage" time="0.634"/>
+  <testcase name="pushState" classname="stepDefinition.AddNewContractOfStorage" time="0.048"/>
+  <testcase name="fillRegion" classname="stepDefinition.AddNewContractOfStorage" time="0.269"/>
+  <testcase name="fillCity" classname="stepDefinition.AddNewContractOfStorage" time="0.225"/>
+  <testcase name="fillSettlement" classname="stepDefinition.AddNewContractOfStorage" time="0.282"/>
   <testcase name="fillStreet" classname="stepDefinition.AddNewContractOfStorage" time="0.232"/>
-  <testcase name="fillHome" classname="stepDefinition.AddNewContractOfStorage" time="0.131"/>
-  <testcase name="fillIndex" classname="stepDefinition.AddNewContractOfStorage" time="0.195"/>
-  <testcase name="pushSaveButton" classname="stepDefinition.AddNewContractOfStorage" time="0.117"/>
-  <testcase name="pushSaveButtonGlobal" classname="stepDefinition.AddNewContractOfStorage" time="2.491"/>
+  <testcase name="fillHome" classname="stepDefinition.AddNewContractOfStorage" time="0.136"/>
+  <testcase name="fillIndex" classname="stepDefinition.AddNewContractOfStorage" time="0.211"/>
+  <testcase name="pushSaveButton" classname="stepDefinition.AddNewContractOfStorage" time="0.11"/>
+  <testcase name="pushSaveButtonGlobal" classname="stepDefinition.AddNewContractOfStorage" time="2.487"/>
   <testcase name="pushAssetName" classname="stepDefinition.AddNewContractOfStorage" time="1.085"/>
-  <testcase name="checkPresenceOfDocumentByDateAndNumber" classname="stepDefinition.AddNewContractOfStorage" time="0.179"/>
-  <testcase name="pushPreExitButton" classname="stepDefinition.AddNewContractOfStorage" time="1.077"/>
-  <testcase name="pushExitButton" classname="stepDefinition.AddNewContractOfStorage" time="0.118"/>
-  <testcase name="checkPageName" classname="stepDefinition.AuthentificationInvalidDataTestCase" time="0.082"/>
-  <testcase name="userFillsLoginFieldInvalid" classname="stepDefinition.AuthentificationInvalidDataTestCase" time="0.085"/>
-  <testcase name="userFillsPasswordFieldInvalid" classname="stepDefinition.AuthentificationInvalidDataTestCase" time="0.099"/>
-  <testcase name="userPushEnterButton" classname="stepDefinition.AuthentificationInvalidDataTestCase" time="0.128"/>
-  <testcase name="checkWrongLoginOrPassword" classname="stepDefinition.AuthentificationInvalidDataTestCase" time="0.073"/>
-  <testcase name="checkPageName" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.067"/>
-  <testcase name="userFillsValidLogin" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.076"/>
-  <testcase name="userFillsValidPassword" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.1"/>
-  <testcase name="userPushEnterButton" classname="stepDefinition.AuthentificationValidDataTestCase" time="1.88"/>
-  <testcase name="checkModalWindowName" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.075"/>
-  <testcase name="userChooseOrganization" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.081"/>
-  <testcase name="pushChooseButton" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.083"/>
-  <testcase name="checkLogoName" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.107"/>
-  <testcase name="checkOrganizationName" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.81"/>
-  <testcase name="pushPreExitButton" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.091"/>
-  <testcase name="pushExitButton" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.104"/>
-  <testcase name="checkPageName" classname="stepDefinition.CheckAccountNumberBegins" time="0.066"/>
-  <testcase name="userFillsValidLogin" classname="stepDefinition.CheckAccountNumberBegins" time="0.102"/>
-  <testcase name="userFillsValidPassword" classname="stepDefinition.CheckAccountNumberBegins" time="0.116"/>
-  <testcase name="userPushEnterButton" classname="stepDefinition.CheckAccountNumberBegins" time="1.738"/>
-  <testcase name="checkModalWindowName" classname="stepDefinition.CheckAccountNumberBegins" time="0.068"/>
-  <testcase name="userChooseOrganization" classname="stepDefinition.CheckAccountNumberBegins" time="0.069"/>
+  <testcase name="checkPresenceOfDocumentByDateAndNumber" classname="stepDefinition.AddNewContractOfStorage" time="0.178"/>
+  <testcase name="pushPreExitButton" classname="stepDefinition.AddNewContractOfStorage" time="1.089"/>
+  <testcase name="pushExitButton" classname="stepDefinition.AddNewContractOfStorage" time="0.085"/>
+  <testcase name="checkPageName" classname="stepDefinition.AuthentificationInvalidDataTestCase" time="0.079"/>
+  <testcase name="userFillsLoginFieldInvalid" classname="stepDefinition.AuthentificationInvalidDataTestCase" time="0.076"/>
+  <testcase name="userFillsPasswordFieldInvalid" classname="stepDefinition.AuthentificationInvalidDataTestCase" time="0.1"/>
+  <testcase name="userPushEnterButton" classname="stepDefinition.AuthentificationInvalidDataTestCase" time="0.121"/>
+  <testcase name="checkWrongLoginOrPassword" classname="stepDefinition.AuthentificationInvalidDataTestCase" time="0.07"/>
+  <testcase name="checkPageName" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.062"/>
+  <testcase name="userFillsValidLogin" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.084"/>
+  <testcase name="userFillsValidPassword" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.103"/>
+  <testcase name="userPushEnterButton" classname="stepDefinition.AuthentificationValidDataTestCase" time="1.927"/>
+  <testcase name="checkModalWindowName" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.078"/>
+  <testcase name="userChooseOrganization" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.07"/>
+  <testcase name="pushChooseButton" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.076"/>
+  <testcase name="checkLogoName" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.106"/>
+  <testcase name="checkOrganizationName" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.826"/>
+  <testcase name="pushPreExitButton" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.099"/>
+  <testcase name="pushExitButton" classname="stepDefinition.AuthentificationValidDataTestCase" time="0.112"/>
+  <testcase name="checkPageName" classname="stepDefinition.CheckAccountNumberBegins" time="0.063"/>
+  <testcase name="userFillsValidLogin" classname="stepDefinition.CheckAccountNumberBegins" time="0.079"/>
+  <testcase name="userFillsValidPassword" classname="stepDefinition.CheckAccountNumberBegins" time="0.099"/>
+  <testcase name="userPushEnterButton" classname="stepDefinition.CheckAccountNumberBegins" time="1.776"/>
+  <testcase name="checkModalWindowName" classname="stepDefinition.CheckAccountNumberBegins" time="0.078"/>
+  <testcase name="userChooseOrganization" classname="stepDefinition.CheckAccountNumberBegins" time="0.055"/>
   <testcase name="pushChooseButton" classname="stepDefinition.CheckAccountNumberBegins" time="0.079"/>
-  <testcase name="checkLogoName" classname="stepDefinition.CheckAccountNumberBegins" time="0.093"/>
-  <testcase name="checkOrganizationName" classname="stepDefinition.CheckAccountNumberBegins" time="0.826"/>
-  <testcase name="pushSettingsBar" classname="stepDefinition.CheckAccountNumberBegins" time="0.094"/>
-  <testcase name="pushReferenceBooks" classname="stepDefinition.CheckAccountNumberBegins" time="3.121"/>
-  <testcase name="checkDictionaryName" classname="stepDefinition.CheckAccountNumberBegins" time="1.083"/>
-  <testcase name="pushAccountNumber" classname="stepDefinition.CheckAccountNumberBegins" time="0.057"/>
-  <testcase name="pushSearchIcon" classname="stepDefinition.CheckAccountNumberBegins" time="4.107"/>
-  <testcase name="checkSearchWindow" classname="stepDefinition.CheckAccountNumberBegins" time="0.086"/>
-  <testcase name="fillsSearchOption" classname="stepDefinition.CheckAccountNumberBegins" time="0.124"/>
-  <testcase name="pushFirstSearchOption" classname="stepDefinition.CheckAccountNumberBegins" time="0.047"/>
-  <testcase name="pushSecondSearchOption" classname="stepDefinition.CheckAccountNumberBegins" time="0.067"/>
-  <testcase name="pushSearchButton" classname="stepDefinition.CheckAccountNumberBegins" time="0.126"/>
-  <testcase name="checkPresenseOfElements" classname="stepDefinition.CheckAccountNumberBegins" time="1.037"/>
-  <testcase name="pushPreExitButton" classname="stepDefinition.CheckAccountNumberBegins" time="0.053"/>
-  <testcase name="pushExitButton" classname="stepDefinition.CheckAccountNumberBegins" time="0.079"/>
+  <testcase name="checkLogoName" classname="stepDefinition.CheckAccountNumberBegins" time="0.085"/>
+  <testcase name="checkOrganizationName" classname="stepDefinition.CheckAccountNumberBegins" time="0.343"/>
+  <testcase name="pushSettingsBar" classname="stepDefinition.CheckAccountNumberBegins" time="0.562"/>
+  <testcase name="pushReferenceBooks" classname="stepDefinition.CheckAccountNumberBegins" time="3.126"/>
+  <testcase name="checkDictionaryName" classname="stepDefinition.CheckAccountNumberBegins" time="1.086"/>
+  <testcase name="pushAccountNumber" classname="stepDefinition.CheckAccountNumberBegins" time="0.047"/>
+  <testcase name="pushSearchIcon" classname="stepDefinition.CheckAccountNumberBegins" time="4.131"/>
+  <testcase name="checkSearchWindow" classname="stepDefinition.CheckAccountNumberBegins" time="0.125"/>
+  <testcase name="fillsSearchOption" classname="stepDefinition.CheckAccountNumberBegins" time="0.081"/>
+  <testcase name="pushFirstSearchOption" classname="stepDefinition.CheckAccountNumberBegins" time="0.063"/>
+  <testcase name="pushSecondSearchOption" classname="stepDefinition.CheckAccountNumberBegins" time="0.071"/>
+  <testcase name="pushSearchButton" classname="stepDefinition.CheckAccountNumberBegins" time="0.124"/>
+  <testcase name="checkPresenseOfElements" classname="stepDefinition.CheckAccountNumberBegins" time="1.048"/>
+  <testcase name="pushPreExitButton" classname="stepDefinition.CheckAccountNumberBegins" time="0.064"/>
+  <testcase name="pushExitButton" classname="stepDefinition.CheckAccountNumberBegins" time="0.082"/>
 </testsuite>

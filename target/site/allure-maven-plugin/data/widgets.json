@@ -11,9 +11,9 @@
         "broken" : 0
       },
       "time" : {
-        "start" : 1517823368410,
-        "stop" : 1517823467391,
-        "duration" : 98981
+        "start" : 1517826597178,
+        "stop" : 1517826693782,
+        "duration" : 96604
       }
     },
     "defects" : {
@@ -23,7 +23,7 @@
     "xunit" : {
       "totalCount" : 1,
       "items" : [ {
-        "uid" : "a1bfd0f423b4ce0a",
+        "uid" : "1901b36f4287d242",
         "title" : "Surefire suite : Surefire test",
         "statistic" : {
           "total" : 151,
