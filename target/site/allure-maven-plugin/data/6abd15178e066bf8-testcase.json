@@ -1,0 +1,59 @@
+{
+  "uid" : "6abd15178e066bf8",
+  "name" : "pushSecondSearchOptionForDLKO[равно]",
+  "title" : "Push second search option for DLKO [равно]",
+  "time" : {
+    "start" : 1517823427327,
+    "stop" : 1517823427385,
+    "duration" : 58
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "a1bfd0f423b4ce0a",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "testMethod",
+    "value" : "pushSecondSearchOptionForDLKO"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "inv5423-pc"
+  }, {
+    "name" : "thread",
+    "value" : "8904@inv5423-pc.main(1)"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "testClass",
+    "value" : "stepDefinition.AddNewContractOfStorage"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  } ],
+  "parameters" : [ ]
+}

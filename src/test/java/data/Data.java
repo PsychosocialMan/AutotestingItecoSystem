@@ -449,5 +449,106 @@ public class Data {
                 {Options.bank}
         };
     }
+//------------------------------------
+    @DataProvider(name = "pushBankName")
+    public  Object[][] pushBankName(){
+        return new Object[][]{
+                {Options.bankName, Options.bankField}
+        };
+    }
+    @DataProvider(name = "pushDocumentNumberName")
+    public  Object[][] pushDocumentNumberName(){
+        return new Object[][]{
+                {Options.documentNumberName, Options.documentNumberField}
+        };
+    }
+    @DataProvider(name = "pushDocumentDateName")
+    public  Object[][] pushDocumentDateName(){
+        return new Object[][]{
+                {Options.documentDateName, Options.documentDateField}
+        };
+    }
+    @DataProvider(name = "pushDocumentTimeName")
+    public  Object[][] pushDocumentTimeName(){
+        return new Object[][]{
+                {Options.documentTimeName, Options.documentTimeField}
+        };
+    }
+    @DataProvider(name = "pushTerminateDateName")
+    public  Object[][] pushTerminateDateName(){
+        return new Object[][]{
+                {Options.terminateDateName, Options.terminateDateField}
+        };
+    }
+    @DataProvider(name = "pushCommentName")
+    public  Object[][] pushCommentName(){
+        return new Object[][]{
+                {Options.commentName, Options.commentField}
+        };
+    }
+    @DataProvider(name = "pushChooseAdress")
+    public Object[][] pushChooseAdress(){
+        return new Object[][]{
+                {Options.chooseAddress}
+        };
+    }
+
+    @DataProvider(name = "checkAddressForm")
+    public Object[][] checkAddressForm(){
+        return new Object[][]{
+                {Options.addressForm}
+        };
+    }
+
+    @DataProvider(name = "pushState")
+    public Object[][] pushState(){
+        return new Object[][]{
+                {Options.state}
+        };
+    }
+
+    @DataProvider(name = "fillRegion")
+    public Object[][] fillRegion(){
+        return new Object[][]{
+                {Options.regionName, Options.region}
+        };
+    }
+    @DataProvider(name = "fillCity")
+    public Object[][] fillCity(){
+        return new Object[][]{
+                {Options.cityName, Options.city}
+        };
+    }
+    @DataProvider(name = "fillSettlement")
+    public Object[][] fillSettlement(){
+        return new Object[][]{
+                {Options.settlementName, Options.settlement}
+        };
+    }
+    @DataProvider(name = "fillStreet")
+    public Object[][] fillStreet(){
+        return new Object[][]{
+                {Options.streetName, Options.street}
+        };
+    }
+    @DataProvider(name = "fillHome")
+    public Object[][] fillHome(){
+        return new Object[][]{
+                {Options.homeName, Options.home}
+        };
+    }
+    @DataProvider(name = "fillIndex")
+    public Object[][] fillIndex(){
+        return new Object[][]{
+                {Options.indexName, Options.index}
+        };
+    }
+
+    @DataProvider(name= "checkPresenceOfDocumentByDateAndNumber")
+    public Object[][] checkPresenceOfDocumentByDateAndNumber(){
+        return new Object[][]{
+                {Options.documentNumberField, Options.documentDateField}
+        };
+    }
 
 }

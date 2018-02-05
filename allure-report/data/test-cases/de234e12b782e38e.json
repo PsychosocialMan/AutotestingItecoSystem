@@ -1,0 +1,89 @@
+{
+  "uid" : "de234e12b782e38e",
+  "name" : "checkAssetConnectionName[Связи с активами]",
+  "fullName" : "stepDefinition.AddNewActiveTypeCash.checkAssetConnectionName",
+  "historyId" : "ad2c0b9304323675719b34ad65b61e5c",
+  "time" : {
+    "start" : 1517823389118,
+    "stop" : 1517823389174,
+    "duration" : 56
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "inv5423-pc"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "stepDefinition.AddNewActiveTypeCash"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkAssetConnectionName"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "thread",
+    "value" : "8904@inv5423-pc.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "stepDefinition.AddNewActiveTypeCash"
+  }, {
+    "name" : "package",
+    "value" : "stepDefinition.AddNewActiveTypeCash"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "9c4f6fa076ab32c7",
+        "reportUrl" : "nulljob/FIRST/1/allure/#testresult/9c4f6fa076ab32c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1517560060871,
+          "stop" : 1517560060920,
+          "duration" : 49
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "de234e12b782e38e.json",
+  "parameterValues" : [ ]
+}

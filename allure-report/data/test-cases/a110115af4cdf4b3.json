@@ -1,0 +1,89 @@
+{
+  "uid" : "a110115af4cdf4b3",
+  "name" : "pushSearchButton[Найти]",
+  "fullName" : "stepDefinition.CheckAccountNumberBegins.pushSearchButton",
+  "historyId" : "5ffdd86ed11bb1b14fb2400235c9bf08",
+  "time" : {
+    "start" : 1517823466077,
+    "stop" : 1517823466200,
+    "duration" : 123
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "inv5423-pc"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "stepDefinition.CheckAccountNumberBegins"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "testMethod",
+    "value" : "pushSearchButton"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "thread",
+    "value" : "8904@inv5423-pc.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "stepDefinition.CheckAccountNumberBegins"
+  }, {
+    "name" : "package",
+    "value" : "stepDefinition.CheckAccountNumberBegins"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "610a3d77f475d0de",
+        "reportUrl" : "nulljob/FIRST/1/allure/#testresult/610a3d77f475d0de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1517560108938,
+          "stop" : 1517560109070,
+          "duration" : 132
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a110115af4cdf4b3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "126d1e7bbfc45578",
+  "name" : "checkPageName[Вход в систему]",
+  "fullName" : "stepDefinition.AuthentificationValidDataTestCase.checkPageName",
+  "historyId" : "730ec6e57c71fcd15a97e9ca4a212b1d",
+  "time" : {
+    "start" : 1517823447574,
+    "stop" : 1517823447641,
+    "duration" : 67
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "inv5423-pc"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "stepDefinition.AuthentificationValidDataTestCase"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkPageName"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "thread",
+    "value" : "8904@inv5423-pc.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "stepDefinition.AuthentificationValidDataTestCase"
+  }, {
+    "name" : "package",
+    "value" : "stepDefinition.AuthentificationValidDataTestCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e42e5d06586f4201",
+        "reportUrl" : "nulljob/FIRST/1/allure/#testresult/e42e5d06586f4201",
+        "status" : "passed",
+        "time" : {
+          "start" : 1517560090241,
+          "stop" : 1517560090305,
+          "duration" : 64
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "126d1e7bbfc45578.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,69 @@
+{
+  "uid" : "e337efd2a18a873f",
+  "name" : "pushSecondSearchOptionForDLKO[равно]",
+  "fullName" : "stepDefinition.AddNewContractOfStorage.pushSecondSearchOptionForDLKO",
+  "historyId" : "2edd5416e90927208aeb0b3a3d21e00e",
+  "time" : {
+    "start" : 1517823427327,
+    "stop" : 1517823427385,
+    "duration" : 58
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "inv5423-pc"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "stepDefinition.AddNewContractOfStorage"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "testMethod",
+    "value" : "pushSecondSearchOptionForDLKO"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "thread",
+    "value" : "8904@inv5423-pc.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "stepDefinition.AddNewContractOfStorage"
+  }, {
+    "name" : "package",
+    "value" : "stepDefinition.AddNewContractOfStorage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e337efd2a18a873f.json",
+  "parameterValues" : [ ]
+}

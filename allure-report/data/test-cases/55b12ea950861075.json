@@ -1,0 +1,89 @@
+{
+  "uid" : "55b12ea950861075",
+  "name" : "checkWrongLoginOrPassword[Неверное имя пользователя или пароль.]",
+  "fullName" : "stepDefinition.AuthentificationInvalidDataTestCase.checkWrongLoginOrPassword",
+  "historyId" : "c0cc0d6d27444bfa18632c805c87c5c9",
+  "time" : {
+    "start" : 1517823444475,
+    "stop" : 1517823444548,
+    "duration" : 73
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "inv5423-pc"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "stepDefinition.AuthentificationInvalidDataTestCase"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkWrongLoginOrPassword"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "thread",
+    "value" : "8904@inv5423-pc.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "stepDefinition.AuthentificationInvalidDataTestCase"
+  }, {
+    "name" : "package",
+    "value" : "stepDefinition.AuthentificationInvalidDataTestCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "9c4b6aaed406c36f",
+        "reportUrl" : "nulljob/FIRST/1/allure/#testresult/9c4b6aaed406c36f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1517560087162,
+          "stop" : 1517560087238,
+          "duration" : 76
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "55b12ea950861075.json",
+  "parameterValues" : [ ]
+}

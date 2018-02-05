@@ -1,0 +1,69 @@
+{
+  "uid" : "58d861e1f8a55f2",
+  "name" : "pushChooseAdress[Выбрать адрес]",
+  "fullName" : "stepDefinition.AddNewContractOfStorage.pushChooseAdress",
+  "historyId" : "c805452b733dc0fcc8016fda96ea6a96",
+  "time" : {
+    "start" : 1517823433804,
+    "stop" : 1517823433893,
+    "duration" : 89
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "inv5423-pc"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "stepDefinition.AddNewContractOfStorage"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "testMethod",
+    "value" : "pushChooseAdress"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "thread",
+    "value" : "8904@inv5423-pc.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "stepDefinition.AddNewContractOfStorage"
+  }, {
+    "name" : "package",
+    "value" : "stepDefinition.AddNewContractOfStorage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "58d861e1f8a55f2.json",
+  "parameterValues" : [ ]
+}

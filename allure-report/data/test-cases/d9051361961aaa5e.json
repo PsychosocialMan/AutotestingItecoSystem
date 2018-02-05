@@ -1,0 +1,69 @@
+{
+  "uid" : "d9051361961aaa5e",
+  "name" : "checkCheckboxesNames[[Ljava.lang.String;@2eb91767]",
+  "fullName" : "stepDefinition.AddNewContractOfStorage.checkCheckboxesNames",
+  "historyId" : "b8058eca1ed717d38d1aece912c9676e",
+  "time" : {
+    "start" : 1517823431957,
+    "stop" : 1517823432119,
+    "duration" : 162
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "inv5423-pc"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "stepDefinition.AddNewContractOfStorage"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkCheckboxesNames"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "thread",
+    "value" : "8904@inv5423-pc.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "stepDefinition.AddNewContractOfStorage"
+  }, {
+    "name" : "package",
+    "value" : "stepDefinition.AddNewContractOfStorage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9051361961aaa5e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "ad3ae002e02fe5cc",
+  "name" : "pushCollectionAndMaintenanceofDataToCheck[Сбор и ведение данных]",
+  "fullName" : "stepDefinition.AddNewActiveTypeCash.pushCollectionAndMaintenanceofDataToCheck",
+  "historyId" : "d6c3499f1ef63c8a60c93cd141f8c2f9",
+  "time" : {
+    "start" : 1517823400281,
+    "stop" : 1517823401374,
+    "duration" : 1093
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "inv5423-pc"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "stepDefinition.AddNewActiveTypeCash"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "testMethod",
+    "value" : "pushCollectionAndMaintenanceofDataToCheck"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "thread",
+    "value" : "8904@inv5423-pc.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "stepDefinition.AddNewActiveTypeCash"
+  }, {
+    "name" : "package",
+    "value" : "stepDefinition.AddNewActiveTypeCash"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b2a691648c2aa97c",
+        "reportUrl" : "nulljob/FIRST/1/allure/#testresult/b2a691648c2aa97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1517560071662,
+          "stop" : 1517560072756,
+          "duration" : 1094
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ad3ae002e02fe5cc.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "dc062d4c009b031d",
+  "name" : "fillsSearchOptionToCheck[20202810011223344332]",
+  "fullName" : "stepDefinition.AddNewActiveTypeCash.fillsSearchOptionToCheck",
+  "historyId" : "5654d29a101613a8ee183420144bbdc1",
+  "time" : {
+    "start" : 1517823406016,
+    "stop" : 1517823406550,
+    "duration" : 534
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "inv5423-pc"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "stepDefinition.AddNewActiveTypeCash"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "testMethod",
+    "value" : "fillsSearchOptionToCheck"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "thread",
+    "value" : "8904@inv5423-pc.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "stepDefinition.AddNewActiveTypeCash"
+  }, {
+    "name" : "package",
+    "value" : "stepDefinition.AddNewActiveTypeCash"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d6b0d5882a01413f",
+        "reportUrl" : "nulljob/FIRST/1/allure/#testresult/d6b0d5882a01413f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1517560077335,
+          "stop" : 1517560077922,
+          "duration" : 587
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dc062d4c009b031d.json",
+  "parameterValues" : [ ]
+}

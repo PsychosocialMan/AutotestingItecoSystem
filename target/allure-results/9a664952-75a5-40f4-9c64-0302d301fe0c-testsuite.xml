@@ -1,0 +1,1974 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1517823357608" stop="1517823468142" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Surefire suite : Surefire test</name>
+    <title>Surefire suite : Surefire test</title>
+    <test-cases>
+        <test-case start="1517823368410" stop="1517823368590" status="passed">
+            <name>checkPageName[Вход в систему]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkPageName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823368637" stop="1517823368757" status="passed">
+            <name>userFillsValidLogin[j_username,sua_all]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="userFillsValidLogin"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823368763" stop="1517823368877" status="passed">
+            <name>userFillsValidPassword[j_password,Q1w2e3r4]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="userFillsValidPassword"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823368882" stop="1517823371577" status="passed">
+            <name>userPushEnterButton[Войти]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="userPushEnterButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823371584" stop="1517823371700" status="passed">
+            <name>checkModalWindowName[Выбор финансовой организации]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkModalWindowName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823371700" stop="1517823371803" status="passed">
+            <name>userChooseOrganization[10]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="userChooseOrganization"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823371807" stop="1517823371906" status="passed">
+            <name>pushChooseButton[Выбрать]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushChooseButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823371921" stop="1517823372065" status="passed">
+            <name>checkLogoName[Агентство по страхованию вкладов]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkLogoName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823372070" stop="1517823373078" status="passed">
+            <name>checkOrganizationName[10]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkOrganizationName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823373083" stop="1517823373171" status="passed">
+            <name>pushSettingsBar[Настройка]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushSettingsBar"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823373175" stop="1517823377689" status="passed">
+            <name>pushReferenceBooks[Справочники]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushReferenceBooks"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823377722" stop="1517823379002" status="passed">
+            <name>checkDictionaryName[Справочники]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkDictionaryName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823379023" stop="1517823379220" status="passed">
+            <name>pushAccountNumber</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushAccountNumber"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823379237" stop="1517823383353" status="passed">
+            <name>pushSearchIcon</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushSearchIcon"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823383367" stop="1517823383461" status="passed">
+            <name>checkSearchWindow[Поиск...]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkSearchWindow"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823383465" stop="1517823383528" status="passed">
+            <name>pushFirstSearchOption[Номер счёта 2-го порядка]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushFirstSearchOption"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823383530" stop="1517823383589" status="passed">
+            <name>pushSecondSearchOption[начинается с]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushSecondSearchOption"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823383594" stop="1517823383785" status="passed">
+            <name>fillsSearchOption[202]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="fillsSearchOption"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823383790" stop="1517823383956" status="passed">
+            <name>pushSearchButton[Найти]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushSearchButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823383963" stop="1517823384994" status="passed">
+            <name>checkPresenseOfElements[202]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkPresenseOfElements"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823384997" stop="1517823386070" status="passed">
+            <name>pushCollectionAndMaintenanceofData[Сбор и ведение данных]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushCollectionAndMaintenanceofData"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823386073" stop="1517823386187" status="passed">
+            <name>pushAssetList[Список активов]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushAssetList"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823386195" stop="1517823387280" status="passed">
+            <name>checkAssetListName[Список активов]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkAssetListName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823387280" stop="1517823387352" status="passed">
+            <name>pushCreateButton[Создать]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushCreateButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823387355" stop="1517823387523" status="passed">
+            <name>checkAssetFunctionalType</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkAssetFunctionalType"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823387526" stop="1517823387614" status="passed">
+            <name>checkAssetListFirstStep[Создание актива (первый этап)]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkAssetListFirstStep"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823387616" stop="1517823387671" status="passed">
+            <name>checkAssetType[Тип актива функциональный]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkAssetType"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823387673" stop="1517823387716" status="passed">
+            <name>checkFOName[Наименование ФО]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkFOName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823387718" stop="1517823387753" status="passed">
+            <name>checkSelectOrg</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkSelectOrg"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823387760" stop="1517823387839" status="passed">
+            <name>pushAssetFunctionalType[Денежные средства]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushAssetFunctionalType"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823387843" stop="1517823387954" status="passed">
+            <name>pushContinueButton[Далее]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushContinueButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823387980" stop="1517823389113" status="passed">
+            <name>checkAssetListSecondStep[Создание актива (второй этап)]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkAssetListSecondStep"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823389118" stop="1517823389174" status="passed">
+            <name>checkAssetConnectionName[Связи с активами]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkAssetConnectionName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823389190" stop="1517823389243" status="passed">
+            <name>checkInventoryName[Инвентаризация]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkInventoryName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823389244" stop="1517823390146" status="passed">
+            <name>checkMainAssetLinks[[Ljava.lang.String;@118c1faa]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkMainAssetLinks"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823390151" stop="1517823391587" status="passed">
+            <name>userFillsAccountNumber[accountNum,20202810011223344332]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="userFillsAccountNumber"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823391603" stop="1517823392101" status="passed">
+            <name>userFillsAssetName[name,Тестовый актив]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="userFillsAssetName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823392104" stop="1517823392393" status="passed">
+            <name>userFillsBalanceInitial[balanceInitial,12321]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="userFillsBalanceInitial"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823392397" stop="1517823396540" status="passed">
+            <name>checkCurrency[currency]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkCurrency"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823396541" stop="1517823396589" status="passed">
+            <name>checkBalanceInitialCurrency[balanceInitialCur]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkBalanceInitialCurrency"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823396589" stop="1517823396646" status="passed">
+            <name>checkCurrentBalanceName[balanceInitial,balanceRur]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkCurrentBalanceName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823396649" stop="1517823396754" status="passed">
+            <name>pushReceivingButton[Приём]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushReceivingButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823396761" stop="1517823396839" status="passed">
+            <name>checkCurrentBalanceCurrency[balanceCur]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkCurrentBalanceCurrency"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823396841" stop="1517823398186" status="passed">
+            <name>userFillsStartDate[startDate,05.04.18]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="userFillsStartDate"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823398189" stop="1517823398533" status="passed">
+            <name>userFillsEndDate[endDate,01.12.18]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="userFillsEndDate"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823398535" stop="1517823400278" status="passed">
+            <name>pushSaveButton</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushSaveButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823400281" stop="1517823401374" status="passed">
+            <name>pushCollectionAndMaintenanceofDataToCheck[Сбор и ведение данных]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushCollectionAndMaintenanceofDataToCheck"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823401381" stop="1517823401580" status="passed">
+            <name>pushAssetListToCheck[Список активов]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushAssetListToCheck"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823401588" stop="1517823405717" status="passed">
+            <name>pushSearchIconToCheck</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushSearchIconToCheck"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823405720" stop="1517823405818" status="passed">
+            <name>checkSearchWindowToCheck[Поиск...]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkSearchWindowToCheck"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823405820" stop="1517823405897" status="passed">
+            <name>pushFirstSearchOptionToCheck[Номер лицевого счета]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushFirstSearchOptionToCheck"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823405900" stop="1517823406012" status="passed">
+            <name>pushSecondSearchOptionToCheck[начинается с]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushSecondSearchOptionToCheck"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823406016" stop="1517823406550" status="passed">
+            <name>fillsSearchOptionToCheck[20202810011223344332]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="fillsSearchOptionToCheck"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823406553" stop="1517823407058" status="passed">
+            <name>pushSearchButtonToCheck[Найти]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushSearchButtonToCheck"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823407063" stop="1517823408093" status="passed">
+            <name>checkPresenseOfAsset[20202810011223344332]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="checkPresenseOfAsset"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823408095" stop="1517823409210" status="passed">
+            <name>pushCheckboxToDelete</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushCheckboxToDelete"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823409212" stop="1517823409302" status="passed">
+            <name>pushDeleteButton[Удалить]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushDeleteButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823409304" stop="1517823410900" status="passed">
+            <name>pushYesButton</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushYesButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823410904" stop="1517823410988" status="passed">
+            <name>pushCloseButton[Закрыть]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushCloseButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823410989" stop="1517823412096" status="passed">
+            <name>pushPreExitButton[Права  Все]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushPreExitButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823412096" stop="1517823412173" status="passed">
+            <name>pushExitButton[Выход]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewActiveTypeCash"/>
+                <label name="testMethod" value="pushExitButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823415178" stop="1517823415275" status="passed">
+            <name>checkPageName[Вход в систему]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="checkPageName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823415275" stop="1517823415359" status="passed">
+            <name>userFillsValidLogin[j_username,sua_all]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="userFillsValidLogin"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823415363" stop="1517823415495" status="passed">
+            <name>userFillsValidPassword[j_password,Q1w2e3r4]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="userFillsValidPassword"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823415499" stop="1517823417542" status="passed">
+            <name>userPushEnterButton[Войти]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="userPushEnterButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823417542" stop="1517823417593" status="passed">
+            <name>checkModalWindowName[Выбор финансовой организации]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="checkModalWindowName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823417595" stop="1517823417679" status="passed">
+            <name>userChooseOrganization[10]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="userChooseOrganization"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823417681" stop="1517823417761" status="passed">
+            <name>pushChooseButton[Выбрать]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushChooseButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823417766" stop="1517823417872" status="passed">
+            <name>checkLogoName[Агентство по страхованию вкладов]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="checkLogoName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823417873" stop="1517823418681" status="passed">
+            <name>checkOrganizationName[10]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="checkOrganizationName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823418688" stop="1517823421778" status="passed">
+            <name>pushCollectionAndMaintenanceofData[Сбор и ведение данных]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushCollectionAndMaintenanceofData"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823421780" stop="1517823421889" status="passed">
+            <name>pushDocumentsDLKO[Документы ДЛКО]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushDocumentsDLKO"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823421891" stop="1517823423065" status="passed">
+            <name>checkDocumentsDLKO[Документы ДЛКО]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="checkDocumentsDLKO"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823423068" stop="1517823427164" status="passed">
+            <name>pushSearchIcon</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushSearchIcon"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823427168" stop="1517823427259" status="passed">
+            <name>checkSearchWindow[Поиск...]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="checkSearchWindow"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823427261" stop="1517823427325" status="passed">
+            <name>pushFirstSearchOptionForDLKO[Номер лицевого счёта]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushFirstSearchOptionForDLKO"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823427327" stop="1517823427385" status="passed">
+            <name>pushSecondSearchOptionForDLKO[равно]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushSecondSearchOptionForDLKO"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823427386" stop="1517823427590" status="passed">
+            <name>fillsSearchOptionForDLKO[20202810011223344332]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="fillsSearchOptionForDLKO"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823427593" stop="1517823427748" status="passed">
+            <name>pushSearchButton[Найти]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushSearchButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823427757" stop="1517823428781" status="passed">
+            <name>checkPresenseOfElements[20202810011223344332]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="checkPresenseOfElements"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823428783" stop="1517823428872" status="passed">
+            <name>pushCheckBox</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushCheckBox"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823428876" stop="1517823428964" status="passed">
+            <name>pushStorageButton[Хранение]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushStorageButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823428964" stop="1517823429029" status="passed">
+            <name>mouseOnCreateDocumentButton</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="mouseOnCreateDocumentButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823429031" stop="1517823429115" status="passed">
+            <name>pushDocumentWithBank</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushDocumentWithBank"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823429117" stop="1517823430179" status="passed">
+            <name>checkCreatingStrorageDocumentName[Ввод договора хранения]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="checkCreatingStrorageDocumentName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823430181" stop="1517823430243" status="passed">
+            <name>checkFieldsDisabled</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="checkFieldsDisabled"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823430259" stop="1517823431275" status="passed">
+            <name>checkFirstDisabled[Договор хранения]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="checkFirstDisabled"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823431275" stop="1517823431281" status="passed">
+            <name>checkSecondDisabled[Договор с банком (ответственное хранение)]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="checkSecondDisabled"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823431283" stop="1517823431892" status="passed">
+            <name>checkMainStorageDocumentFields[[Ljava.lang.String;@11a0c708]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="checkMainStorageDocumentFields"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823431892" stop="1517823431955" status="passed">
+            <name>checkBank[Банк]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="checkBank"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823431957" stop="1517823432119" status="passed">
+            <name>checkCheckboxesNames[[Ljava.lang.String;@2eb91767]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="checkCheckboxesNames"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823432121" stop="1517823432250" status="passed">
+            <name>pushBankName[bank,ВТБ]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushBankName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823432252" stop="1517823432458" status="passed">
+            <name>pushDocumentNumberName[documentNumber,88005553535]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushDocumentNumberName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823432460" stop="1517823432803" status="passed">
+            <name>pushDocumentDateName[contractDate,17.02.2018]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushDocumentDateName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823432806" stop="1517823433093" status="passed">
+            <name>pushDocumentTimeName[endDate,13.04.2018]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushDocumentTimeName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823433095" stop="1517823433403" status="passed">
+            <name>pushTerminateDateName[terminatedDate,16.03.2018]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushTerminateDateName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823433406" stop="1517823433571" status="passed">
+            <name>pushCommentName[comment,comment]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushCommentName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823433572" stop="1517823433802" status="passed">
+            <name>pushCheckboxes</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushCheckboxes"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823433804" stop="1517823433893" status="passed">
+            <name>pushChooseAdress[Выбрать адрес]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushChooseAdress"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823433901" stop="1517823434539" status="passed">
+            <name>checkAddressForm[Ввод адреса по КЛАДР]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="checkAddressForm"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823434541" stop="1517823434606" status="passed">
+            <name>pushState[Московская обл.]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushState"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823434607" stop="1517823434912" status="passed">
+            <name>fillRegion[district,Раменский р-н.]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="fillRegion"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823434914" stop="1517823435167" status="passed">
+            <name>fillCity[town,Раменское г.]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="fillCity"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823435169" stop="1517823435409" status="passed">
+            <name>fillSettlement[settlement,Гостица мкр.]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="fillSettlement"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823435411" stop="1517823435643" status="passed">
+            <name>fillStreet[street,Восточная ул.]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="fillStreet"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823435645" stop="1517823435777" status="passed">
+            <name>fillHome[home,15]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="fillHome"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823435780" stop="1517823435975" status="passed">
+            <name>fillIndex[index,140148]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="fillIndex"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823435976" stop="1517823436093" status="passed">
+            <name>pushSaveButton</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushSaveButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823436095" stop="1517823438586" status="passed">
+            <name>pushSaveButtonGlobal</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushSaveButtonGlobal"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823438588" stop="1517823439673" status="passed">
+            <name>pushAssetName[20202810011223344332]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushAssetName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823439675" stop="1517823439854" status="passed">
+            <name>checkPresenceOfDocumentByDateAndNumber[88005553535,17.02.2018]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="checkPresenceOfDocumentByDateAndNumber"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823439857" stop="1517823440934" status="passed">
+            <name>pushPreExitButton[Права  Все]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushPreExitButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823440935" stop="1517823441053" status="passed">
+            <name>pushExitButton[Выход]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AddNewContractOfStorage"/>
+                <label name="testMethod" value="pushExitButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823444074" stop="1517823444156" status="passed">
+            <name>checkPageName[Вход в систему]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AuthentificationInvalidDataTestCase"/>
+                <label name="testMethod" value="checkPageName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823444156" stop="1517823444241" status="passed">
+            <name>userFillsLoginFieldInvalid[j_username,sua_alll]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AuthentificationInvalidDataTestCase"/>
+                <label name="testMethod" value="userFillsLoginFieldInvalid"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823444243" stop="1517823444343" status="passed">
+            <name>userFillsPasswordFieldInvalid[j_password,qwerty]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AuthentificationInvalidDataTestCase"/>
+                <label name="testMethod" value="userFillsPasswordFieldInvalid"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823444345" stop="1517823444473" status="passed">
+            <name>userPushEnterButton[Войти]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AuthentificationInvalidDataTestCase"/>
+                <label name="testMethod" value="userPushEnterButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823444475" stop="1517823444548" status="passed">
+            <name>checkWrongLoginOrPassword[Неверное имя пользователя или пароль.]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AuthentificationInvalidDataTestCase"/>
+                <label name="testMethod" value="checkWrongLoginOrPassword"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823447574" stop="1517823447641" status="passed">
+            <name>checkPageName[Вход в систему]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AuthentificationValidDataTestCase"/>
+                <label name="testMethod" value="checkPageName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823447657" stop="1517823447733" status="passed">
+            <name>userFillsValidLogin[j_username,sua_all]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AuthentificationValidDataTestCase"/>
+                <label name="testMethod" value="userFillsValidLogin"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823447735" stop="1517823447834" status="passed">
+            <name>userFillsValidPassword[j_password,Q1w2e3r4]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AuthentificationValidDataTestCase"/>
+                <label name="testMethod" value="userFillsValidPassword"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823447836" stop="1517823449717" status="passed">
+            <name>userPushEnterButton[Войти]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AuthentificationValidDataTestCase"/>
+                <label name="testMethod" value="userPushEnterButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823449718" stop="1517823449793" status="passed">
+            <name>checkModalWindowName[Выбор финансовой организации]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AuthentificationValidDataTestCase"/>
+                <label name="testMethod" value="checkModalWindowName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823449795" stop="1517823449877" status="passed">
+            <name>userChooseOrganization[10]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AuthentificationValidDataTestCase"/>
+                <label name="testMethod" value="userChooseOrganization"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823449879" stop="1517823449960" status="passed">
+            <name>pushChooseButton[Выбрать]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AuthentificationValidDataTestCase"/>
+                <label name="testMethod" value="pushChooseButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823449963" stop="1517823450070" status="passed">
+            <name>checkLogoName[Агентство по страхованию вкладов]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AuthentificationValidDataTestCase"/>
+                <label name="testMethod" value="checkLogoName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823450072" stop="1517823450881" status="passed">
+            <name>checkOrganizationName[10]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AuthentificationValidDataTestCase"/>
+                <label name="testMethod" value="checkOrganizationName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823450886" stop="1517823450979" status="passed">
+            <name>pushPreExitButton[Права  Все]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AuthentificationValidDataTestCase"/>
+                <label name="testMethod" value="pushPreExitButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823450985" stop="1517823451090" status="passed">
+            <name>pushExitButton[Выход]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.AuthentificationValidDataTestCase"/>
+                <label name="testMethod" value="pushExitButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823454093" stop="1517823454159" status="passed">
+            <name>checkPageName[Вход в систему]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="checkPageName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823454161" stop="1517823454263" status="passed">
+            <name>userFillsValidLogin[j_username,sua_all]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="userFillsValidLogin"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823454264" stop="1517823454380" status="passed">
+            <name>userFillsValidPassword[j_password,Q1w2e3r4]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="userFillsValidPassword"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823454383" stop="1517823456122" status="passed">
+            <name>userPushEnterButton[Войти]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="userPushEnterButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823456124" stop="1517823456192" status="passed">
+            <name>checkModalWindowName[Выбор финансовой организации]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="checkModalWindowName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823456192" stop="1517823456261" status="passed">
+            <name>userChooseOrganization[10]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="userChooseOrganization"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823456263" stop="1517823456340" status="passed">
+            <name>pushChooseButton[Выбрать]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="pushChooseButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823456346" stop="1517823456440" status="passed">
+            <name>checkLogoName[Агентство по страхованию вкладов]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="checkLogoName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823456441" stop="1517823457267" status="passed">
+            <name>checkOrganizationName[10]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="checkOrganizationName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823457270" stop="1517823457364" status="passed">
+            <name>pushSettingsBar[Настройка]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="pushSettingsBar"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823457366" stop="1517823460487" status="passed">
+            <name>pushReferenceBooks[Справочники]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="pushReferenceBooks"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823460489" stop="1517823461573" status="passed">
+            <name>checkDictionaryName[Справочники]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="checkDictionaryName"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823461573" stop="1517823461630" status="passed">
+            <name>pushAccountNumber</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="pushAccountNumber"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823461632" stop="1517823465740" status="passed">
+            <name>pushSearchIcon</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="pushSearchIcon"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823465747" stop="1517823465835" status="passed">
+            <name>checkSearchWindow[Поиск...]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="checkSearchWindow"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823465837" stop="1517823465960" status="passed">
+            <name>fillsSearchOption[202]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="fillsSearchOption"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823465961" stop="1517823466007" status="passed">
+            <name>pushFirstSearchOption[Номер счёта 2-го порядка]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="pushFirstSearchOption"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823466009" stop="1517823466077" status="passed">
+            <name>pushSecondSearchOption[начинается с]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="pushSecondSearchOption"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823466077" stop="1517823466200" status="passed">
+            <name>pushSearchButton[Найти]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="pushSearchButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823466203" stop="1517823467241" status="passed">
+            <name>checkPresenseOfElements[202]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="checkPresenseOfElements"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823467257" stop="1517823467310" status="passed">
+            <name>pushPreExitButton[Права  Все]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="pushPreExitButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517823467312" stop="1517823467391" status="passed">
+            <name>pushExitButton[Выход]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="stepDefinition.CheckAccountNumberBegins"/>
+                <label name="testMethod" value="pushExitButton"/>
+                <label name="host" value="inv5423-pc"/>
+                <label name="thread" value="8904@inv5423-pc.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

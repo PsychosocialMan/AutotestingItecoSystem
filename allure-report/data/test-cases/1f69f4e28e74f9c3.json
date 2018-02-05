@@ -1,0 +1,89 @@
+{
+  "uid" : "1f69f4e28e74f9c3",
+  "name" : "pushFirstSearchOptionToCheck[Номер лицевого счета]",
+  "fullName" : "stepDefinition.AddNewActiveTypeCash.pushFirstSearchOptionToCheck",
+  "historyId" : "47d6430f185a37fd468436ac2142268b",
+  "time" : {
+    "start" : 1517823405820,
+    "stop" : 1517823405897,
+    "duration" : 77
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "inv5423-pc"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "stepDefinition.AddNewActiveTypeCash"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "testMethod",
+    "value" : "pushFirstSearchOptionToCheck"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "thread",
+    "value" : "8904@inv5423-pc.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "stepDefinition.AddNewActiveTypeCash"
+  }, {
+    "name" : "package",
+    "value" : "stepDefinition.AddNewActiveTypeCash"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "555f1467b2d22def",
+        "reportUrl" : "nulljob/FIRST/1/allure/#testresult/555f1467b2d22def",
+        "status" : "passed",
+        "time" : {
+          "start" : 1517560077184,
+          "stop" : 1517560077259,
+          "duration" : 75
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1f69f4e28e74f9c3.json",
+  "parameterValues" : [ ]
+}

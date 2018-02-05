@@ -1,0 +1,1845 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "stepDefinition.AddNewActiveTypeCash",
+        "children" : [ {
+          "name" : "checkPageName[Вход в систему]",
+          "uid" : "1831eaaa8bf1e528",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823368410,
+            "stop" : 1517823368590,
+            "duration" : 180
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userFillsValidLogin[j_username,sua_all]",
+          "uid" : "57f603c34c68b6ef",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823368637,
+            "stop" : 1517823368757,
+            "duration" : 120
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userFillsValidPassword[j_password,Q1w2e3r4]",
+          "uid" : "9f1ed4da174a1e17",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823368763,
+            "stop" : 1517823368877,
+            "duration" : 114
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userPushEnterButton[Войти]",
+          "uid" : "766b6f1ec800d5b9",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823368882,
+            "stop" : 1517823371577,
+            "duration" : 2695
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkModalWindowName[Выбор финансовой организации]",
+          "uid" : "c36bf1e83a66f38",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823371584,
+            "stop" : 1517823371700,
+            "duration" : 116
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userChooseOrganization[10]",
+          "uid" : "eb4fc41d47910b81",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823371700,
+            "stop" : 1517823371803,
+            "duration" : 103
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushChooseButton[Выбрать]",
+          "uid" : "bfc6337c2002a6b",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823371807,
+            "stop" : 1517823371906,
+            "duration" : 99
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkLogoName[Агентство по страхованию вкладов]",
+          "uid" : "41a07d882890821c",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823371921,
+            "stop" : 1517823372065,
+            "duration" : 144
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkOrganizationName[10]",
+          "uid" : "99d0356138f3bd31",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823372070,
+            "stop" : 1517823373078,
+            "duration" : 1008
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushSettingsBar[Настройка]",
+          "uid" : "b9c8bb7229e378a3",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823373083,
+            "stop" : 1517823373171,
+            "duration" : 88
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushReferenceBooks[Справочники]",
+          "uid" : "e5206e1eb8907c75",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823373175,
+            "stop" : 1517823377689,
+            "duration" : 4514
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkDictionaryName[Справочники]",
+          "uid" : "184ba3497bf330d4",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823377722,
+            "stop" : 1517823379002,
+            "duration" : 1280
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushAccountNumber",
+          "uid" : "dfebea8bfad12145",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823379023,
+            "stop" : 1517823379220,
+            "duration" : 197
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushSearchIcon",
+          "uid" : "dee054dc3920adca",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823379237,
+            "stop" : 1517823383353,
+            "duration" : 4116
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkSearchWindow[Поиск...]",
+          "uid" : "fe91d0cabac0b13b",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823383367,
+            "stop" : 1517823383461,
+            "duration" : 94
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushFirstSearchOption[Номер счёта 2-го порядка]",
+          "uid" : "f9d82f78d9caf55a",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823383465,
+            "stop" : 1517823383528,
+            "duration" : 63
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushSecondSearchOption[начинается с]",
+          "uid" : "af22b652892316fb",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823383530,
+            "stop" : 1517823383589,
+            "duration" : 59
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "fillsSearchOption[202]",
+          "uid" : "65f0c46443a16b59",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823383594,
+            "stop" : 1517823383785,
+            "duration" : 191
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushSearchButton[Найти]",
+          "uid" : "51a3190375de286c",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823383790,
+            "stop" : 1517823383956,
+            "duration" : 166
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkPresenseOfElements[202]",
+          "uid" : "515548169e272067",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823383963,
+            "stop" : 1517823384994,
+            "duration" : 1031
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushCollectionAndMaintenanceofData[Сбор и ведение данных]",
+          "uid" : "8f1cbaa425c706d5",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823384997,
+            "stop" : 1517823386070,
+            "duration" : 1073
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushAssetList[Список активов]",
+          "uid" : "1cde78ea8104161b",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823386073,
+            "stop" : 1517823386187,
+            "duration" : 114
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkAssetListName[Список активов]",
+          "uid" : "6f38308a7f0e704c",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823386195,
+            "stop" : 1517823387280,
+            "duration" : 1085
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushCreateButton[Создать]",
+          "uid" : "2e20affaef636268",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823387280,
+            "stop" : 1517823387352,
+            "duration" : 72
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkAssetFunctionalType",
+          "uid" : "a9de408497c7417c",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823387355,
+            "stop" : 1517823387523,
+            "duration" : 168
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkAssetListFirstStep[Создание актива (первый этап)]",
+          "uid" : "43ff35c7bfdef69c",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823387526,
+            "stop" : 1517823387614,
+            "duration" : 88
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkAssetType[Тип актива функциональный]",
+          "uid" : "1088836b4dcfe5ea",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823387616,
+            "stop" : 1517823387671,
+            "duration" : 55
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkFOName[Наименование ФО]",
+          "uid" : "e61aaa07840cd917",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823387673,
+            "stop" : 1517823387716,
+            "duration" : 43
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkSelectOrg",
+          "uid" : "f7b3f21964eb64ab",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823387718,
+            "stop" : 1517823387753,
+            "duration" : 35
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushAssetFunctionalType[Денежные средства]",
+          "uid" : "df347ee9bc4cd2e8",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823387760,
+            "stop" : 1517823387839,
+            "duration" : 79
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushContinueButton[Далее]",
+          "uid" : "756787a0a016c7f3",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823387843,
+            "stop" : 1517823387954,
+            "duration" : 111
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkAssetListSecondStep[Создание актива (второй этап)]",
+          "uid" : "92d5deec327630ae",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823387980,
+            "stop" : 1517823389113,
+            "duration" : 1133
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkAssetConnectionName[Связи с активами]",
+          "uid" : "de234e12b782e38e",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823389118,
+            "stop" : 1517823389174,
+            "duration" : 56
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkInventoryName[Инвентаризация]",
+          "uid" : "304613d5db6348b8",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823389190,
+            "stop" : 1517823389243,
+            "duration" : 53
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkMainAssetLinks[[Ljava.lang.String;@118c1faa]",
+          "uid" : "36e492a12f8d2a1a",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823389244,
+            "stop" : 1517823390146,
+            "duration" : 902
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userFillsAccountNumber[accountNum,20202810011223344332]",
+          "uid" : "91a5cef707f0e218",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823390151,
+            "stop" : 1517823391587,
+            "duration" : 1436
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userFillsAssetName[name,Тестовый актив]",
+          "uid" : "b73085c857c2faf5",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823391603,
+            "stop" : 1517823392101,
+            "duration" : 498
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userFillsBalanceInitial[balanceInitial,12321]",
+          "uid" : "fac9c8a752b22b51",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823392104,
+            "stop" : 1517823392393,
+            "duration" : 289
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkCurrency[currency]",
+          "uid" : "c58075d09252e22b",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823392397,
+            "stop" : 1517823396540,
+            "duration" : 4143
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkBalanceInitialCurrency[balanceInitialCur]",
+          "uid" : "10474f4b3c18361e",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823396541,
+            "stop" : 1517823396589,
+            "duration" : 48
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkCurrentBalanceName[balanceInitial,balanceRur]",
+          "uid" : "8030bb9e714a9a62",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823396589,
+            "stop" : 1517823396646,
+            "duration" : 57
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushReceivingButton[Приём]",
+          "uid" : "ad47f2af64920fa6",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823396649,
+            "stop" : 1517823396754,
+            "duration" : 105
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkCurrentBalanceCurrency[balanceCur]",
+          "uid" : "2b02c7677f27e07b",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823396761,
+            "stop" : 1517823396839,
+            "duration" : 78
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userFillsStartDate[startDate,05.04.18]",
+          "uid" : "7959b2f55992162b",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823396841,
+            "stop" : 1517823398186,
+            "duration" : 1345
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userFillsEndDate[endDate,01.12.18]",
+          "uid" : "2362176fd8597bfa",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823398189,
+            "stop" : 1517823398533,
+            "duration" : 344
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushSaveButton",
+          "uid" : "e3ff985e8016c198",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823398535,
+            "stop" : 1517823400278,
+            "duration" : 1743
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushCollectionAndMaintenanceofDataToCheck[Сбор и ведение данных]",
+          "uid" : "ad3ae002e02fe5cc",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823400281,
+            "stop" : 1517823401374,
+            "duration" : 1093
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushAssetListToCheck[Список активов]",
+          "uid" : "8e213f6e7c1a4e84",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823401381,
+            "stop" : 1517823401580,
+            "duration" : 199
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushSearchIconToCheck",
+          "uid" : "86714f748e16488d",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823401588,
+            "stop" : 1517823405717,
+            "duration" : 4129
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkSearchWindowToCheck[Поиск...]",
+          "uid" : "d92ea134cf99d786",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823405720,
+            "stop" : 1517823405818,
+            "duration" : 98
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushFirstSearchOptionToCheck[Номер лицевого счета]",
+          "uid" : "1f69f4e28e74f9c3",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823405820,
+            "stop" : 1517823405897,
+            "duration" : 77
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushSecondSearchOptionToCheck[начинается с]",
+          "uid" : "b5b0a63498b6f102",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823405900,
+            "stop" : 1517823406012,
+            "duration" : 112
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "fillsSearchOptionToCheck[20202810011223344332]",
+          "uid" : "dc062d4c009b031d",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823406016,
+            "stop" : 1517823406550,
+            "duration" : 534
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushSearchButtonToCheck[Найти]",
+          "uid" : "6d31c15258733ed1",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823406553,
+            "stop" : 1517823407058,
+            "duration" : 505
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkPresenseOfAsset[20202810011223344332]",
+          "uid" : "8bedde395c568a41",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823407063,
+            "stop" : 1517823408093,
+            "duration" : 1030
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushCheckboxToDelete",
+          "uid" : "67ada5bbe1a58260",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823408095,
+            "stop" : 1517823409210,
+            "duration" : 1115
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushDeleteButton[Удалить]",
+          "uid" : "bed758a576d6c16e",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823409212,
+            "stop" : 1517823409302,
+            "duration" : 90
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushYesButton",
+          "uid" : "bbdceb66377c15ae",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823409304,
+            "stop" : 1517823410900,
+            "duration" : 1596
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushCloseButton[Закрыть]",
+          "uid" : "a936d1ca290e7372",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823410904,
+            "stop" : 1517823410988,
+            "duration" : 84
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushPreExitButton[Права  Все]",
+          "uid" : "b0faff2cbb28efd5",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823410989,
+            "stop" : 1517823412096,
+            "duration" : 1107
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushExitButton[Выход]",
+          "uid" : "9ec3dfa6da4c7ea6",
+          "parentUid" : "75fc16e2315d94cc2d34aa4a7459f4af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823412096,
+            "stop" : 1517823412173,
+            "duration" : 77
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "75fc16e2315d94cc2d34aa4a7459f4af"
+      }, {
+        "name" : "stepDefinition.AddNewContractOfStorage",
+        "children" : [ {
+          "name" : "checkPageName[Вход в систему]",
+          "uid" : "2f32fe1be3c1d549",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823415178,
+            "stop" : 1517823415275,
+            "duration" : 97
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userFillsValidLogin[j_username,sua_all]",
+          "uid" : "9e0654d226c6171e",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823415275,
+            "stop" : 1517823415359,
+            "duration" : 84
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userFillsValidPassword[j_password,Q1w2e3r4]",
+          "uid" : "9ee54c52bbbf521d",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823415363,
+            "stop" : 1517823415495,
+            "duration" : 132
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userPushEnterButton[Войти]",
+          "uid" : "8e125efa483dedd7",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823415499,
+            "stop" : 1517823417542,
+            "duration" : 2043
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkModalWindowName[Выбор финансовой организации]",
+          "uid" : "5a3d5cfcaed4fdd",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823417542,
+            "stop" : 1517823417593,
+            "duration" : 51
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userChooseOrganization[10]",
+          "uid" : "44fcb4fc86652bec",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823417595,
+            "stop" : 1517823417679,
+            "duration" : 84
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushChooseButton[Выбрать]",
+          "uid" : "9954ac10bfd85624",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823417681,
+            "stop" : 1517823417761,
+            "duration" : 80
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkLogoName[Агентство по страхованию вкладов]",
+          "uid" : "9837ea66f235f67c",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823417766,
+            "stop" : 1517823417872,
+            "duration" : 106
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkOrganizationName[10]",
+          "uid" : "4931028a3b99cf7c",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823417873,
+            "stop" : 1517823418681,
+            "duration" : 808
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushCollectionAndMaintenanceofData[Сбор и ведение данных]",
+          "uid" : "3ff69ffaf575be0f",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823418688,
+            "stop" : 1517823421778,
+            "duration" : 3090
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushDocumentsDLKO[Документы ДЛКО]",
+          "uid" : "1c2504152f97f02a",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823421780,
+            "stop" : 1517823421889,
+            "duration" : 109
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkDocumentsDLKO[Документы ДЛКО]",
+          "uid" : "a334bb973fedae3b",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823421891,
+            "stop" : 1517823423065,
+            "duration" : 1174
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushSearchIcon",
+          "uid" : "926d1c7b8401c362",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823423068,
+            "stop" : 1517823427164,
+            "duration" : 4096
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkSearchWindow[Поиск...]",
+          "uid" : "efc8dcf4ca7cd817",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823427168,
+            "stop" : 1517823427259,
+            "duration" : 91
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushFirstSearchOptionForDLKO[Номер лицевого счёта]",
+          "uid" : "2fda11ecf0cfa3bd",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823427261,
+            "stop" : 1517823427325,
+            "duration" : 64
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushSecondSearchOptionForDLKO[равно]",
+          "uid" : "e337efd2a18a873f",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823427327,
+            "stop" : 1517823427385,
+            "duration" : 58
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "fillsSearchOptionForDLKO[20202810011223344332]",
+          "uid" : "f76bce2bf96afa0f",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823427386,
+            "stop" : 1517823427590,
+            "duration" : 204
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushSearchButton[Найти]",
+          "uid" : "2ade55fa5648977c",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823427593,
+            "stop" : 1517823427748,
+            "duration" : 155
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkPresenseOfElements[20202810011223344332]",
+          "uid" : "5ce3ef8344dbffa8",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823427757,
+            "stop" : 1517823428781,
+            "duration" : 1024
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushCheckBox",
+          "uid" : "666083440fdec6d0",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823428783,
+            "stop" : 1517823428872,
+            "duration" : 89
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushStorageButton[Хранение]",
+          "uid" : "5497da8f4d2662e5",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823428876,
+            "stop" : 1517823428964,
+            "duration" : 88
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "mouseOnCreateDocumentButton",
+          "uid" : "bfc713abfb1a7824",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823428964,
+            "stop" : 1517823429029,
+            "duration" : 65
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushDocumentWithBank",
+          "uid" : "f07fe443fe878ae1",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823429031,
+            "stop" : 1517823429115,
+            "duration" : 84
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkCreatingStrorageDocumentName[Ввод договора хранения]",
+          "uid" : "604b895159f5ccb0",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823429117,
+            "stop" : 1517823430179,
+            "duration" : 1062
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkFieldsDisabled",
+          "uid" : "731e9941ee4c49a",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823430181,
+            "stop" : 1517823430243,
+            "duration" : 62
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkFirstDisabled[Договор хранения]",
+          "uid" : "e93d7cca709e96ae",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823430259,
+            "stop" : 1517823431275,
+            "duration" : 1016
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkSecondDisabled[Договор с банком (ответственное хранение)]",
+          "uid" : "19713e474b605270",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823431275,
+            "stop" : 1517823431281,
+            "duration" : 6
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkMainStorageDocumentFields[[Ljava.lang.String;@11a0c708]",
+          "uid" : "656c796f458d3495",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823431283,
+            "stop" : 1517823431892,
+            "duration" : 609
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkBank[Банк]",
+          "uid" : "8a954a156255944f",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823431892,
+            "stop" : 1517823431955,
+            "duration" : 63
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkCheckboxesNames[[Ljava.lang.String;@2eb91767]",
+          "uid" : "d9051361961aaa5e",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823431957,
+            "stop" : 1517823432119,
+            "duration" : 162
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushBankName[bank,ВТБ]",
+          "uid" : "7a3960d91ed82da6",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823432121,
+            "stop" : 1517823432250,
+            "duration" : 129
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushDocumentNumberName[documentNumber,88005553535]",
+          "uid" : "ddc2be17e107965f",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823432252,
+            "stop" : 1517823432458,
+            "duration" : 206
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushDocumentDateName[contractDate,17.02.2018]",
+          "uid" : "d4c6f7cc8aeb3514",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823432460,
+            "stop" : 1517823432803,
+            "duration" : 343
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushDocumentTimeName[endDate,13.04.2018]",
+          "uid" : "ac15053d48da5931",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823432806,
+            "stop" : 1517823433093,
+            "duration" : 287
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushTerminateDateName[terminatedDate,16.03.2018]",
+          "uid" : "99b65c5eb724448f",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823433095,
+            "stop" : 1517823433403,
+            "duration" : 308
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushCommentName[comment,comment]",
+          "uid" : "40eacfbf7ffa01cc",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823433406,
+            "stop" : 1517823433571,
+            "duration" : 165
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushCheckboxes",
+          "uid" : "ca638b2b8a85899e",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823433572,
+            "stop" : 1517823433802,
+            "duration" : 230
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushChooseAdress[Выбрать адрес]",
+          "uid" : "58d861e1f8a55f2",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823433804,
+            "stop" : 1517823433893,
+            "duration" : 89
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkAddressForm[Ввод адреса по КЛАДР]",
+          "uid" : "cbf0f529a0e53b7f",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823433901,
+            "stop" : 1517823434539,
+            "duration" : 638
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushState[Московская обл.]",
+          "uid" : "a7f4a3344f99d5c1",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823434541,
+            "stop" : 1517823434606,
+            "duration" : 65
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "fillRegion[district,Раменский р-н.]",
+          "uid" : "8d14c588cdf368a8",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823434607,
+            "stop" : 1517823434912,
+            "duration" : 305
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "fillCity[town,Раменское г.]",
+          "uid" : "b32ac0a4cdc81dc2",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823434914,
+            "stop" : 1517823435167,
+            "duration" : 253
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "fillSettlement[settlement,Гостица мкр.]",
+          "uid" : "917760716f53283c",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823435169,
+            "stop" : 1517823435409,
+            "duration" : 240
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "fillStreet[street,Восточная ул.]",
+          "uid" : "9b7e9268b562a40a",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823435411,
+            "stop" : 1517823435643,
+            "duration" : 232
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "fillHome[home,15]",
+          "uid" : "be571d2c539e9b39",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823435645,
+            "stop" : 1517823435777,
+            "duration" : 132
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "fillIndex[index,140148]",
+          "uid" : "793e7df4e754ab34",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823435780,
+            "stop" : 1517823435975,
+            "duration" : 195
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushSaveButton",
+          "uid" : "11e73c8a28306a1",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823435976,
+            "stop" : 1517823436093,
+            "duration" : 117
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushSaveButtonGlobal",
+          "uid" : "644914a272a0edf1",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823436095,
+            "stop" : 1517823438586,
+            "duration" : 2491
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushAssetName[20202810011223344332]",
+          "uid" : "a18048fdcff2b6d6",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823438588,
+            "stop" : 1517823439673,
+            "duration" : 1085
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkPresenceOfDocumentByDateAndNumber[88005553535,17.02.2018]",
+          "uid" : "d4983dd31a7967d8",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823439675,
+            "stop" : 1517823439854,
+            "duration" : 179
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushPreExitButton[Права  Все]",
+          "uid" : "91bf8bffc9cd62e8",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823439857,
+            "stop" : 1517823440934,
+            "duration" : 1077
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushExitButton[Выход]",
+          "uid" : "b94e64c8f6a7adec",
+          "parentUid" : "2ffc78f4d533f370da5b3c1b8676a976",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823440935,
+            "stop" : 1517823441053,
+            "duration" : 118
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2ffc78f4d533f370da5b3c1b8676a976"
+      }, {
+        "name" : "stepDefinition.AuthentificationInvalidDataTestCase",
+        "children" : [ {
+          "name" : "checkPageName[Вход в систему]",
+          "uid" : "c0450638a3487538",
+          "parentUid" : "2354c23c2137c9e713b6464998f873ec",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823444074,
+            "stop" : 1517823444156,
+            "duration" : 82
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userFillsLoginFieldInvalid[j_username,sua_alll]",
+          "uid" : "5f52b0fa79da78d",
+          "parentUid" : "2354c23c2137c9e713b6464998f873ec",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823444156,
+            "stop" : 1517823444241,
+            "duration" : 85
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userFillsPasswordFieldInvalid[j_password,qwerty]",
+          "uid" : "acc1bf04386a434f",
+          "parentUid" : "2354c23c2137c9e713b6464998f873ec",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823444243,
+            "stop" : 1517823444343,
+            "duration" : 100
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userPushEnterButton[Войти]",
+          "uid" : "30d16fe1aeea808d",
+          "parentUid" : "2354c23c2137c9e713b6464998f873ec",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823444345,
+            "stop" : 1517823444473,
+            "duration" : 128
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkWrongLoginOrPassword[Неверное имя пользователя или пароль.]",
+          "uid" : "55b12ea950861075",
+          "parentUid" : "2354c23c2137c9e713b6464998f873ec",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823444475,
+            "stop" : 1517823444548,
+            "duration" : 73
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2354c23c2137c9e713b6464998f873ec"
+      }, {
+        "name" : "stepDefinition.AuthentificationValidDataTestCase",
+        "children" : [ {
+          "name" : "checkPageName[Вход в систему]",
+          "uid" : "126d1e7bbfc45578",
+          "parentUid" : "adfbde7c7d536a09c428ab50dde874cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823447574,
+            "stop" : 1517823447641,
+            "duration" : 67
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userFillsValidLogin[j_username,sua_all]",
+          "uid" : "aa412fee0f460a44",
+          "parentUid" : "adfbde7c7d536a09c428ab50dde874cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823447657,
+            "stop" : 1517823447733,
+            "duration" : 76
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userFillsValidPassword[j_password,Q1w2e3r4]",
+          "uid" : "335e9fde5fee281c",
+          "parentUid" : "adfbde7c7d536a09c428ab50dde874cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823447735,
+            "stop" : 1517823447834,
+            "duration" : 99
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userPushEnterButton[Войти]",
+          "uid" : "2201b0ca9979abd7",
+          "parentUid" : "adfbde7c7d536a09c428ab50dde874cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823447836,
+            "stop" : 1517823449717,
+            "duration" : 1881
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkModalWindowName[Выбор финансовой организации]",
+          "uid" : "d6f8e5d78afcd126",
+          "parentUid" : "adfbde7c7d536a09c428ab50dde874cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823449718,
+            "stop" : 1517823449793,
+            "duration" : 75
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userChooseOrganization[10]",
+          "uid" : "50dc2fcebe891f85",
+          "parentUid" : "adfbde7c7d536a09c428ab50dde874cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823449795,
+            "stop" : 1517823449877,
+            "duration" : 82
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushChooseButton[Выбрать]",
+          "uid" : "4918952506d91fce",
+          "parentUid" : "adfbde7c7d536a09c428ab50dde874cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823449879,
+            "stop" : 1517823449960,
+            "duration" : 81
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkLogoName[Агентство по страхованию вкладов]",
+          "uid" : "50db4174c67b04ec",
+          "parentUid" : "adfbde7c7d536a09c428ab50dde874cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823449963,
+            "stop" : 1517823450070,
+            "duration" : 107
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkOrganizationName[10]",
+          "uid" : "4f1739f097095c66",
+          "parentUid" : "adfbde7c7d536a09c428ab50dde874cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823450072,
+            "stop" : 1517823450881,
+            "duration" : 809
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushPreExitButton[Права  Все]",
+          "uid" : "f7006de488880b72",
+          "parentUid" : "adfbde7c7d536a09c428ab50dde874cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823450886,
+            "stop" : 1517823450979,
+            "duration" : 93
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushExitButton[Выход]",
+          "uid" : "2a497b478e44123e",
+          "parentUid" : "adfbde7c7d536a09c428ab50dde874cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823450985,
+            "stop" : 1517823451090,
+            "duration" : 105
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "adfbde7c7d536a09c428ab50dde874cf"
+      }, {
+        "name" : "stepDefinition.CheckAccountNumberBegins",
+        "children" : [ {
+          "name" : "checkPageName[Вход в систему]",
+          "uid" : "bf7375569d219d02",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823454093,
+            "stop" : 1517823454159,
+            "duration" : 66
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userFillsValidLogin[j_username,sua_all]",
+          "uid" : "7cd57774738a8285",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823454161,
+            "stop" : 1517823454263,
+            "duration" : 102
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userFillsValidPassword[j_password,Q1w2e3r4]",
+          "uid" : "6b6925538179c282",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823454264,
+            "stop" : 1517823454380,
+            "duration" : 116
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userPushEnterButton[Войти]",
+          "uid" : "7f23d2db86b95316",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823454383,
+            "stop" : 1517823456122,
+            "duration" : 1739
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkModalWindowName[Выбор финансовой организации]",
+          "uid" : "944c2fe3df558ff2",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823456124,
+            "stop" : 1517823456192,
+            "duration" : 68
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userChooseOrganization[10]",
+          "uid" : "a505f5b8eb8114aa",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823456192,
+            "stop" : 1517823456261,
+            "duration" : 69
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushChooseButton[Выбрать]",
+          "uid" : "c47761d870e75d23",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823456263,
+            "stop" : 1517823456340,
+            "duration" : 77
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkLogoName[Агентство по страхованию вкладов]",
+          "uid" : "d40473c412e77980",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823456346,
+            "stop" : 1517823456440,
+            "duration" : 94
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkOrganizationName[10]",
+          "uid" : "83fc9cec3f35d7d6",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823456441,
+            "stop" : 1517823457267,
+            "duration" : 826
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushSettingsBar[Настройка]",
+          "uid" : "d65f2543976ab0c9",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823457270,
+            "stop" : 1517823457364,
+            "duration" : 94
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushReferenceBooks[Справочники]",
+          "uid" : "7c9d8c807aa0fe49",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823457366,
+            "stop" : 1517823460487,
+            "duration" : 3121
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkDictionaryName[Справочники]",
+          "uid" : "f7bf6afe0af7df66",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823460489,
+            "stop" : 1517823461573,
+            "duration" : 1084
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushAccountNumber",
+          "uid" : "d2240f6be8b32d33",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823461573,
+            "stop" : 1517823461630,
+            "duration" : 57
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushSearchIcon",
+          "uid" : "3abd2599d19263bb",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823461632,
+            "stop" : 1517823465740,
+            "duration" : 4108
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkSearchWindow[Поиск...]",
+          "uid" : "9e1d1bc30d0b6a34",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823465747,
+            "stop" : 1517823465835,
+            "duration" : 88
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "fillsSearchOption[202]",
+          "uid" : "b1c50b2bb1cf545c",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823465837,
+            "stop" : 1517823465960,
+            "duration" : 123
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushFirstSearchOption[Номер счёта 2-го порядка]",
+          "uid" : "f820777050e37093",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823465961,
+            "stop" : 1517823466007,
+            "duration" : 46
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushSecondSearchOption[начинается с]",
+          "uid" : "132f6bb2033084e3",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823466009,
+            "stop" : 1517823466077,
+            "duration" : 68
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushSearchButton[Найти]",
+          "uid" : "a110115af4cdf4b3",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823466077,
+            "stop" : 1517823466200,
+            "duration" : 123
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkPresenseOfElements[202]",
+          "uid" : "ffa6a602038a1c2d",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823466203,
+            "stop" : 1517823467241,
+            "duration" : 1038
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushPreExitButton[Права  Все]",
+          "uid" : "657e93461fdce399",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823467257,
+            "stop" : 1517823467310,
+            "duration" : 53
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "pushExitButton[Выход]",
+          "uid" : "f876d37d90cf1370",
+          "parentUid" : "6ba04957b832bef56c8ba467b99a6daf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1517823467312,
+            "stop" : 1517823467391,
+            "duration" : 79
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6ba04957b832bef56c8ba467b99a6daf"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

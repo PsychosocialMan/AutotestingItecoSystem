@@ -1,0 +1,89 @@
+{
+  "uid" : "c0450638a3487538",
+  "name" : "checkPageName[Вход в систему]",
+  "fullName" : "stepDefinition.AuthentificationInvalidDataTestCase.checkPageName",
+  "historyId" : "472865194cd2771d2996ff5ff10d9f59",
+  "time" : {
+    "start" : 1517823444074,
+    "stop" : 1517823444156,
+    "duration" : 82
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "inv5423-pc"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "stepDefinition.AuthentificationInvalidDataTestCase"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkPageName"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "thread",
+    "value" : "8904@inv5423-pc.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "stepDefinition.AuthentificationInvalidDataTestCase"
+  }, {
+    "name" : "package",
+    "value" : "stepDefinition.AuthentificationInvalidDataTestCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "12063c540584301b",
+        "reportUrl" : "nulljob/FIRST/1/allure/#testresult/12063c540584301b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1517560086693,
+          "stop" : 1517560086766,
+          "duration" : 73
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c0450638a3487538.json",
+  "parameterValues" : [ ]
+}
