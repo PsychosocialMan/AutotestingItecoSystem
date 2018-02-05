@@ -1,0 +1,1664 @@
+{
+  "testCases" : [ {
+    "uid" : "c075e5cee0256a9b",
+    "name" : "checkPageName[Вход в систему]",
+    "title" : "Check page name [Вход в систему]",
+    "time" : {
+      "start" : 1517823368410,
+      "stop" : 1517823368590,
+      "duration" : 180
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f3804b3a2b2aa9f4",
+    "name" : "userFillsValidLogin[j_username,sua_all]",
+    "title" : "User fills valid login [j_username,sua_all]",
+    "time" : {
+      "start" : 1517823368637,
+      "stop" : 1517823368757,
+      "duration" : 120
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "42ba1823c7ae9bd1",
+    "name" : "userFillsValidPassword[j_password,Q1w2e3r4]",
+    "title" : "User fills valid password [j_password,Q1w2e3r4]",
+    "time" : {
+      "start" : 1517823368763,
+      "stop" : 1517823368877,
+      "duration" : 114
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "4d324ab8e9d716ba",
+    "name" : "userPushEnterButton[Войти]",
+    "title" : "User push enter button [Войти]",
+    "time" : {
+      "start" : 1517823368882,
+      "stop" : 1517823371577,
+      "duration" : 2695
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "43b0c8e5607b2d18",
+    "name" : "checkModalWindowName[Выбор финансовой организации]",
+    "title" : "Check modal window name [Выбор финансовой организации]",
+    "time" : {
+      "start" : 1517823371584,
+      "stop" : 1517823371700,
+      "duration" : 116
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "c730868c0a06f8c5",
+    "name" : "userChooseOrganization[10]",
+    "title" : "User choose organization [10]",
+    "time" : {
+      "start" : 1517823371700,
+      "stop" : 1517823371803,
+      "duration" : 103
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "31fa0d0d45cc6ccf",
+    "name" : "pushChooseButton[Выбрать]",
+    "title" : "Push choose button [Выбрать]",
+    "time" : {
+      "start" : 1517823371807,
+      "stop" : 1517823371906,
+      "duration" : 99
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b3486ef0f9f9defc",
+    "name" : "checkLogoName[Агентство по страхованию вкладов]",
+    "title" : "Check logo name [Агентство по страхованию вкладов]",
+    "time" : {
+      "start" : 1517823371921,
+      "stop" : 1517823372065,
+      "duration" : 144
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ba2b2b908cb990e6",
+    "name" : "checkOrganizationName[10]",
+    "title" : "Check organization name [10]",
+    "time" : {
+      "start" : 1517823372070,
+      "stop" : 1517823373078,
+      "duration" : 1008
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "564d33df2b3a5e4f",
+    "name" : "pushSettingsBar[Настройка]",
+    "title" : "Push settings bar [Настройка]",
+    "time" : {
+      "start" : 1517823373083,
+      "stop" : 1517823373171,
+      "duration" : 88
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "935c7426696c6fc5",
+    "name" : "pushReferenceBooks[Справочники]",
+    "title" : "Push reference books [Справочники]",
+    "time" : {
+      "start" : 1517823373175,
+      "stop" : 1517823377689,
+      "duration" : 4514
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6ce925acaddac277",
+    "name" : "checkDictionaryName[Справочники]",
+    "title" : "Check dictionary name [Справочники]",
+    "time" : {
+      "start" : 1517823377722,
+      "stop" : 1517823379002,
+      "duration" : 1280
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b0623d60f73bc529",
+    "name" : "pushAccountNumber",
+    "title" : "Push account number",
+    "time" : {
+      "start" : 1517823379023,
+      "stop" : 1517823379220,
+      "duration" : 197
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "80aea5229301cd02",
+    "name" : "pushSearchIcon",
+    "title" : "Push search icon",
+    "time" : {
+      "start" : 1517823379237,
+      "stop" : 1517823383353,
+      "duration" : 4116
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a2a1b4935eaf7293",
+    "name" : "checkSearchWindow[Поиск...]",
+    "title" : "Check search window [Поиск...]",
+    "time" : {
+      "start" : 1517823383367,
+      "stop" : 1517823383461,
+      "duration" : 94
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "cf5054213694641",
+    "name" : "pushFirstSearchOption[Номер счёта 2-го порядка]",
+    "title" : "Push first search option [Номер счёта 2-го порядка]",
+    "time" : {
+      "start" : 1517823383465,
+      "stop" : 1517823383528,
+      "duration" : 63
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a220472c8ca559e6",
+    "name" : "pushSecondSearchOption[начинается с]",
+    "title" : "Push second search option [начинается с]",
+    "time" : {
+      "start" : 1517823383530,
+      "stop" : 1517823383589,
+      "duration" : 59
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "e65ee5563fc2123c",
+    "name" : "fillsSearchOption[202]",
+    "title" : "Fills search option [202]",
+    "time" : {
+      "start" : 1517823383594,
+      "stop" : 1517823383785,
+      "duration" : 191
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "7118c889c7fa3c0",
+    "name" : "pushSearchButton[Найти]",
+    "title" : "Push search button [Найти]",
+    "time" : {
+      "start" : 1517823383790,
+      "stop" : 1517823383956,
+      "duration" : 166
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "8c6181165ff5253",
+    "name" : "checkPresenseOfElements[202]",
+    "title" : "Check presense of elements [202]",
+    "time" : {
+      "start" : 1517823383963,
+      "stop" : 1517823384994,
+      "duration" : 1031
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "532975d0ffa2d358",
+    "name" : "pushCollectionAndMaintenanceofData[Сбор и ведение данных]",
+    "title" : "Push collection and maintenanceof data [Сбор и ведение данных]",
+    "time" : {
+      "start" : 1517823384997,
+      "stop" : 1517823386070,
+      "duration" : 1073
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6cc726e24a3c72cb",
+    "name" : "pushAssetList[Список активов]",
+    "title" : "Push asset list [Список активов]",
+    "time" : {
+      "start" : 1517823386073,
+      "stop" : 1517823386187,
+      "duration" : 114
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "835df4092cb4fcd8",
+    "name" : "checkAssetListName[Список активов]",
+    "title" : "Check asset list name [Список активов]",
+    "time" : {
+      "start" : 1517823386195,
+      "stop" : 1517823387280,
+      "duration" : 1085
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f4fdca173cfaff10",
+    "name" : "pushCreateButton[Создать]",
+    "title" : "Push create button [Создать]",
+    "time" : {
+      "start" : 1517823387280,
+      "stop" : 1517823387352,
+      "duration" : 72
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "cc2c136112cdc7d7",
+    "name" : "checkAssetFunctionalType",
+    "title" : "Check asset functional type",
+    "time" : {
+      "start" : 1517823387355,
+      "stop" : 1517823387523,
+      "duration" : 168
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "eb42e27f2a68ac6f",
+    "name" : "checkAssetListFirstStep[Создание актива (первый этап)]",
+    "title" : "Check asset list first step [Создание актива (первый этап)]",
+    "time" : {
+      "start" : 1517823387526,
+      "stop" : 1517823387614,
+      "duration" : 88
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f8f42215a0ee39c2",
+    "name" : "checkAssetType[Тип актива функциональный]",
+    "title" : "Check asset type [Тип актива функциональный]",
+    "time" : {
+      "start" : 1517823387616,
+      "stop" : 1517823387671,
+      "duration" : 55
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "89859e66c1c1a15f",
+    "name" : "checkFOName[Наименование ФО]",
+    "title" : "Check FO name [Наименование ФО]",
+    "time" : {
+      "start" : 1517823387673,
+      "stop" : 1517823387716,
+      "duration" : 43
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "741be593d83c1998",
+    "name" : "checkSelectOrg",
+    "title" : "Check select org",
+    "time" : {
+      "start" : 1517823387718,
+      "stop" : 1517823387753,
+      "duration" : 35
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "9c97f25409a91c35",
+    "name" : "pushAssetFunctionalType[Денежные средства]",
+    "title" : "Push asset functional type [Денежные средства]",
+    "time" : {
+      "start" : 1517823387760,
+      "stop" : 1517823387839,
+      "duration" : 79
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "82f6914488801bc1",
+    "name" : "pushContinueButton[Далее]",
+    "title" : "Push continue button [Далее]",
+    "time" : {
+      "start" : 1517823387843,
+      "stop" : 1517823387954,
+      "duration" : 111
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "977ade0513d9fd34",
+    "name" : "checkAssetListSecondStep[Создание актива (второй этап)]",
+    "title" : "Check asset list second step [Создание актива (второй этап)]",
+    "time" : {
+      "start" : 1517823387980,
+      "stop" : 1517823389113,
+      "duration" : 1133
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "4f57a33df05aebb7",
+    "name" : "checkAssetConnectionName[Связи с активами]",
+    "title" : "Check asset connection name [Связи с активами]",
+    "time" : {
+      "start" : 1517823389118,
+      "stop" : 1517823389174,
+      "duration" : 56
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "2644d5cd02e4d26",
+    "name" : "checkInventoryName[Инвентаризация]",
+    "title" : "Check inventory name [Инвентаризация]",
+    "time" : {
+      "start" : 1517823389190,
+      "stop" : 1517823389243,
+      "duration" : 53
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "53815e44151b8567",
+    "name" : "checkMainAssetLinks[[Ljava.lang.String;@118c1faa]",
+    "title" : "Check main asset links [[Ljava.lang.String;@118c1faa]",
+    "time" : {
+      "start" : 1517823389244,
+      "stop" : 1517823390146,
+      "duration" : 902
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "3a88b41b53768ed7",
+    "name" : "userFillsAccountNumber[accountNum,20202810011223344332]",
+    "title" : "User fills account number [accountNum,20202810011223344332]",
+    "time" : {
+      "start" : 1517823390151,
+      "stop" : 1517823391587,
+      "duration" : 1436
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "5d8f9a518c06a183",
+    "name" : "userFillsAssetName[name,Тестовый актив]",
+    "title" : "User fills asset name [name,Тестовый актив]",
+    "time" : {
+      "start" : 1517823391603,
+      "stop" : 1517823392101,
+      "duration" : 498
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f8a48d9b0feccaa",
+    "name" : "userFillsBalanceInitial[balanceInitial,12321]",
+    "title" : "User fills balance initial [balanceInitial,12321]",
+    "time" : {
+      "start" : 1517823392104,
+      "stop" : 1517823392393,
+      "duration" : 289
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6ce8e7208a03a46d",
+    "name" : "checkCurrency[currency]",
+    "title" : "Check currency [currency]",
+    "time" : {
+      "start" : 1517823392397,
+      "stop" : 1517823396540,
+      "duration" : 4143
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "e0fd77ca54953d7f",
+    "name" : "checkBalanceInitialCurrency[balanceInitialCur]",
+    "title" : "Check balance initial currency [balanceInitialCur]",
+    "time" : {
+      "start" : 1517823396541,
+      "stop" : 1517823396589,
+      "duration" : 48
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "bfc4a8a74de3abe8",
+    "name" : "checkCurrentBalanceName[balanceInitial,balanceRur]",
+    "title" : "Check current balance name [balanceInitial,balanceRur]",
+    "time" : {
+      "start" : 1517823396589,
+      "stop" : 1517823396646,
+      "duration" : 57
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ec797d9802dcfc1d",
+    "name" : "pushReceivingButton[Приём]",
+    "title" : "Push receiving button [Приём]",
+    "time" : {
+      "start" : 1517823396649,
+      "stop" : 1517823396754,
+      "duration" : 105
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "508c2eed4510c350",
+    "name" : "checkCurrentBalanceCurrency[balanceCur]",
+    "title" : "Check current balance currency [balanceCur]",
+    "time" : {
+      "start" : 1517823396761,
+      "stop" : 1517823396839,
+      "duration" : 78
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "7934da2f4f81e3cf",
+    "name" : "userFillsStartDate[startDate,05.04.18]",
+    "title" : "User fills start date [startDate,05.04.18]",
+    "time" : {
+      "start" : 1517823396841,
+      "stop" : 1517823398186,
+      "duration" : 1345
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "c6e2d1cb49fed68d",
+    "name" : "userFillsEndDate[endDate,01.12.18]",
+    "title" : "User fills end date [endDate,01.12.18]",
+    "time" : {
+      "start" : 1517823398189,
+      "stop" : 1517823398533,
+      "duration" : 344
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "10796e46ab042fd9",
+    "name" : "pushSaveButton",
+    "title" : "Push save button",
+    "time" : {
+      "start" : 1517823398535,
+      "stop" : 1517823400278,
+      "duration" : 1743
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "4d46db9343398c2",
+    "name" : "pushCollectionAndMaintenanceofDataToCheck[Сбор и ведение данных]",
+    "title" : "Push collection and maintenanceof data to check [Сбор и ведение данных]",
+    "time" : {
+      "start" : 1517823400281,
+      "stop" : 1517823401374,
+      "duration" : 1093
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "e9a0d7e894334da8",
+    "name" : "pushAssetListToCheck[Список активов]",
+    "title" : "Push asset list to check [Список активов]",
+    "time" : {
+      "start" : 1517823401381,
+      "stop" : 1517823401580,
+      "duration" : 199
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "eeaee1c06564ef1d",
+    "name" : "pushSearchIconToCheck",
+    "title" : "Push search icon to check",
+    "time" : {
+      "start" : 1517823401588,
+      "stop" : 1517823405717,
+      "duration" : 4129
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a8949b0baa404d",
+    "name" : "checkSearchWindowToCheck[Поиск...]",
+    "title" : "Check search window to check [Поиск...]",
+    "time" : {
+      "start" : 1517823405720,
+      "stop" : 1517823405818,
+      "duration" : 98
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b56ab3700553069f",
+    "name" : "pushFirstSearchOptionToCheck[Номер лицевого счета]",
+    "title" : "Push first search option to check [Номер лицевого счета]",
+    "time" : {
+      "start" : 1517823405820,
+      "stop" : 1517823405897,
+      "duration" : 77
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "3d511001f2ae9ec3",
+    "name" : "pushSecondSearchOptionToCheck[начинается с]",
+    "title" : "Push second search option to check [начинается с]",
+    "time" : {
+      "start" : 1517823405900,
+      "stop" : 1517823406012,
+      "duration" : 112
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "2bb009ac82a2cf5f",
+    "name" : "fillsSearchOptionToCheck[20202810011223344332]",
+    "title" : "Fills search option to check [20202810011223344332]",
+    "time" : {
+      "start" : 1517823406016,
+      "stop" : 1517823406550,
+      "duration" : 534
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "d8deaeeaf1e34b13",
+    "name" : "pushSearchButtonToCheck[Найти]",
+    "title" : "Push search button to check [Найти]",
+    "time" : {
+      "start" : 1517823406553,
+      "stop" : 1517823407058,
+      "duration" : 505
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "857b0d426ac3c684",
+    "name" : "checkPresenseOfAsset[20202810011223344332]",
+    "title" : "Check presense of asset [20202810011223344332]",
+    "time" : {
+      "start" : 1517823407063,
+      "stop" : 1517823408093,
+      "duration" : 1030
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "87a6bd3b9f37fe2a",
+    "name" : "pushCheckboxToDelete",
+    "title" : "Push checkbox to delete",
+    "time" : {
+      "start" : 1517823408095,
+      "stop" : 1517823409210,
+      "duration" : 1115
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "41a9c558ef7a3126",
+    "name" : "pushDeleteButton[Удалить]",
+    "title" : "Push delete button [Удалить]",
+    "time" : {
+      "start" : 1517823409212,
+      "stop" : 1517823409302,
+      "duration" : 90
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "63f1036177a5bf1a",
+    "name" : "pushYesButton",
+    "title" : "Push yes button",
+    "time" : {
+      "start" : 1517823409304,
+      "stop" : 1517823410900,
+      "duration" : 1596
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "c54c03846c11ee1e",
+    "name" : "pushCloseButton[Закрыть]",
+    "title" : "Push close button [Закрыть]",
+    "time" : {
+      "start" : 1517823410904,
+      "stop" : 1517823410988,
+      "duration" : 84
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "848b8ac4bc4c25e0",
+    "name" : "pushPreExitButton[Права  Все]",
+    "title" : "Push pre exit button [Права  Все]",
+    "time" : {
+      "start" : 1517823410989,
+      "stop" : 1517823412096,
+      "duration" : 1107
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "fa9e5a90ab816e55",
+    "name" : "pushExitButton[Выход]",
+    "title" : "Push exit button [Выход]",
+    "time" : {
+      "start" : 1517823412096,
+      "stop" : 1517823412173,
+      "duration" : 77
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "9d145da63d4c68d",
+    "name" : "checkPageName[Вход в систему]",
+    "title" : "Check page name [Вход в систему]",
+    "time" : {
+      "start" : 1517823415178,
+      "stop" : 1517823415275,
+      "duration" : 97
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "5c966543fb5e5ffa",
+    "name" : "userFillsValidLogin[j_username,sua_all]",
+    "title" : "User fills valid login [j_username,sua_all]",
+    "time" : {
+      "start" : 1517823415275,
+      "stop" : 1517823415359,
+      "duration" : 84
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6022f6a7184a71d5",
+    "name" : "userFillsValidPassword[j_password,Q1w2e3r4]",
+    "title" : "User fills valid password [j_password,Q1w2e3r4]",
+    "time" : {
+      "start" : 1517823415363,
+      "stop" : 1517823415495,
+      "duration" : 132
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "d3923279b0feda3c",
+    "name" : "userPushEnterButton[Войти]",
+    "title" : "User push enter button [Войти]",
+    "time" : {
+      "start" : 1517823415499,
+      "stop" : 1517823417542,
+      "duration" : 2043
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "7e972d8bd7fd204e",
+    "name" : "checkModalWindowName[Выбор финансовой организации]",
+    "title" : "Check modal window name [Выбор финансовой организации]",
+    "time" : {
+      "start" : 1517823417542,
+      "stop" : 1517823417593,
+      "duration" : 51
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b0f4af836b57aa04",
+    "name" : "userChooseOrganization[10]",
+    "title" : "User choose organization [10]",
+    "time" : {
+      "start" : 1517823417595,
+      "stop" : 1517823417679,
+      "duration" : 84
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "8be65b9ddf0dbc42",
+    "name" : "pushChooseButton[Выбрать]",
+    "title" : "Push choose button [Выбрать]",
+    "time" : {
+      "start" : 1517823417681,
+      "stop" : 1517823417761,
+      "duration" : 80
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "fcc5a0e94d9b557b",
+    "name" : "checkLogoName[Агентство по страхованию вкладов]",
+    "title" : "Check logo name [Агентство по страхованию вкладов]",
+    "time" : {
+      "start" : 1517823417766,
+      "stop" : 1517823417872,
+      "duration" : 106
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "d50d671f2bb2efb5",
+    "name" : "checkOrganizationName[10]",
+    "title" : "Check organization name [10]",
+    "time" : {
+      "start" : 1517823417873,
+      "stop" : 1517823418681,
+      "duration" : 808
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "96efecc803de9b90",
+    "name" : "pushCollectionAndMaintenanceofData[Сбор и ведение данных]",
+    "title" : "Push collection and maintenanceof data [Сбор и ведение данных]",
+    "time" : {
+      "start" : 1517823418688,
+      "stop" : 1517823421778,
+      "duration" : 3090
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f6c9e782ba1558ca",
+    "name" : "pushDocumentsDLKO[Документы ДЛКО]",
+    "title" : "Push documents DLKO [Документы ДЛКО]",
+    "time" : {
+      "start" : 1517823421780,
+      "stop" : 1517823421889,
+      "duration" : 109
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "2505a5f229c3c2a7",
+    "name" : "checkDocumentsDLKO[Документы ДЛКО]",
+    "title" : "Check documents DLKO [Документы ДЛКО]",
+    "time" : {
+      "start" : 1517823421891,
+      "stop" : 1517823423065,
+      "duration" : 1174
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "d324d92abe1dd7c2",
+    "name" : "pushSearchIcon",
+    "title" : "Push search icon",
+    "time" : {
+      "start" : 1517823423068,
+      "stop" : 1517823427164,
+      "duration" : 4096
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "8c4f557ac55646e8",
+    "name" : "checkSearchWindow[Поиск...]",
+    "title" : "Check search window [Поиск...]",
+    "time" : {
+      "start" : 1517823427168,
+      "stop" : 1517823427259,
+      "duration" : 91
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "1f329ccb3ceb39b",
+    "name" : "pushFirstSearchOptionForDLKO[Номер лицевого счёта]",
+    "title" : "Push first search option for DLKO [Номер лицевого счёта]",
+    "time" : {
+      "start" : 1517823427261,
+      "stop" : 1517823427325,
+      "duration" : 64
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6abd15178e066bf8",
+    "name" : "pushSecondSearchOptionForDLKO[равно]",
+    "title" : "Push second search option for DLKO [равно]",
+    "time" : {
+      "start" : 1517823427327,
+      "stop" : 1517823427385,
+      "duration" : 58
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "751bd0a0a1bec995",
+    "name" : "fillsSearchOptionForDLKO[20202810011223344332]",
+    "title" : "Fills search option for DLKO [20202810011223344332]",
+    "time" : {
+      "start" : 1517823427386,
+      "stop" : 1517823427590,
+      "duration" : 204
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ad8744f4ce03b2ee",
+    "name" : "pushSearchButton[Найти]",
+    "title" : "Push search button [Найти]",
+    "time" : {
+      "start" : 1517823427593,
+      "stop" : 1517823427748,
+      "duration" : 155
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "c7dab5409a1567af",
+    "name" : "checkPresenseOfElements[20202810011223344332]",
+    "title" : "Check presense of elements [20202810011223344332]",
+    "time" : {
+      "start" : 1517823427757,
+      "stop" : 1517823428781,
+      "duration" : 1024
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "911f1c26e9aa63ac",
+    "name" : "pushCheckBox",
+    "title" : "Push check box",
+    "time" : {
+      "start" : 1517823428783,
+      "stop" : 1517823428872,
+      "duration" : 89
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "19e114f2aac731c4",
+    "name" : "pushStorageButton[Хранение]",
+    "title" : "Push storage button [Хранение]",
+    "time" : {
+      "start" : 1517823428876,
+      "stop" : 1517823428964,
+      "duration" : 88
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "69a2e6a8fd5a482",
+    "name" : "mouseOnCreateDocumentButton",
+    "title" : "Mouse on create document button",
+    "time" : {
+      "start" : 1517823428964,
+      "stop" : 1517823429029,
+      "duration" : 65
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b073b040cc241449",
+    "name" : "pushDocumentWithBank",
+    "title" : "Push document with bank",
+    "time" : {
+      "start" : 1517823429031,
+      "stop" : 1517823429115,
+      "duration" : 84
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b67db7d0f5dd0c7a",
+    "name" : "checkCreatingStrorageDocumentName[Ввод договора хранения]",
+    "title" : "Check creating strorage document name [Ввод договора хранения]",
+    "time" : {
+      "start" : 1517823429117,
+      "stop" : 1517823430179,
+      "duration" : 1062
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "4933e0d985719b51",
+    "name" : "checkFieldsDisabled",
+    "title" : "Check fields disabled",
+    "time" : {
+      "start" : 1517823430181,
+      "stop" : 1517823430243,
+      "duration" : 62
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f464aec947d66907",
+    "name" : "checkFirstDisabled[Договор хранения]",
+    "title" : "Check first disabled [Договор хранения]",
+    "time" : {
+      "start" : 1517823430259,
+      "stop" : 1517823431275,
+      "duration" : 1016
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "2d1f24df3c9b286d",
+    "name" : "checkSecondDisabled[Договор с банком (ответственное хранение)]",
+    "title" : "Check second disabled [Договор с банком (ответственное хранение)]",
+    "time" : {
+      "start" : 1517823431275,
+      "stop" : 1517823431281,
+      "duration" : 6
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a04dc3e4e740ca9d",
+    "name" : "checkMainStorageDocumentFields[[Ljava.lang.String;@11a0c708]",
+    "title" : "Check main storage document fields [[Ljava.lang.String;@11a0c708]",
+    "time" : {
+      "start" : 1517823431283,
+      "stop" : 1517823431892,
+      "duration" : 609
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "7355d02ea609b6eb",
+    "name" : "checkBank[Банк]",
+    "title" : "Check bank [Банк]",
+    "time" : {
+      "start" : 1517823431892,
+      "stop" : 1517823431955,
+      "duration" : 63
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "deaf15464e984328",
+    "name" : "checkCheckboxesNames[[Ljava.lang.String;@2eb91767]",
+    "title" : "Check checkboxes names [[Ljava.lang.String;@2eb91767]",
+    "time" : {
+      "start" : 1517823431957,
+      "stop" : 1517823432119,
+      "duration" : 162
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "7e91725230a87593",
+    "name" : "pushBankName[bank,ВТБ]",
+    "title" : "Push bank name [bank,ВТБ]",
+    "time" : {
+      "start" : 1517823432121,
+      "stop" : 1517823432250,
+      "duration" : 129
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "adaab1580c3e5caf",
+    "name" : "pushDocumentNumberName[documentNumber,88005553535]",
+    "title" : "Push document number name [documentNumber,88005553535]",
+    "time" : {
+      "start" : 1517823432252,
+      "stop" : 1517823432458,
+      "duration" : 206
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "908f3eba6e2791ab",
+    "name" : "pushDocumentDateName[contractDate,17.02.2018]",
+    "title" : "Push document date name [contractDate,17.02.2018]",
+    "time" : {
+      "start" : 1517823432460,
+      "stop" : 1517823432803,
+      "duration" : 343
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f0b91c533d002b84",
+    "name" : "pushDocumentTimeName[endDate,13.04.2018]",
+    "title" : "Push document time name [endDate,13.04.2018]",
+    "time" : {
+      "start" : 1517823432806,
+      "stop" : 1517823433093,
+      "duration" : 287
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "780acba126c4ac77",
+    "name" : "pushTerminateDateName[terminatedDate,16.03.2018]",
+    "title" : "Push terminate date name [terminatedDate,16.03.2018]",
+    "time" : {
+      "start" : 1517823433095,
+      "stop" : 1517823433403,
+      "duration" : 308
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "119dc88b2346e7c",
+    "name" : "pushCommentName[comment,comment]",
+    "title" : "Push comment name [comment,comment]",
+    "time" : {
+      "start" : 1517823433406,
+      "stop" : 1517823433571,
+      "duration" : 165
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "58656fa9d30ad532",
+    "name" : "pushCheckboxes",
+    "title" : "Push checkboxes",
+    "time" : {
+      "start" : 1517823433572,
+      "stop" : 1517823433802,
+      "duration" : 230
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "2e246877f367f5ef",
+    "name" : "pushChooseAdress[Выбрать адрес]",
+    "title" : "Push choose adress [Выбрать адрес]",
+    "time" : {
+      "start" : 1517823433804,
+      "stop" : 1517823433893,
+      "duration" : 89
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "95970ff4a47f1e41",
+    "name" : "checkAddressForm[Ввод адреса по КЛАДР]",
+    "title" : "Check address form [Ввод адреса по КЛАДР]",
+    "time" : {
+      "start" : 1517823433901,
+      "stop" : 1517823434539,
+      "duration" : 638
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "94735dd59113614e",
+    "name" : "pushState[Московская обл.]",
+    "title" : "Push state [Московская обл.]",
+    "time" : {
+      "start" : 1517823434541,
+      "stop" : 1517823434606,
+      "duration" : 65
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "e1c71276c8120802",
+    "name" : "fillRegion[district,Раменский р-н.]",
+    "title" : "Fill region [district,Раменский р-н.]",
+    "time" : {
+      "start" : 1517823434607,
+      "stop" : 1517823434912,
+      "duration" : 305
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "507e59a70effa437",
+    "name" : "fillCity[town,Раменское г.]",
+    "title" : "Fill city [town,Раменское г.]",
+    "time" : {
+      "start" : 1517823434914,
+      "stop" : 1517823435167,
+      "duration" : 253
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "3e856815423f2b1d",
+    "name" : "fillSettlement[settlement,Гостица мкр.]",
+    "title" : "Fill settlement [settlement,Гостица мкр.]",
+    "time" : {
+      "start" : 1517823435169,
+      "stop" : 1517823435409,
+      "duration" : 240
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "11cc21f1fff09ecf",
+    "name" : "fillStreet[street,Восточная ул.]",
+    "title" : "Fill street [street,Восточная ул.]",
+    "time" : {
+      "start" : 1517823435411,
+      "stop" : 1517823435643,
+      "duration" : 232
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "8ad59aa84610fe17",
+    "name" : "fillHome[home,15]",
+    "title" : "Fill home [home,15]",
+    "time" : {
+      "start" : 1517823435645,
+      "stop" : 1517823435777,
+      "duration" : 132
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "d06ef8f745c00377",
+    "name" : "fillIndex[index,140148]",
+    "title" : "Fill index [index,140148]",
+    "time" : {
+      "start" : 1517823435780,
+      "stop" : 1517823435975,
+      "duration" : 195
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "3ca2b0c0cf34ea41",
+    "name" : "pushSaveButton",
+    "title" : "Push save button",
+    "time" : {
+      "start" : 1517823435976,
+      "stop" : 1517823436093,
+      "duration" : 117
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ed94b32ae0de0a9b",
+    "name" : "pushSaveButtonGlobal",
+    "title" : "Push save button global",
+    "time" : {
+      "start" : 1517823436095,
+      "stop" : 1517823438586,
+      "duration" : 2491
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "2f012fa29facaab6",
+    "name" : "pushAssetName[20202810011223344332]",
+    "title" : "Push asset name [20202810011223344332]",
+    "time" : {
+      "start" : 1517823438588,
+      "stop" : 1517823439673,
+      "duration" : 1085
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "e7eb9a50b24335e0",
+    "name" : "checkPresenceOfDocumentByDateAndNumber[88005553535,17.02.2018]",
+    "title" : "Check presence of document by date and number [88005553535,17.02.2018]",
+    "time" : {
+      "start" : 1517823439675,
+      "stop" : 1517823439854,
+      "duration" : 179
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "7acb093ab594a37a",
+    "name" : "pushPreExitButton[Права  Все]",
+    "title" : "Push pre exit button [Права  Все]",
+    "time" : {
+      "start" : 1517823439857,
+      "stop" : 1517823440934,
+      "duration" : 1077
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "8a3dad9c71ced808",
+    "name" : "pushExitButton[Выход]",
+    "title" : "Push exit button [Выход]",
+    "time" : {
+      "start" : 1517823440935,
+      "stop" : 1517823441053,
+      "duration" : 118
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a079a9c3c20bd3d7",
+    "name" : "checkPageName[Вход в систему]",
+    "title" : "Check page name [Вход в систему]",
+    "time" : {
+      "start" : 1517823444074,
+      "stop" : 1517823444156,
+      "duration" : 82
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "63ab3307dd647f7e",
+    "name" : "userFillsLoginFieldInvalid[j_username,sua_alll]",
+    "title" : "User fills login field invalid [j_username,sua_alll]",
+    "time" : {
+      "start" : 1517823444156,
+      "stop" : 1517823444241,
+      "duration" : 85
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "58fe1eb48fbdfc2d",
+    "name" : "userFillsPasswordFieldInvalid[j_password,qwerty]",
+    "title" : "User fills password field invalid [j_password,qwerty]",
+    "time" : {
+      "start" : 1517823444243,
+      "stop" : 1517823444343,
+      "duration" : 100
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "be1d4469032f7da1",
+    "name" : "userPushEnterButton[Войти]",
+    "title" : "User push enter button [Войти]",
+    "time" : {
+      "start" : 1517823444345,
+      "stop" : 1517823444473,
+      "duration" : 128
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "140b914e102e0ca0",
+    "name" : "checkWrongLoginOrPassword[Неверное имя пользователя или пароль.]",
+    "title" : "Check wrong login or password [Неверное имя пользователя или пароль.]",
+    "time" : {
+      "start" : 1517823444475,
+      "stop" : 1517823444548,
+      "duration" : 73
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "3e7377178201be64",
+    "name" : "checkPageName[Вход в систему]",
+    "title" : "Check page name [Вход в систему]",
+    "time" : {
+      "start" : 1517823447574,
+      "stop" : 1517823447641,
+      "duration" : 67
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f17f905b0a0a3bbb",
+    "name" : "userFillsValidLogin[j_username,sua_all]",
+    "title" : "User fills valid login [j_username,sua_all]",
+    "time" : {
+      "start" : 1517823447657,
+      "stop" : 1517823447733,
+      "duration" : 76
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a81216bc0d1129cb",
+    "name" : "userFillsValidPassword[j_password,Q1w2e3r4]",
+    "title" : "User fills valid password [j_password,Q1w2e3r4]",
+    "time" : {
+      "start" : 1517823447735,
+      "stop" : 1517823447834,
+      "duration" : 99
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a9e80b891e3a9840",
+    "name" : "userPushEnterButton[Войти]",
+    "title" : "User push enter button [Войти]",
+    "time" : {
+      "start" : 1517823447836,
+      "stop" : 1517823449717,
+      "duration" : 1881
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a94b72ad29d14ae8",
+    "name" : "checkModalWindowName[Выбор финансовой организации]",
+    "title" : "Check modal window name [Выбор финансовой организации]",
+    "time" : {
+      "start" : 1517823449718,
+      "stop" : 1517823449793,
+      "duration" : 75
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "caf5967699c58885",
+    "name" : "userChooseOrganization[10]",
+    "title" : "User choose organization [10]",
+    "time" : {
+      "start" : 1517823449795,
+      "stop" : 1517823449877,
+      "duration" : 82
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a6000387446b6361",
+    "name" : "pushChooseButton[Выбрать]",
+    "title" : "Push choose button [Выбрать]",
+    "time" : {
+      "start" : 1517823449879,
+      "stop" : 1517823449960,
+      "duration" : 81
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "96bc595e9b4cffe4",
+    "name" : "checkLogoName[Агентство по страхованию вкладов]",
+    "title" : "Check logo name [Агентство по страхованию вкладов]",
+    "time" : {
+      "start" : 1517823449963,
+      "stop" : 1517823450070,
+      "duration" : 107
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "e7bb28cef81550ae",
+    "name" : "checkOrganizationName[10]",
+    "title" : "Check organization name [10]",
+    "time" : {
+      "start" : 1517823450072,
+      "stop" : 1517823450881,
+      "duration" : 809
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b3379e94e9552a79",
+    "name" : "pushPreExitButton[Права  Все]",
+    "title" : "Push pre exit button [Права  Все]",
+    "time" : {
+      "start" : 1517823450886,
+      "stop" : 1517823450979,
+      "duration" : 93
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "345f02a67f2cd02",
+    "name" : "pushExitButton[Выход]",
+    "title" : "Push exit button [Выход]",
+    "time" : {
+      "start" : 1517823450985,
+      "stop" : 1517823451090,
+      "duration" : 105
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "3778ab02f36a7956",
+    "name" : "checkPageName[Вход в систему]",
+    "title" : "Check page name [Вход в систему]",
+    "time" : {
+      "start" : 1517823454093,
+      "stop" : 1517823454159,
+      "duration" : 66
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "d4cb5d4e348d6cc",
+    "name" : "userFillsValidLogin[j_username,sua_all]",
+    "title" : "User fills valid login [j_username,sua_all]",
+    "time" : {
+      "start" : 1517823454161,
+      "stop" : 1517823454263,
+      "duration" : 102
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "4ac337c62a8f0fa7",
+    "name" : "userFillsValidPassword[j_password,Q1w2e3r4]",
+    "title" : "User fills valid password [j_password,Q1w2e3r4]",
+    "time" : {
+      "start" : 1517823454264,
+      "stop" : 1517823454380,
+      "duration" : 116
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6caff3b9e99b7b77",
+    "name" : "userPushEnterButton[Войти]",
+    "title" : "User push enter button [Войти]",
+    "time" : {
+      "start" : 1517823454383,
+      "stop" : 1517823456122,
+      "duration" : 1739
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "461c89136d713219",
+    "name" : "checkModalWindowName[Выбор финансовой организации]",
+    "title" : "Check modal window name [Выбор финансовой организации]",
+    "time" : {
+      "start" : 1517823456124,
+      "stop" : 1517823456192,
+      "duration" : 68
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ed3264afa16d2761",
+    "name" : "userChooseOrganization[10]",
+    "title" : "User choose organization [10]",
+    "time" : {
+      "start" : 1517823456192,
+      "stop" : 1517823456261,
+      "duration" : 69
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "7228c60d8ba1527f",
+    "name" : "pushChooseButton[Выбрать]",
+    "title" : "Push choose button [Выбрать]",
+    "time" : {
+      "start" : 1517823456263,
+      "stop" : 1517823456340,
+      "duration" : 77
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "aae696c5490e66cb",
+    "name" : "checkLogoName[Агентство по страхованию вкладов]",
+    "title" : "Check logo name [Агентство по страхованию вкладов]",
+    "time" : {
+      "start" : 1517823456346,
+      "stop" : 1517823456440,
+      "duration" : 94
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a77a2242bd39895d",
+    "name" : "checkOrganizationName[10]",
+    "title" : "Check organization name [10]",
+    "time" : {
+      "start" : 1517823456441,
+      "stop" : 1517823457267,
+      "duration" : 826
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "4224153072f6344d",
+    "name" : "pushSettingsBar[Настройка]",
+    "title" : "Push settings bar [Настройка]",
+    "time" : {
+      "start" : 1517823457270,
+      "stop" : 1517823457364,
+      "duration" : 94
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "13d7302852578bb5",
+    "name" : "pushReferenceBooks[Справочники]",
+    "title" : "Push reference books [Справочники]",
+    "time" : {
+      "start" : 1517823457366,
+      "stop" : 1517823460487,
+      "duration" : 3121
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f44747d20ddc7b25",
+    "name" : "checkDictionaryName[Справочники]",
+    "title" : "Check dictionary name [Справочники]",
+    "time" : {
+      "start" : 1517823460489,
+      "stop" : 1517823461573,
+      "duration" : 1084
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "92eba8557dc564ac",
+    "name" : "pushAccountNumber",
+    "title" : "Push account number",
+    "time" : {
+      "start" : 1517823461573,
+      "stop" : 1517823461630,
+      "duration" : 57
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "c9c03be5658bd7c5",
+    "name" : "pushSearchIcon",
+    "title" : "Push search icon",
+    "time" : {
+      "start" : 1517823461632,
+      "stop" : 1517823465740,
+      "duration" : 4108
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "3acca3551c4af33e",
+    "name" : "checkSearchWindow[Поиск...]",
+    "title" : "Check search window [Поиск...]",
+    "time" : {
+      "start" : 1517823465747,
+      "stop" : 1517823465835,
+      "duration" : 88
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f06985d6fc81274b",
+    "name" : "fillsSearchOption[202]",
+    "title" : "Fills search option [202]",
+    "time" : {
+      "start" : 1517823465837,
+      "stop" : 1517823465960,
+      "duration" : 123
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a68b7b9fbb2f44aa",
+    "name" : "pushFirstSearchOption[Номер счёта 2-го порядка]",
+    "title" : "Push first search option [Номер счёта 2-го порядка]",
+    "time" : {
+      "start" : 1517823465961,
+      "stop" : 1517823466007,
+      "duration" : 46
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6674d4ac010be89f",
+    "name" : "pushSecondSearchOption[начинается с]",
+    "title" : "Push second search option [начинается с]",
+    "time" : {
+      "start" : 1517823466009,
+      "stop" : 1517823466077,
+      "duration" : 68
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "db4ae4729ae6aaf8",
+    "name" : "pushSearchButton[Найти]",
+    "title" : "Push search button [Найти]",
+    "time" : {
+      "start" : 1517823466077,
+      "stop" : 1517823466200,
+      "duration" : 123
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "14438f497e039ec7",
+    "name" : "checkPresenseOfElements[202]",
+    "title" : "Check presense of elements [202]",
+    "time" : {
+      "start" : 1517823466203,
+      "stop" : 1517823467241,
+      "duration" : 1038
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "3bf7a030e2e6372",
+    "name" : "pushPreExitButton[Права  Все]",
+    "title" : "Push pre exit button [Права  Все]",
+    "time" : {
+      "start" : 1517823467257,
+      "stop" : 1517823467310,
+      "duration" : 53
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "4a97dcac7529ede4",
+    "name" : "pushExitButton[Выход]",
+    "title" : "Push exit button [Выход]",
+    "time" : {
+      "start" : 1517823467312,
+      "stop" : 1517823467391,
+      "duration" : 79
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

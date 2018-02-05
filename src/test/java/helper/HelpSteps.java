@@ -19,7 +19,7 @@ public class HelpSteps {
 
     public static void userFillsFields(String name, String data) {
         WebElement element;
-        (element = driver.findElement(By.xpath("//input[@name='" + name + "']"))).clear();
+        (element = driver.findElement(By.xpath("//input[@name='" + name + "'] | //textarea[@name='" + name + "']"))).clear();
         element.sendKeys(data);
         element.sendKeys(Keys.TAB);
     }
@@ -92,7 +92,11 @@ public class HelpSteps {
         WebElement el = driver.findElement(By.xpath("//self::node()[contains(text(),'" + element + "')]"));
         (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOf(el));
         el.isDisplayed();
-        //System.out.println("text() = "+el.getText() + "  " + el.getText().contains(element));
         assertTrue(el.getText().contains(element));
+    }
+
+    public static void checkPresenceOfDocumentByDateAndNumber(String number, String date){
+        WebElement tr = driver.findElement(By.xpath("//td[text()='" + number + "']/.."));
+        assertTrue(tr.equals(driver.findElement(By.xpath("//td[text()='" + date + "']/.."))));
     }
 }

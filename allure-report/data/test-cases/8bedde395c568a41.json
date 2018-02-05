@@ -1,0 +1,89 @@
+{
+  "uid" : "8bedde395c568a41",
+  "name" : "checkPresenseOfAsset[20202810011223344332]",
+  "fullName" : "stepDefinition.AddNewActiveTypeCash.checkPresenseOfAsset",
+  "historyId" : "1a516f418bcfb8622d36656d23f99625",
+  "time" : {
+    "start" : 1517823407063,
+    "stop" : 1517823408093,
+    "duration" : 1030
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "inv5423-pc"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "stepDefinition.AddNewActiveTypeCash"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkPresenseOfAsset"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "thread",
+    "value" : "8904@inv5423-pc.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "stepDefinition.AddNewActiveTypeCash"
+  }, {
+    "name" : "package",
+    "value" : "stepDefinition.AddNewActiveTypeCash"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "65b05fe9aee17111",
+        "reportUrl" : "nulljob/FIRST/1/allure/#testresult/65b05fe9aee17111",
+        "status" : "passed",
+        "time" : {
+          "start" : 1517560078412,
+          "stop" : 1517560079441,
+          "duration" : 1029
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8bedde395c568a41.json",
+  "parameterValues" : [ ]
+}

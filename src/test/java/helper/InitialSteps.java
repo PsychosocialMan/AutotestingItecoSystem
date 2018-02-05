@@ -8,13 +8,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.Asset;
 import pages.DocumentsDlko;
 import pages.SearchWindow;
 import pages.TableReferenceBook;
+
+import java.util.concurrent.TimeUnit;
 
 public class InitialSteps {
     public static WebDriver driver;
@@ -44,6 +45,7 @@ public class InitialSteps {
     @BeforeTest
     public void openBrowser() throws Throwable {
         driver = getDriver();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(Options.url);
     }
     @Test(dataProvider = "checkPageName",

@@ -1,14 +1,11 @@
 package pages;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.FindAll;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.*;
 
 import java.util.List;
 
@@ -66,9 +63,42 @@ public class DocumentsDlko {
     @FindAll(@FindBy(how = How.XPATH, using = "//input[@type=\"checkbox\"]/.."))
     List<WebElement> checkBoxesProperties;
 
-    public void checCheckboxesNames(String[] names){
+    public void checkCheckboxesNames(String[] names){
         for (int i = 0; i < checkBoxesProperties.size(); i++) {
             assertTrue(checkBoxesProperties.get(i).getText().contains(names[i]));
         }
     }
+
+    public void pushCheckbockes(){
+        for (WebElement item : checkBoxesProperties) {
+            item.click();
+        }
+    }
+
+    @FindBy(how = How.XPATH, using = "//div[@class='modal-footer']/button[text()='Сохранить']")
+    private WebElement saveButton;
+
+    public void pushSaveButton(){
+        saveButton.click();
+    }
+
+    @FindBy(how = How.XPATH, using = "//div[@class='col-md-12']/button[text()='Сохранить']")
+    private WebElement saveButtonGlobal;
+
+    public void pushSaveButtonGlobal() throws InterruptedException {
+        saveButtonGlobal.click();
+        WebElement confirmButton;
+        try {
+            confirmButton = driver.findElement(By.xpath("//self::node()[text()='Нет']"));
+        }
+        catch (NoSuchElementException e){
+            return;
+        }
+        confirmButton.click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("(//self::node()[text()='Документы ДЛКО'])[last()]")).click();
+    }
+
+
+
 }

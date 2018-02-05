@@ -1,0 +1,15 @@
+[ {
+  "buildOrder" : 2,
+  "reportUrl" : "nulljob/FIRST/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 98981
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "nulljob/FIRST/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 68360
+  }
+} ]

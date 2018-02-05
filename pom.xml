@@ -57,6 +57,7 @@
                         <include>AuthentificationInvalidDataTestCase.java</include>
                         <include>CheckAccountNumberBegins.java</include>
                         <include>AddNewActiveTypeCash.java</include>
+                        <include>AddNewContractOfStorage.java</include>
                     </includes>
                     <testFailureIgnore>false</testFailureIgnore>
                     <argLine>-javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar</argLine>
@@ -90,5 +91,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

@@ -1,0 +1,834 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>151/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 05 12:35:57 MSK 2018</td>
+</tr>
+<tr><td>Total time:</td><td>110 seconds (110501 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.checkAddressForm()'><b>checkAddressForm</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Ввод адреса по КЛАДР</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkAssetConnectionName()'><b>checkAssetConnectionName</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Связи с активами</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkAssetFunctionalType()'><b>checkAssetFunctionalType</b><br>Test class: stepDefinition.AddNewActiveTypeCash</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkAssetListFirstStep()'><b>checkAssetListFirstStep</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Создание актива (первый этап)</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkAssetListName()'><b>checkAssetListName</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Список активов</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkAssetListSecondStep()'><b>checkAssetListSecondStep</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Создание актива (второй этап)</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkAssetType()'><b>checkAssetType</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Тип актива функциональный</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkBalanceInitialCurrency()'><b>checkBalanceInitialCurrency</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: balanceInitialCur</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.checkBank()'><b>checkBank</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Банк</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.checkCheckboxesNames()'><b>checkCheckboxesNames</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: [Ljava.lang.String;@2eb91767</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.checkCreatingStrorageDocumentName()'><b>checkCreatingStrorageDocumentName</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Ввод договора хранения</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkCurrency()'><b>checkCurrency</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: currency</td>
+<td></td>
+<td>4</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkCurrentBalanceCurrency()'><b>checkCurrentBalanceCurrency</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: balanceCur</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkCurrentBalanceName()'><b>checkCurrentBalanceName</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: balanceInitial, balanceRur</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkDictionaryName()'><b>checkDictionaryName</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Справочники</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.checkDictionaryName()'><b>checkDictionaryName</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: Справочники</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.checkDocumentsDLKO()'><b>checkDocumentsDLKO</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Документы ДЛКО</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkFOName()'><b>checkFOName</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Наименование ФО</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.checkFieldsDisabled()'><b>checkFieldsDisabled</b><br>Test class: stepDefinition.AddNewContractOfStorage</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.checkFirstDisabled()'><b>checkFirstDisabled</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Договор хранения</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkInventoryName()'><b>checkInventoryName</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Инвентаризация</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkLogoName()'><b>checkLogoName</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Агентство по страхованию вкладов</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.checkLogoName()'><b>checkLogoName</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Агентство по страхованию вкладов</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AuthentificationValidDataTestCase.checkLogoName()'><b>checkLogoName</b><br>Test class: stepDefinition.AuthentificationValidDataTestCase<br>Parameters: Агентство по страхованию вкладов</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AuthentificationValidDataTestCase@56f71edb</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.checkLogoName()'><b>checkLogoName</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: Агентство по страхованию вкладов</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkMainAssetLinks()'><b>checkMainAssetLinks</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: [Ljava.lang.String;@118c1faa</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.checkMainStorageDocumentFields()'><b>checkMainStorageDocumentFields</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: [Ljava.lang.String;@11a0c708</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkModalWindowName()'><b>checkModalWindowName</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Выбор финансовой организации</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.checkModalWindowName()'><b>checkModalWindowName</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Выбор финансовой организации</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AuthentificationValidDataTestCase.checkModalWindowName()'><b>checkModalWindowName</b><br>Test class: stepDefinition.AuthentificationValidDataTestCase<br>Parameters: Выбор финансовой организации</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AuthentificationValidDataTestCase@56f71edb</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.checkModalWindowName()'><b>checkModalWindowName</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: Выбор финансовой организации</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkOrganizationName()'><b>checkOrganizationName</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: 10</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.checkOrganizationName()'><b>checkOrganizationName</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: 10</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AuthentificationValidDataTestCase.checkOrganizationName()'><b>checkOrganizationName</b><br>Test class: stepDefinition.AuthentificationValidDataTestCase<br>Parameters: 10</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AuthentificationValidDataTestCase@56f71edb</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.checkOrganizationName()'><b>checkOrganizationName</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: 10</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkPageName()'><b>checkPageName</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Вход в систему</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.checkPageName()'><b>checkPageName</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Вход в систему</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AuthentificationInvalidDataTestCase.checkPageName()'><b>checkPageName</b><br>Test class: stepDefinition.AuthentificationInvalidDataTestCase<br>Parameters: Вход в систему</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AuthentificationInvalidDataTestCase@35835fa</td></tr>
+<tr>
+<td title='stepDefinition.AuthentificationValidDataTestCase.checkPageName()'><b>checkPageName</b><br>Test class: stepDefinition.AuthentificationValidDataTestCase<br>Parameters: Вход в систему</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AuthentificationValidDataTestCase@56f71edb</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.checkPageName()'><b>checkPageName</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: Вход в систему</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.checkPresenceOfDocumentByDateAndNumber()'><b>checkPresenceOfDocumentByDateAndNumber</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: 88005553535, 17.02.2018</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkPresenseOfAsset()'><b>checkPresenseOfAsset</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: 20202810011223344332</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkPresenseOfElements()'><b>checkPresenseOfElements</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: 202</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.checkPresenseOfElements()'><b>checkPresenseOfElements</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: 20202810011223344332</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.checkPresenseOfElements()'><b>checkPresenseOfElements</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: 202</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkSearchWindow()'><b>checkSearchWindow</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Поиск...</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.checkSearchWindow()'><b>checkSearchWindow</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Поиск...</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.checkSearchWindow()'><b>checkSearchWindow</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: Поиск...</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkSearchWindowToCheck()'><b>checkSearchWindowToCheck</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Поиск...</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.checkSecondDisabled()'><b>checkSecondDisabled</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Договор с банком (ответственное хранение)</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.checkSelectOrg()'><b>checkSelectOrg</b><br>Test class: stepDefinition.AddNewActiveTypeCash</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AuthentificationInvalidDataTestCase.checkWrongLoginOrPassword()'><b>checkWrongLoginOrPassword</b><br>Test class: stepDefinition.AuthentificationInvalidDataTestCase<br>Parameters: Неверное имя пользователя или пароль.</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AuthentificationInvalidDataTestCase@35835fa</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.fillCity()'><b>fillCity</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: town, Раменское г.</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.fillHome()'><b>fillHome</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: home, 15</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.fillIndex()'><b>fillIndex</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: index, 140148</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.fillRegion()'><b>fillRegion</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: district, Раменский р-н.</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.fillSettlement()'><b>fillSettlement</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: settlement, Гостица мкр.</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.fillStreet()'><b>fillStreet</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: street, Восточная ул.</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.fillsSearchOption()'><b>fillsSearchOption</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: 202</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.fillsSearchOption()'><b>fillsSearchOption</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: 202</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.fillsSearchOptionForDLKO()'><b>fillsSearchOptionForDLKO</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: 20202810011223344332</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.fillsSearchOptionToCheck()'><b>fillsSearchOptionToCheck</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: 20202810011223344332</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.mouseOnCreateDocumentButton()'><b>mouseOnCreateDocumentButton</b><br>Test class: stepDefinition.AddNewContractOfStorage</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushAccountNumber()'><b>pushAccountNumber</b><br>Test class: stepDefinition.AddNewActiveTypeCash</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.pushAccountNumber()'><b>pushAccountNumber</b><br>Test class: stepDefinition.CheckAccountNumberBegins</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushAssetFunctionalType()'><b>pushAssetFunctionalType</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Денежные средства</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushAssetList()'><b>pushAssetList</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Список активов</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushAssetListToCheck()'><b>pushAssetListToCheck</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Список активов</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushAssetName()'><b>pushAssetName</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: 20202810011223344332</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushBankName()'><b>pushBankName</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: bank, ВТБ</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushCheckBox()'><b>pushCheckBox</b><br>Test class: stepDefinition.AddNewContractOfStorage</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushCheckboxToDelete()'><b>pushCheckboxToDelete</b><br>Test class: stepDefinition.AddNewActiveTypeCash</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushCheckboxes()'><b>pushCheckboxes</b><br>Test class: stepDefinition.AddNewContractOfStorage</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushChooseAdress()'><b>pushChooseAdress</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Выбрать адрес</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushChooseButton()'><b>pushChooseButton</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Выбрать</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushChooseButton()'><b>pushChooseButton</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Выбрать</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AuthentificationValidDataTestCase.pushChooseButton()'><b>pushChooseButton</b><br>Test class: stepDefinition.AuthentificationValidDataTestCase<br>Parameters: Выбрать</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AuthentificationValidDataTestCase@56f71edb</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.pushChooseButton()'><b>pushChooseButton</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: Выбрать</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushCloseButton()'><b>pushCloseButton</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Закрыть</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushCollectionAndMaintenanceofData()'><b>pushCollectionAndMaintenanceofData</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Сбор и ведение данных</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushCollectionAndMaintenanceofData()'><b>pushCollectionAndMaintenanceofData</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Сбор и ведение данных</td>
+<td></td>
+<td>3</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushCollectionAndMaintenanceofDataToCheck()'><b>pushCollectionAndMaintenanceofDataToCheck</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Сбор и ведение данных</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushCommentName()'><b>pushCommentName</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: comment, comment</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushContinueButton()'><b>pushContinueButton</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Далее</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushCreateButton()'><b>pushCreateButton</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Создать</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushDeleteButton()'><b>pushDeleteButton</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Удалить</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushDocumentDateName()'><b>pushDocumentDateName</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: contractDate, 17.02.2018</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushDocumentNumberName()'><b>pushDocumentNumberName</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: documentNumber, 88005553535</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushDocumentTimeName()'><b>pushDocumentTimeName</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: endDate, 13.04.2018</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushDocumentWithBank()'><b>pushDocumentWithBank</b><br>Test class: stepDefinition.AddNewContractOfStorage</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushDocumentsDLKO()'><b>pushDocumentsDLKO</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Документы ДЛКО</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushExitButton()'><b>pushExitButton</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Выход</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushExitButton()'><b>pushExitButton</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Выход</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AuthentificationValidDataTestCase.pushExitButton()'><b>pushExitButton</b><br>Test class: stepDefinition.AuthentificationValidDataTestCase<br>Parameters: Выход</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AuthentificationValidDataTestCase@56f71edb</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.pushExitButton()'><b>pushExitButton</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: Выход</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushFirstSearchOption()'><b>pushFirstSearchOption</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Номер счёта 2-го порядка</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.pushFirstSearchOption()'><b>pushFirstSearchOption</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: Номер счёта 2-го порядка</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushFirstSearchOptionForDLKO()'><b>pushFirstSearchOptionForDLKO</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Номер лицевого счёта</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushFirstSearchOptionToCheck()'><b>pushFirstSearchOptionToCheck</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Номер лицевого счета</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushPreExitButton()'><b>pushPreExitButton</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Права  Все</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushPreExitButton()'><b>pushPreExitButton</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Права  Все</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AuthentificationValidDataTestCase.pushPreExitButton()'><b>pushPreExitButton</b><br>Test class: stepDefinition.AuthentificationValidDataTestCase<br>Parameters: Права  Все</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AuthentificationValidDataTestCase@56f71edb</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.pushPreExitButton()'><b>pushPreExitButton</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: Права  Все</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushReceivingButton()'><b>pushReceivingButton</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Приём</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushReferenceBooks()'><b>pushReferenceBooks</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Справочники</td>
+<td></td>
+<td>4</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.pushReferenceBooks()'><b>pushReferenceBooks</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: Справочники</td>
+<td></td>
+<td>3</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushSaveButton()'><b>pushSaveButton</b><br>Test class: stepDefinition.AddNewActiveTypeCash</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushSaveButton()'><b>pushSaveButton</b><br>Test class: stepDefinition.AddNewContractOfStorage</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushSaveButtonGlobal()'><b>pushSaveButtonGlobal</b><br>Test class: stepDefinition.AddNewContractOfStorage</td>
+<td></td>
+<td>2</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushSearchButton()'><b>pushSearchButton</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Найти</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushSearchButton()'><b>pushSearchButton</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Найти</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.pushSearchButton()'><b>pushSearchButton</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: Найти</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushSearchButtonToCheck()'><b>pushSearchButtonToCheck</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Найти</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushSearchIcon()'><b>pushSearchIcon</b><br>Test class: stepDefinition.AddNewActiveTypeCash</td>
+<td></td>
+<td>4</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushSearchIcon()'><b>pushSearchIcon</b><br>Test class: stepDefinition.AddNewContractOfStorage</td>
+<td></td>
+<td>4</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.pushSearchIcon()'><b>pushSearchIcon</b><br>Test class: stepDefinition.CheckAccountNumberBegins</td>
+<td></td>
+<td>4</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushSearchIconToCheck()'><b>pushSearchIconToCheck</b><br>Test class: stepDefinition.AddNewActiveTypeCash</td>
+<td></td>
+<td>4</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushSecondSearchOption()'><b>pushSecondSearchOption</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: начинается с</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.pushSecondSearchOption()'><b>pushSecondSearchOption</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: начинается с</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushSecondSearchOptionForDLKO()'><b>pushSecondSearchOptionForDLKO</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: равно</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushSecondSearchOptionToCheck()'><b>pushSecondSearchOptionToCheck</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: начинается с</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushSettingsBar()'><b>pushSettingsBar</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Настройка</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.pushSettingsBar()'><b>pushSettingsBar</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: Настройка</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushState()'><b>pushState</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Московская обл.</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushStorageButton()'><b>pushStorageButton</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Хранение</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.pushTerminateDateName()'><b>pushTerminateDateName</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: terminatedDate, 16.03.2018</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.pushYesButton()'><b>pushYesButton</b><br>Test class: stepDefinition.AddNewActiveTypeCash</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.userChooseOrganization()'><b>userChooseOrganization</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: 10</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.userChooseOrganization()'><b>userChooseOrganization</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: 10</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AuthentificationValidDataTestCase.userChooseOrganization()'><b>userChooseOrganization</b><br>Test class: stepDefinition.AuthentificationValidDataTestCase<br>Parameters: 10</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AuthentificationValidDataTestCase@56f71edb</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.userChooseOrganization()'><b>userChooseOrganization</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: 10</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.userFillsAccountNumber()'><b>userFillsAccountNumber</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: accountNum, 20202810011223344332</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.userFillsAssetName()'><b>userFillsAssetName</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: name, Тестовый актив</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.userFillsBalanceInitial()'><b>userFillsBalanceInitial</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: balanceInitial, 12321</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.userFillsEndDate()'><b>userFillsEndDate</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: endDate, 01.12.18</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AuthentificationInvalidDataTestCase.userFillsLoginFieldInvalid()'><b>userFillsLoginFieldInvalid</b><br>Test class: stepDefinition.AuthentificationInvalidDataTestCase<br>Parameters: j_username, sua_alll</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AuthentificationInvalidDataTestCase@35835fa</td></tr>
+<tr>
+<td title='stepDefinition.AuthentificationInvalidDataTestCase.userFillsPasswordFieldInvalid()'><b>userFillsPasswordFieldInvalid</b><br>Test class: stepDefinition.AuthentificationInvalidDataTestCase<br>Parameters: j_password, qwerty</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AuthentificationInvalidDataTestCase@35835fa</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.userFillsStartDate()'><b>userFillsStartDate</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: startDate, 05.04.18</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.userFillsValidLogin()'><b>userFillsValidLogin</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: j_username, sua_all</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.userFillsValidLogin()'><b>userFillsValidLogin</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: j_username, sua_all</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AuthentificationValidDataTestCase.userFillsValidLogin()'><b>userFillsValidLogin</b><br>Test class: stepDefinition.AuthentificationValidDataTestCase<br>Parameters: j_username, sua_all</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AuthentificationValidDataTestCase@56f71edb</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.userFillsValidLogin()'><b>userFillsValidLogin</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: j_username, sua_all</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.userFillsValidPassword()'><b>userFillsValidPassword</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: j_password, Q1w2e3r4</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.userFillsValidPassword()'><b>userFillsValidPassword</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: j_password, Q1w2e3r4</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AuthentificationValidDataTestCase.userFillsValidPassword()'><b>userFillsValidPassword</b><br>Test class: stepDefinition.AuthentificationValidDataTestCase<br>Parameters: j_password, Q1w2e3r4</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AuthentificationValidDataTestCase@56f71edb</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.userFillsValidPassword()'><b>userFillsValidPassword</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: j_password, Q1w2e3r4</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+<tr>
+<td title='stepDefinition.AddNewActiveTypeCash.userPushEnterButton()'><b>userPushEnterButton</b><br>Test class: stepDefinition.AddNewActiveTypeCash<br>Parameters: Войти</td>
+<td></td>
+<td>2</td>
+<td>stepDefinition.AddNewActiveTypeCash@66ec9390</td></tr>
+<tr>
+<td title='stepDefinition.AddNewContractOfStorage.userPushEnterButton()'><b>userPushEnterButton</b><br>Test class: stepDefinition.AddNewContractOfStorage<br>Parameters: Войти</td>
+<td></td>
+<td>2</td>
+<td>stepDefinition.AddNewContractOfStorage@b8a7e43</td></tr>
+<tr>
+<td title='stepDefinition.AuthentificationInvalidDataTestCase.userPushEnterButton()'><b>userPushEnterButton</b><br>Test class: stepDefinition.AuthentificationInvalidDataTestCase<br>Parameters: Войти</td>
+<td></td>
+<td>0</td>
+<td>stepDefinition.AuthentificationInvalidDataTestCase@35835fa</td></tr>
+<tr>
+<td title='stepDefinition.AuthentificationValidDataTestCase.userPushEnterButton()'><b>userPushEnterButton</b><br>Test class: stepDefinition.AuthentificationValidDataTestCase<br>Parameters: Войти</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.AuthentificationValidDataTestCase@56f71edb</td></tr>
+<tr>
+<td title='stepDefinition.CheckAccountNumberBegins.userPushEnterButton()'><b>userPushEnterButton</b><br>Test class: stepDefinition.CheckAccountNumberBegins<br>Parameters: Войти</td>
+<td></td>
+<td>1</td>
+<td>stepDefinition.CheckAccountNumberBegins@7207cb51</td></tr>
+</table><p>
+</body>
+</html>

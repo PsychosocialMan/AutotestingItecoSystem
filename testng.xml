@@ -7,6 +7,7 @@
             <class name="stepDefinition.AuthentificationInvalidDataTestCase"/>
             <class name="stepDefinition.CheckAccountNumberBegins"/>
             <class name="stepDefinition.AddNewActiveTypeCash"/>
+            <class name="stepDefinition.AddNewContractOfStorage"/>
         </classes>
     </test>
 </suite>

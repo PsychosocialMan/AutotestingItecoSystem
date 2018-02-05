@@ -1,0 +1,13 @@
+stepDefinition\AuthentificationValidDataTestCase.class
+stepDefinition\AuthentificationInvalidDataTestCase.class
+helper\InitialSteps.class
+pages\TableReferenceBook.class
+data\Options.class
+pages\SearchWindow.class
+pages\Asset.class
+pages\DocumentsDlko.class
+data\Data.class
+helper\HelpSteps.class
+stepDefinition\AddNewContractOfStorage.class
+stepDefinition\CheckAccountNumberBegins.class
+stepDefinition\AddNewActiveTypeCash.class

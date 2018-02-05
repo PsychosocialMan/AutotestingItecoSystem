@@ -1,0 +1,89 @@
+{
+  "uid" : "dfebea8bfad12145",
+  "name" : "pushAccountNumber",
+  "fullName" : "stepDefinition.AddNewActiveTypeCash.pushAccountNumber",
+  "historyId" : "717efb6d31436b3acb1817be8a4d061e",
+  "time" : {
+    "start" : 1517823379023,
+    "stop" : 1517823379220,
+    "duration" : 197
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "inv5423-pc"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "stepDefinition.AddNewActiveTypeCash"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "testMethod",
+    "value" : "pushAccountNumber"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "thread",
+    "value" : "8904@inv5423-pc.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "stepDefinition.AddNewActiveTypeCash"
+  }, {
+    "name" : "package",
+    "value" : "stepDefinition.AddNewActiveTypeCash"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "9e5ccc9a58570ff7",
+        "reportUrl" : "nulljob/FIRST/1/allure/#testresult/9e5ccc9a58570ff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1517560050768,
+          "stop" : 1517560050854,
+          "duration" : 86
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dfebea8bfad12145.json",
+  "parameterValues" : [ ]
+}
