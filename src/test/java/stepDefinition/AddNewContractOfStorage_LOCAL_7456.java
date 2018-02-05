@@ -348,7 +348,6 @@ public class AddNewContractOfStorage extends InitialSteps {
         HelpSteps.userFillsFields(name, value);
     }
 
-<<<<<<< HEAD
     // Выбрать город
     @Test(dependsOnMethods = "fillRegion",
             dataProvider = "fillCity",
@@ -443,7 +442,4 @@ public class AddNewContractOfStorage extends InitialSteps {
     public void pushExitButton(String name){
         HelpSteps.pushElement(name);
     }
-=======
-
->>>>>>> master
 }

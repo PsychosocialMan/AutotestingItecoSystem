@@ -5,439 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="146277ee-a758-4dc6-90c7-b6eacc1f8faf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/categories.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/61aae920ab2f8fe604ba57b135aa9919.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/674f50d287a8c48dc19ba404d20fe713.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/af7ae505a9eed503f8b8e6982036873e.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/b06871f281fee6b241d60582ae9369b9.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/fee66e712a8a08eef5805a46892932ad.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/failed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/passed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/skipped.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/data/Data.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/data/Options.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/helper/HelpSteps.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/helper/InitialSteps.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/pages/Asset.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/pages/DocumentsDlko.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/pages/SearchWindow.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/pages/TableReferenceBook.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/AddNewActiveTypeCash.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/AddNewContractOfStorage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/AuthentificationInvalidDataTestCase.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/AuthentificationValidDataTestCase.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/CheckAccountNumberBegins.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/behaviors.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/behaviors.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/categories.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/packages.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/suites.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/suites.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/10474f4b3c18361e.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/1088836b4dcfe5ea.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/11e73c8a28306a1.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/126d1e7bbfc45578.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/132f6bb2033084e3.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/1831eaaa8bf1e528.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/184ba3497bf330d4.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/19713e474b605270.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/1c2504152f97f02a.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/1cde78ea8104161b.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/1f69f4e28e74f9c3.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/2201b0ca9979abd7.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/2362176fd8597bfa.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/2a497b478e44123e.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/2ade55fa5648977c.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/2b02c7677f27e07b.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/2e20affaef636268.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/2f32fe1be3c1d549.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/2fda11ecf0cfa3bd.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/304613d5db6348b8.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/30d16fe1aeea808d.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/335e9fde5fee281c.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/36e492a12f8d2a1a.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/3abd2599d19263bb.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/3ff69ffaf575be0f.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/40eacfbf7ffa01cc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/41a07d882890821c.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/43ff35c7bfdef69c.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/44fcb4fc86652bec.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/4918952506d91fce.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/4931028a3b99cf7c.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/4f1739f097095c66.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/50db4174c67b04ec.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/50dc2fcebe891f85.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/515548169e272067.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/51a3190375de286c.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/5497da8f4d2662e5.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/55b12ea950861075.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/57f603c34c68b6ef.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/58d861e1f8a55f2.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/5a3d5cfcaed4fdd.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/5ce3ef8344dbffa8.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/5f52b0fa79da78d.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/604b895159f5ccb0.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/644914a272a0edf1.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/656c796f458d3495.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/657e93461fdce399.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/65f0c46443a16b59.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/666083440fdec6d0.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/67ada5bbe1a58260.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/6b6925538179c282.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/6d31c15258733ed1.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/6f38308a7f0e704c.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/731e9941ee4c49a.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/756787a0a016c7f3.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/766b6f1ec800d5b9.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/793e7df4e754ab34.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/7959b2f55992162b.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/7a3960d91ed82da6.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/7c9d8c807aa0fe49.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/7cd57774738a8285.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/7f23d2db86b95316.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/8030bb9e714a9a62.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/83fc9cec3f35d7d6.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/86714f748e16488d.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/8a954a156255944f.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/8bedde395c568a41.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/8d14c588cdf368a8.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/8e125efa483dedd7.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/8e213f6e7c1a4e84.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/8f1cbaa425c706d5.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/917760716f53283c.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/91a5cef707f0e218.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/91bf8bffc9cd62e8.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/926d1c7b8401c362.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/92d5deec327630ae.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/944c2fe3df558ff2.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/9837ea66f235f67c.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/9954ac10bfd85624.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/99b65c5eb724448f.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/99d0356138f3bd31.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/9b7e9268b562a40a.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/9e0654d226c6171e.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/9e1d1bc30d0b6a34.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/9ec3dfa6da4c7ea6.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/9ee54c52bbbf521d.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/9f1ed4da174a1e17.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/a110115af4cdf4b3.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/a18048fdcff2b6d6.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/a334bb973fedae3b.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/a505f5b8eb8114aa.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/a7f4a3344f99d5c1.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/a936d1ca290e7372.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/a9de408497c7417c.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/aa412fee0f460a44.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/ac15053d48da5931.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/acc1bf04386a434f.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/ad3ae002e02fe5cc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/ad47f2af64920fa6.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/af22b652892316fb.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/b0faff2cbb28efd5.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/b1c50b2bb1cf545c.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/b32ac0a4cdc81dc2.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/b5b0a63498b6f102.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/b73085c857c2faf5.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/b94e64c8f6a7adec.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/b9c8bb7229e378a3.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/bbdceb66377c15ae.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/be571d2c539e9b39.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/bed758a576d6c16e.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/bf7375569d219d02.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/bfc6337c2002a6b.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/bfc713abfb1a7824.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/c0450638a3487538.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/c36bf1e83a66f38.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/c47761d870e75d23.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/c58075d09252e22b.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/ca638b2b8a85899e.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/cbf0f529a0e53b7f.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/d2240f6be8b32d33.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/d40473c412e77980.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/d4983dd31a7967d8.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/d4c6f7cc8aeb3514.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/d65f2543976ab0c9.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/d6f8e5d78afcd126.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/d9051361961aaa5e.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/d92ea134cf99d786.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/dc062d4c009b031d.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/ddc2be17e107965f.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/de234e12b782e38e.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/dee054dc3920adca.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/df347ee9bc4cd2e8.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/dfebea8bfad12145.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/e337efd2a18a873f.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/e3ff985e8016c198.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/e5206e1eb8907c75.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/e61aaa07840cd917.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/e93d7cca709e96ae.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/eb4fc41d47910b81.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/efc8dcf4ca7cd817.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/f07fe443fe878ae1.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/f7006de488880b72.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/f76bce2bf96afa0f.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/f7b3f21964eb64ab.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/f7bf6afe0af7df66.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/f820777050e37093.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/f876d37d90cf1370.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/f9d82f78d9caf55a.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/fac9c8a752b22b51.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/fe91d0cabac0b13b.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/test-cases/ffa6a602038a1c2d.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/timeline.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/export/mail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/history/categories-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/history/duration-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/history/history-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/history/history.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/history/retry-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/behaviors/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/packages/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/screen-diff/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/screen-diff/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/widgets/categories.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/widgets/duration.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/widgets/environment.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/widgets/executors.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/widgets/launch.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/widgets/severity.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/widgets/suites.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/9a664952-75a5-40f4-9c64-0302d301fe0c-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/executor.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/history/categories-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/history/duration-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/history/history-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/history/history.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/history/retry-trend.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/allure-results/testrun.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/1e07e63bbecccb93b06ffd6b43b46e4d.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/3fb9611bab3151e965e023162e86089a.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/64b1e3c3d94863c86e92e89aea3a5c99.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/912ec66d7572ff821749319396470bde.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven-plugin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/10796e46ab042fd9-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/119dc88b2346e7c-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/11cc21f1fff09ecf-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/13d7302852578bb5-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/140b914e102e0ca0-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/14438f497e039ec7-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/19e114f2aac731c4-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/1f329ccb3ceb39b-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/2505a5f229c3c2a7-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/2644d5cd02e4d26-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/2bb009ac82a2cf5f-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/2d1f24df3c9b286d-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/2e246877f367f5ef-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/2f012fa29facaab6-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/31fa0d0d45cc6ccf-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/345f02a67f2cd02-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/3778ab02f36a7956-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/3a88b41b53768ed7-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/3acca3551c4af33e-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/3bf7a030e2e6372-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/3ca2b0c0cf34ea41-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/3d511001f2ae9ec3-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/3e7377178201be64-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/3e856815423f2b1d-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/41a9c558ef7a3126-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/4224153072f6344d-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/42ba1823c7ae9bd1-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/43b0c8e5607b2d18-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/461c89136d713219-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/4933e0d985719b51-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/4a97dcac7529ede4-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/4ac337c62a8f0fa7-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/4d324ab8e9d716ba-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/4d46db9343398c2-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/4f57a33df05aebb7-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/507e59a70effa437-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/508c2eed4510c350-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/532975d0ffa2d358-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/53815e44151b8567-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/564d33df2b3a5e4f-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/58656fa9d30ad532-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/58fe1eb48fbdfc2d-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/5c966543fb5e5ffa-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/5d8f9a518c06a183-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/6022f6a7184a71d5-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/63ab3307dd647f7e-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/63f1036177a5bf1a-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/6674d4ac010be89f-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/69a2e6a8fd5a482-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/6abd15178e066bf8-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/6caff3b9e99b7b77-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/6cc726e24a3c72cb-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/6ce8e7208a03a46d-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/6ce925acaddac277-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/7118c889c7fa3c0-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/7228c60d8ba1527f-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/7355d02ea609b6eb-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/741be593d83c1998-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/751bd0a0a1bec995-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/780acba126c4ac77-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/7934da2f4f81e3cf-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/7acb093ab594a37a-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/7e91725230a87593-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/7e972d8bd7fd204e-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/80aea5229301cd02-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/82f6914488801bc1-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/835df4092cb4fcd8-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/848b8ac4bc4c25e0-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/857b0d426ac3c684-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/87a6bd3b9f37fe2a-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/89859e66c1c1a15f-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/8a3dad9c71ced808-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/8ad59aa84610fe17-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/8be65b9ddf0dbc42-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/8c4f557ac55646e8-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/8c6181165ff5253-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/908f3eba6e2791ab-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/911f1c26e9aa63ac-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/92eba8557dc564ac-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/935c7426696c6fc5-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/94735dd59113614e-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/95970ff4a47f1e41-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/96bc595e9b4cffe4-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/96efecc803de9b90-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/977ade0513d9fd34-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/9c97f25409a91c35-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/9d145da63d4c68d-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/a04dc3e4e740ca9d-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/a079a9c3c20bd3d7-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/a220472c8ca559e6-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/a2a1b4935eaf7293-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/a6000387446b6361-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/a68b7b9fbb2f44aa-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/a77a2242bd39895d-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/a81216bc0d1129cb-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/a8949b0baa404d-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/a94b72ad29d14ae8-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/a9e80b891e3a9840-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/aae696c5490e66cb-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/ad8744f4ce03b2ee-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/adaab1580c3e5caf-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/b0623d60f73bc529-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/b073b040cc241449-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/b0f4af836b57aa04-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/b3379e94e9552a79-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/b3486ef0f9f9defc-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/b56ab3700553069f-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/b67db7d0f5dd0c7a-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/ba2b2b908cb990e6-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/be1d4469032f7da1-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/behaviors.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/bfc4a8a74de3abe8-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/c075e5cee0256a9b-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/c54c03846c11ee1e-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/c6e2d1cb49fed68d-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/c730868c0a06f8c5-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/c7dab5409a1567af-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/c9c03be5658bd7c5-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/caf5967699c58885-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/cc2c136112cdc7d7-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/cf5054213694641-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/d06ef8f745c00377-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/d324d92abe1dd7c2-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/d3923279b0feda3c-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/d4cb5d4e348d6cc-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/d50d671f2bb2efb5-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/d8deaeeaf1e34b13-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/db4ae4729ae6aaf8-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/deaf15464e984328-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/defects.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/e0fd77ca54953d7f-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/e1c71276c8120802-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/e65ee5563fc2123c-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/e7bb28cef81550ae-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/e7eb9a50b24335e0-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/e9a0d7e894334da8-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/eb42e27f2a68ac6f-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/ec797d9802dcfc1d-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/ed3264afa16d2761-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/ed94b32ae0de0a9b-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/eeaee1c06564ef1d-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/environment.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/f06985d6fc81274b-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/f0b91c533d002b84-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/f17f905b0a0a3bbb-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/f3804b3a2b2aa9f4-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/f44747d20ddc7b25-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/f464aec947d66907-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/f4fdca173cfaff10-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/f6c9e782ba1558ca-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/f8a48d9b0feccaa-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/f8f42215a0ee39c2-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/fa9e5a90ab816e55-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/fcc5a0e94d9b557b-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/graph.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/plugins.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/report.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/timeline.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/total.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/widgets.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/xunit.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/f8ddfbfcb1a4e191ee1fa7f98417280e.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/fa4b5e31eae6378a0dfa9e10cfb9262f.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-stepDefinition.AddNewActiveTypeCash.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-stepDefinition.AddNewContractOfStorage.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-stepDefinition.AuthentificationInvalidDataTestCase.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-stepDefinition.AuthentificationValidDataTestCase.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-stepDefinition.CheckAccountNumberBegins.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/Surefire test.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/classes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/groups.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-not-run.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/reporter-output.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/testng.xml.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/toc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/data/Data.java" afterPath="$PROJECT_DIR$/src/test/java/data/Data.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/data/Options.java" afterPath="$PROJECT_DIR$/src/test/java/data/Options.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/helper/HelpSteps.java" afterPath="$PROJECT_DIR$/src/test/java/helper/HelpSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/helper/InitialSteps.java" afterPath="$PROJECT_DIR$/src/test/java/helper/InitialSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pages/DocumentsDlko.java" afterPath="$PROJECT_DIR$/src/test/java/pages/DocumentsDlko.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/AddNewContractOfStorage.java" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/AddNewContractOfStorage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testng.xml" afterPath="$PROJECT_DIR$/testng.xml" />
     </list>
     <ignored path="Initial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -488,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddNewContractOfStorage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AddNewContractOfStorage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinition/AddNewContractOfStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1184">
-              <caret line="315" column="23" selection-start-line="315" selection-start-column="23" selection-end-line="315" selection-end-column="23" />
+            <state relative-caret-position="567">
+              <caret line="445" column="0" selection-start-line="445" selection-start-column="0" selection-end-line="445" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3854#3855#0" expanded="true" />
@@ -509,22 +79,30 @@
                 <element signature="e#12477#12478#0" expanded="true" />
                 <element signature="e#12718#12719#0" expanded="true" />
                 <element signature="e#12965#12966#0" expanded="true" />
-                <element signature="e#13221#13222#0" expanded="true" />
-                <element signature="e#13498#13499#0" expanded="true" />
-                <element signature="e#13762#13763#0" expanded="true" />
-                <element signature="e#14016#14017#0" expanded="true" />
-                <element signature="e#14273#14274#0" expanded="true" />
-                <element signature="e#14439#14440#0" expanded="true" />
+                <element signature="e#13234#13235#0" expanded="true" />
+                <element signature="e#13288#13289#0" expanded="true" />
+                <element signature="e#13511#13512#0" expanded="true" />
+                <element signature="e#13565#13566#0" expanded="true" />
+                <element signature="e#13775#13776#0" expanded="true" />
+                <element signature="e#13829#13830#0" expanded="true" />
+                <element signature="e#14029#14030#0" expanded="true" />
+                <element signature="e#14083#14084#0" expanded="true" />
+                <element signature="e#14286#14287#0" expanded="true" />
+                <element signature="e#14340#14341#0" expanded="true" />
+                <element signature="e#14452#14453#0" expanded="true" />
+                <element signature="e#14489#14490#0" expanded="true" />
+                <element signature="e#16336#16337#0" expanded="true" />
+                <element signature="e#16379#16380#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7650">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="680">
+              <caret line="498" column="16" selection-start-line="498" selection-start-column="16" selection-end-line="498" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -543,7 +121,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1564">
+            <state relative-caret-position="618">
               <caret line="92" column="12" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
               <folding />
             </state>
@@ -638,6 +216,7 @@
         <option value="$PROJECT_DIR$/src/test/java/stepDefinition/AddNewContractOfStorage.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -1903,14 +1482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="92" column="12" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1931,10 +1502,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="498" column="16" selection-start-line="498" selection-start-column="16" selection-end-line="498" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="92" column="12" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinition/AddNewContractOfStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1184">
-          <caret line="315" column="23" selection-start-line="315" selection-start-column="23" selection-end-line="315" selection-end-column="23" />
+        <state relative-caret-position="567">
+          <caret line="445" column="0" selection-start-line="445" selection-start-column="0" selection-end-line="445" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3854#3855#0" expanded="true" />
@@ -1951,21 +1538,21 @@
             <element signature="e#12477#12478#0" expanded="true" />
             <element signature="e#12718#12719#0" expanded="true" />
             <element signature="e#12965#12966#0" expanded="true" />
-            <element signature="e#13221#13222#0" expanded="true" />
-            <element signature="e#13498#13499#0" expanded="true" />
-            <element signature="e#13762#13763#0" expanded="true" />
-            <element signature="e#14016#14017#0" expanded="true" />
-            <element signature="e#14273#14274#0" expanded="true" />
-            <element signature="e#14439#14440#0" expanded="true" />
+            <element signature="e#13234#13235#0" expanded="true" />
+            <element signature="e#13288#13289#0" expanded="true" />
+            <element signature="e#13511#13512#0" expanded="true" />
+            <element signature="e#13565#13566#0" expanded="true" />
+            <element signature="e#13775#13776#0" expanded="true" />
+            <element signature="e#13829#13830#0" expanded="true" />
+            <element signature="e#14029#14030#0" expanded="true" />
+            <element signature="e#14083#14084#0" expanded="true" />
+            <element signature="e#14286#14287#0" expanded="true" />
+            <element signature="e#14340#14341#0" expanded="true" />
+            <element signature="e#14452#14453#0" expanded="true" />
+            <element signature="e#14489#14490#0" expanded="true" />
+            <element signature="e#16336#16337#0" expanded="true" />
+            <element signature="e#16379#16380#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7650">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

@@ -6,6 +6,9 @@ import helper.InitialSteps;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+/**
+ * Created by user on 01.02.2018.
+ */
 public class AddNewContractOfStorage extends InitialSteps {
     @BeforeClass
     public void waitSecond() throws InterruptedException {
@@ -222,7 +225,6 @@ public class AddNewContractOfStorage extends InitialSteps {
     public void checkFirstDisabled(String value) throws InterruptedException {
         dlko.checkFirstElement(value);
     }
-
     //----------------------||---------------------
     @Test(dependsOnMethods = "checkFirstDisabled",
             dataProvider = "checkSecondDisabled",
@@ -252,198 +254,11 @@ public class AddNewContractOfStorage extends InitialSteps {
 
     // Проверка наличия полей с типом "Checkbox"
     @Test(dependsOnMethods = "checkBank",
-            dataProvider = "checkCheckboxesNames",
-            dataProviderClass = Data.class)
-    public void checkCheckboxesNames(String[] names) {
-        dlko.checkCheckboxesNames(names);
+    dataProvider = "checkCheckboxesNames",
+    dataProviderClass = Data.class)
+    public void checkCheckboxesNames(String[] names){
+        dlko.checCheckboxesNames(names);
     }
 
-    //---------------------------------------------------------------------
-    //                  Ввод значений для создания договора о хранении
-    //---------------------------------------------------------------------
 
-    // Ввод поля "Банк"
-    @Test(dependsOnMethods = "checkCheckboxesNames",
-            dataProvider = "pushBankName",
-            dataProviderClass = Data.class)
-    public void pushBankName(String name, String value) {
-        HelpSteps.userFillsFields(name, value);
-    }
-
-    // Ввод поля "Номер договора"
-    @Test(dependsOnMethods = "pushBankName",
-            dataProvider = "pushDocumentNumberName",
-            dataProviderClass = Data.class)
-    public void pushDocumentNumberName(String name, String value) {
-        HelpSteps.userFillsFields(name, value);
-    }
-
-    // Ввод поля "Дата договора"
-    @Test(dependsOnMethods = "pushDocumentNumberName",
-            dataProvider = "pushDocumentDateName",
-            dataProviderClass = Data.class)
-    public void pushDocumentDateName(String name, String value) {
-        HelpSteps.userFillsFields(name, value);
-    }
-
-    // Ввод поля "Срок договора"
-    @Test(dependsOnMethods = "pushDocumentDateName",
-            dataProvider = "pushDocumentTimeName",
-            dataProviderClass = Data.class)
-    public void pushDocumentTimeName(String name, String value) {
-        HelpSteps.userFillsFields(name, value);
-    }
-
-    // Ввод поля "Дата расторжения"
-    @Test(dependsOnMethods = "pushDocumentTimeName",
-            dataProvider = "pushTerminateDateName",
-            dataProviderClass = Data.class)
-    public void pushTerminateDateName(String name, String value) {
-        HelpSteps.userFillsFields(name, value);
-    }
-
-    // Ввод поля "Комментарий"
-    @Test(dependsOnMethods = "pushTerminateDateName",
-            dataProvider = "pushCommentName",
-            dataProviderClass = Data.class)
-    public void pushCommentName(String name, String value) {
-        HelpSteps.userFillsFields(name, value);
-    }
-
-    // Выбор всех чекбоксов
-    @Test(dependsOnMethods = "pushCommentName")
-    public void pushCheckboxes() {
-        dlko.pushCheckbockes();
-    }
-
-    // Нажатие на кнопку "Выбрать адрес"
-    @Test(dependsOnMethods = "pushCheckboxes",
-            dataProvider = "pushChooseAdress",
-            dataProviderClass = Data.class)
-    public void pushChooseAdress(String name) {
-        HelpSteps.pushElement(name);
-    }
-
-    // Проверить форму "Ввод адреса по КЛАДР"
-    @Test(dependsOnMethods = "pushChooseAdress",
-            dataProvider = "checkAddressForm",
-            dataProviderClass = Data.class)
-    public void checkAddressForm(String name) {
-        HelpSteps.checkElement(name);
-    }
-
-    // Выбрать регион
-    @Test(dependsOnMethods = "checkAddressForm",
-            dataProvider = "pushState",
-            dataProviderClass = Data.class)
-    public void pushState(String name) {
-        HelpSteps.pushOption(name);
-    }
-
-    // Выбрать район
-    @Test(dependsOnMethods = "pushState",
-            dataProvider = "fillRegion",
-            dataProviderClass = Data.class)
-    public void fillRegion(String name, String value) {
-        HelpSteps.userFillsFields(name, value);
-    }
-
-<<<<<<< HEAD
-    // Выбрать город
-    @Test(dependsOnMethods = "fillRegion",
-            dataProvider = "fillCity",
-            dataProviderClass = Data.class)
-    public void fillCity(String name, String value) {
-        HelpSteps.userFillsFields(name, value);
-    }
-
-    // Выбрать населенный пункт
-    @Test(dependsOnMethods = "fillCity",
-            dataProvider = "fillSettlement",
-            dataProviderClass = Data.class)
-    public void fillSettlement(String name, String value) {
-        HelpSteps.userFillsFields(name, value);
-    }
-
-    // Выбрать улицу
-    @Test(dependsOnMethods = "fillSettlement",
-            dataProvider = "fillStreet",
-            dataProviderClass = Data.class)
-    public void fillStreet(String name, String value) {
-        HelpSteps.userFillsFields(name, value);
-    }
-
-    // Выбрать дом
-    @Test(dependsOnMethods = "fillStreet",
-            dataProvider = "fillHome",
-            dataProviderClass = Data.class)
-    public void fillHome(String name, String value) {
-        HelpSteps.userFillsFields(name, value);
-    }
-
-    // Выбрать индекс
-    @Test(dependsOnMethods = "fillHome",
-            dataProvider = "fillIndex",
-            dataProviderClass = Data.class)
-    public void fillIndex(String name, String value) {
-        HelpSteps.userFillsFields(name, value);
-    }
-
-    // Нажать на кнопку сохранить
-    @Test(dependsOnMethods = "fillIndex")
-    public void pushSaveButton() {
-        dlko.pushSaveButton();
-    }
-
-    // Нажать на кнопку сохранить глобально
-    @Test(dependsOnMethods = "pushSaveButton")
-    public void pushSaveButtonGlobal() throws InterruptedException {
-        Thread.sleep(1000);
-        dlko.pushSaveButtonGlobal();
-    }
-
-    //-----------------------------------------------------------------
-    //    Проверка наличия созданного договора хранения
-    //-----------------------------------------------------------------
-
-    // Выбор необходимого актива
-    @Test(dependsOnMethods = "pushSaveButtonGlobal",
-            dataProvider = "checkPresenseOfAsset",
-            dataProviderClass = Data.class)
-    public void pushAssetName(String name) throws InterruptedException {
-        Thread.sleep(1000);
-        HelpSteps.pushElement(name);
-    }
-
-    // Выбор необходимого договора
-    @Test(dependsOnMethods = "pushAssetName",
-            dataProvider = "checkPresenceOfDocumentByDateAndNumber",
-            dataProviderClass = Data.class)
-    public void checkPresenceOfDocumentByDateAndNumber(String number, String date){
-        HelpSteps.checkPresenceOfDocumentByDateAndNumber(number, date);
-    }
-
-    //-----------------------------------------------------------------
-    //     Выход из приложения
-    //-----------------------------------------------------------------
-
-    // Нажатие на пункт "Права Все"
-    @Test(dependsOnMethods = "checkPresenceOfDocumentByDateAndNumber",
-            dataProvider = "pushPreExitButton",
-            dataProviderClass = Data.class)
-    public void pushPreExitButton(String name) throws Throwable {
-        Thread.sleep(1000);
-        HelpSteps.pushElement(name);
-    }
-
-    // Нажатие на кнопку "Выход"
-    @Test(dependsOnMethods = "pushPreExitButton",
-            dataProvider = "pushExitButton",
-            dataProviderClass = Data.class)
-    public void pushExitButton(String name){
-        HelpSteps.pushElement(name);
-    }
-=======
-
->>>>>>> master
 }
